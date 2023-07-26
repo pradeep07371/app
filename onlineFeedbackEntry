@@ -1,0 +1,793 @@
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="resources/assets/css/style.orange-500.min.css"
+	rel="stylesheet" />
+
+<link href="resources/assets/css/width-boxed.min.css" rel="stylesheet" />
+<link href="resources/assets/css/plugins.min.css" rel="stylesheet" />
+<link href="resources/assets/css/preload.min.css" rel="stylesheet" />
+<!-- <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" rel="stylesheet"> -->
+<script src="/resources/star-rating/jquery.js"></script>
+<link rel="stylesheet" href="/resources/star-rating/star-rating.min.css" />
+<script src="/resources/star-rating/star-rating.min.js"></script>
+<title></title>
+<script	src="/resources/assets/jquery-1.11.0.min.js"></script>
+<style type="text/css">
+.form-group {
+	/* margin-bottom: -1px; */
+	
+}
+
+.form-group {
+	padding-bottom: 2px;
+	margin: 14px 0 0;
+}
+
+.form-group.label-floating label.control-label, .form-group.label-placeholder label.control-label
+	{
+	top: -7px;
+	font-size: 13px;
+	line-height: 1.42857;
+}
+
+.card {
+	box-shadow: none;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px
+		rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+	border-radius: 2px;
+	background-color: #fff;
+	margin-bottom: 5px;
+}
+
+.nav-tabs>li>a {
+	margin-right: 2px;
+	line-height: 0.428571;
+	border: 1px solid transparent;
+	border-radius: 4px 4px 0 0;
+}
+
+.btn {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+.nav.nav-tabs li a {
+	font-weight: 400;
+	padding: 17px 20px;
+	padding: 0.7rem 2rem;
+	color: rgba(255, 255, 255, .8) !important;
+	text-align: center;
+}
+
+#dvLoading {
+	background: rgba(0%,0%,0%,0.609)
+		url(/resources/assets/img/ajax-loader.gif)
+		no-repeat center center;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	display: block;
+	z-index: 2000;
+}
+
+</style>
+<script type="text/javascript"
+	src="resources/bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript">
+	function refeshCaptcha() {
+		$("#captchaImg").attr("src", "/Captcha.jpg");
+	}
+</script>
+</head>
+<body class="hold-transition login-page" style="background: #d2d6de; background-image: url(/resources/assets/img/download.jpg);  background-position: center; background-size: cover; width: 100%; height: 100%;">
+	
+	<div id="dvLoading" style="display: none;"></div>
+	
+	<form id="onlineFeedBack" action="onlineFeedbackEntry" method="POST" autocomplete="off">
+		<div class="bg-full-page">
+			
+			<div class="mw-500 absolute-center"
+				style="max-width: 630px !important; top: 2%;">
+				<div class="card card-success animated zoomInUp animation-delay-5"
+					style="border-bottom: solid 3px #0a0a0a; background-color: rgba(0, 0, 0, 0.31);">
+					<div class="ms-hero-bg-primary ms-hero-img-mountain">
+						<h3 class="text-center no-m pt-4 pb-4 color-white index-1">
+							निस्तारित सन्दर्भों पर फीडबैक
+						</h3>
+						
+					</div>
+					<ul
+						class="nav nav-tabs nav-tabs-full nav-tabs-12 indicator-success" 
+						style="background-color: transparent;padding-top: 10px">
+						<li style="color: white;padding-left: 20px"> <i class="zmdi zmdi-account-add"></i>
+								समाधान पोर्टल द्वारा केवल 3 माह पूर्व तक के निस्तारित सन्दर्भों पर फीडबैक दिया जा सकेगा I
+								
+						</li>
+						
+						<li style="color: white;padding-left: 20px;margin-top: 10px"> <i class="zmdi zmdi-account-add"></i>
+							  गुणवत्ता स्तर की स्टार रेटिंग में आवेदक द्वारा एक या दो स्टार दिए जाने पर ही सन्दर्भ पर उच्चाधिकारी स्तर से पुनर्विचार किया जायेगा |
+						</li>
+
+					</ul>
+					<div class="card-block">
+					
+						<div class="tab-content" style="-webkit-text-fill-color: white;">
+							<div role="tabpanel" class="tab-pane fade active in"
+								id="ms-register-tab">
+								
+								
+								
+								
+								
+								<br>
+
+								<div class="row">
+									<div class="col-sm-6">
+										<div class="form-group label-floating">
+											<div class="input-group">
+												<span class="input-group-addon"> <i
+													class="fa fa-pencil-square-o"></i>
+												</span>
+												<input id="rbtnFeedBack" name="rbtnFeedBack" type="hidden" value="0"/>
+												<label for="ms-form-user" class="control-label">
+													शिकायत पंजीकरण संख्या
+														<b style="color: red;"> *</b>
+												</label>
+												<input id="complaintCode" name="complaintCode" class="form-control" onkeypress="javascript:return isNumberValidate (event);" MaxLength="14" type="text" value=""/>
+												
+											</div>
+										</div>
+									</div>
+									
+									<div class="col-sm-6">
+										<div class="form-group label-floating">
+											<div class="input-group">
+												<span class="input-group-addon"> <i
+													class="zmdi zmdi-phone"></i>
+												</span>
+												<label for="ms-form-user" class="control-label">
+													पंजीकृत मोबाइल न०
+														<b style="color: red;"> *</b>
+												</label>
+												<input id="txtmob" name="mobileNo" class="form-control" onkeypress="javascript:return isNumberValidate (event);" MaxLength="10" type="text" value=""/>
+												
+											</div>
+										</div>
+									</div>
+									
+								</div>
+
+
+								
+
+
+								<div class="row" style="margin-top: 20px">
+									<div class="col-sm-7">
+										<div class="form-group label-floating">
+											<div class="input-group">
+												<span class="input-group-addon"
+													style="padding-bottom: 2rem;"> <i
+													class="fa fa-smile-o"></i>
+												</span>
+												<label for="ms-form-email" class="control-label">
+													गुणवत्ता स्तर
+														<b style="color: red;"> *</b>
+												</label>
+
+												<input id="input-1" class="rating rating-loading" value="0"
+													data-show-clear="false" data-show-caption="true"
+													data-min="0" data-max="5" data-step="1" data-size="xs"
+													onchange="setdata(this.value);" />
+
+												<input id="satisfactionRating" name="satisfactionRating" value="0" type="hidden" value="0"/>
+												
+											</div>
+										</div>
+									</div>
+
+									<div class="col-sm-5 hidden" id="feedback_type_sh">
+									
+										<div class="form-group label-floating">
+											<div class="input-group">
+												<span class="input-group-addon"
+													style="padding-bottom: 2rem;"> </span> <label
+													class="control-label">असंतुष्ट होने का कारण <b
+													style="color: red;"> *</b></label>
+
+												<select id="feedbackType" name="feedbackType" style="width: 100%;" class="form-control input-sm">
+													<option value="0" selected="selected">
+														चयन करे
+													</option>
+												
+													<option value="1">आवेदक के अनुरोधानुसार निस्तारण नहीं</option><option value="2">अधूरा निस्तारण</option><option value="3">अधिकारी द्वारा स्थल निरीक्षण नहीं किया गया</option><option value="4">जांच अधिकारी द्वारा शिकायतकर्ता से संपर्क नहीं किया गया </option><option value="5">जांच/निरीक्षण किये बिना रिपोर्ट/आख्या दी गयी</option><option value="6">शिकायतकर्ता द्वारा कॉल रिसीव नहीं हुई</option><option value="11">प्रेषित आख्या अस्पष्ट / अपठनीय है</option><option value="12">जाँच/निरीक्षण किये बिना आख्या प्रेषित की गई</option><option value="13">प्रेषित आख्या में आश्वाशन/समस्त अभिलेख जमा करने के उपरांत समाधान नहीं हुआ</option><option value="14">समाधान करने में असमर्थता दर्शाई गई</option><option value="15">दिए गए समाधान पर जबरन सहमती ली गई</option><option value="16">शिकायत अन्य अधिकारी से सम्बंधित होने की जानकारी दी गई</option><option value="17">निष्पक्ष/पूर्ण जाँच नहीं हुई</option>														
+												</select>
+
+												
+											</div>
+										</div>
+									</div>
+
+								</div>
+
+								<div class="row" style="margin-top: 20px">
+									<div class="col-sm-12">
+										<div class="form-group label-floating">
+											<div class="input-group">
+												<span class="input-group-addon"
+													style="padding-bottom: 2rem;"> <i
+													class="fa fa-pencil"></i>
+												</span>
+												
+												<label for="feedback" class="control-label">
+													फीडबैक&nbsp;<b
+														style="color: red;">*</b>
+												</label>
+												
+												<label id="lblappdetails"
+													class="col-sm-2 pull-right btn-warning roundbox"
+													style="color: white;">0</label>&nbsp;&nbsp;
+													
+												<textarea id="feedBackDetail" name="feedback" class="form-control" onkeyup="LimtCharactersAppDetls(this,4000);" maxlenght="4000" required="required" rows="3">
+</textarea>
+												
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								
+								<div class="row" style="margin-top: 20px">
+								
+									<div class="col-sm-6">
+
+										<div class="form-group label-floating"
+											style="margin-top: 20px">
+											<div class="input-group">
+												<span class="input-group-addon"> <i
+													class="zmdi zmdi-lock"></i>
+												</span>
+												<label for="ms-form-pass" class="control-label">
+													कैप्चा अंकित करें
+														<b style="color: red;"> *</b>
+												</label>
+												<input id="captcha" name="captcha" class="form-control" onkeypress="javascript:return isNumberValidate (event)" style="width: 200px" type="text" value="" maxlength="4"/>
+												
+											</div>
+										</div>
+
+									</div>
+
+								
+									<div class="col-sm-3">
+
+										<div>
+												
+											<iframe src="/Captcha.jpg" id="captchaImg" width="120px"
+												height="45px" frameborder="0" scrolling="no">
+											</iframe>
+											
+										</div>
+
+									</div>
+									
+									<div class="col-sm-1" style="margin-top: 15px">
+										<i class="btn-flat fa fa-refresh" onclick="refeshCaptcha()"
+											style="color: white;"></i>
+									</div>
+									
+
+								</div>
+
+
+								<div class="label-floating" style="margin-top: 15px">
+									नोट-उपरोक्त सूचनाओ को सुरक्षित करने के लिए शिकायतकर्ता के मोबाइल पर OTP-वन टाइम पासवर्ड प्राप्त होगा | OTP की प्रविष्टि करने के उपरांत ही डाटा सुरक्षित हो सकेगा | OTP प्राप्त करने हेतु 'OTP प्राप्त करें' बटन पर क्लिक करें |
+								</div>
+
+
+								<div class="row" style="margin-top: 20px;display: none;" id="otp_layout">
+									
+									<div class="col-sm-6">
+										<div class="form-group label-floating">
+											<div class="input-group">
+												<span class="input-group-addon"> <i
+													class="zmdi zmdi-lock"></i>
+												</span>
+												<label for="ms-form-pass" class="control-label">
+													ओ०टी०पी० अंकित करें
+														<b style="color: red;"> *</b>
+												</label>
+												
+												<input id="mobileOTP" name="mobileOTP" class="form-control" onkeypress="javascript:return isNumberValidate (event)" type="text" value="" maxlength="5"/>
+													
+												
+											</div>
+										</div>
+									</div>
+									
+									<div class="col-sm-6">
+										
+										<span class="minutes" style="font-size: 30px">03:00</span>
+										
+										<a id="btnResendOTP" name="submitBtn"
+											onclick="sendOtp();"
+											class="btn btn-raised btn-info hidden">
+											पुनः ओ०टी०पी० भेजें 
+										</a>
+									</div>
+									
+								</div>
+
+
+
+								<div class="row" style="margin-top: 20px">
+									<div class="col-sm-10">
+									
+										<a id="btnGenOTP" name="submitBtn" value="OTP"
+											onclick="sendOtp();"
+											class="btn btn-raised btn-info">
+											OTP प्राप्त करें
+										</a>
+
+										
+										
+										<a id="btnSubmit" name="submitBtn" style="display: none;"
+											onclick="validateFeedBack();"
+											class="btn btn-raised btn-success ">
+											सुरक्षित करे
+										</a>
+
+										<a href='/onlineFeedbackEntry'
+											class="btn btn-raised btn-warning">रीसेट करे</a>
+
+									</div>
+
+									<div class="col-sm-2">
+										<a href="/" class="btn btn-raised btn-royal">  मुख्य पृष्ठ 
+										</a>
+										<input id="hdnMob" name="hdnMob" ID="hdnMob" type="hidden" value=""/>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			
+			
+
+		</div>
+	<div>
+<input type="hidden" name="_csrf" value="5d4c381a-d01e-46fb-a6b0-ad82f35c3199" />
+</div></form>
+</body>
+<script type="text/javascript">
+
+$(document).ready(function(){
+	$('#dvLoading').hide();
+});
+
+
+$(function(){
+	$('#feedBackDetail').keyup(function(){
+		var yourInput = $(this).val();
+		re = /[`~^%$&#*()+\-=?;:'"<>\{\}\[\]\\\/]/gi;
+		var isSplChar = re.test(yourInput);
+		if(isSplChar)
+		{	alert("कृपया विवरण अंकित करते समय स्पेशल कैरेक्टर (<>`='~%\"*^$&#()~) का प्रयोग न करें ");
+			var no_spl_char = yourInput.replace(/[`~^%$&#*()+\-=?;:'"<>\{\}\[\]\\\/]/gi,'');
+			$(this).val($.trim(no_spl_char));
+		}
+	});
+});
+
+
+function isNumberValidate(evt) {
+	var iKeyCode = (evt.which) ? evt.which : evt.keyCode;
+	if (iKeyCode != 46 && iKeyCode > 31 && (iKeyCode < 48 || iKeyCode > 57)) {
+
+		return false;
+	} else {
+
+		return true;
+	}
+}
+
+
+function LimtCharactersAppDetls(txtMsg, CharLength) {
+	chars = txtMsg.value.length;
+
+	$("#lblappdetails").html(CharLength - chars);
+	if (chars >= CharLength) {
+		txtMsg.value = txtMsg.value.substring(0, CharLength);
+
+		txtMsg.value = txtMsg.value.replace("\n", "");
+		$("#lblappdetails").html("5000");
+		return false;
+	}
+}
+
+
+function sendOtp(){
+	$('#dvLoading').show();
+	var complaintCode=$("#complaintCode").val();
+	var mobile=$("#txtmob").val();
+	//var email=$("#txtEmail").val();
+	var email='';
+	var satisfactionRating=$("#satisfactionRating").val();
+	var feedBackDetail=$("#feedBackDetail").val();
+	var captcha=$("#captcha").val();
+
+	/* else if(email != "" && !isEmail(email)){
+		$('#dvLoading').hide();
+		alert("कृपया सही ईमेल आईडी दर्ज करें")
+	} */
+	
+	if(complaintCode=='')
+	{
+		$('#dvLoading').hide();
+		alert("आपकी शिकायत संख्या गलत है |");
+	}
+	else if(mobile=='')
+	{
+		$('#dvLoading').hide();
+		alert("कृपया पंजीकृत मोबाइल न०  भरें!");	
+	}
+	else if(mobile != "" && !is_mobile_valid(mobile)){
+		$('#dvLoading').hide();
+		alert("कृपया 10 डिजिट का मोबाइल नंबर दर्ज करें ");
+			
+	}
+	
+	else if(satisfactionRating=='0')
+	{
+		$('#dvLoading').hide();
+		alert("कृपया गुणवत्ता स्तर का चयन करे |");	
+	}
+	else if(feedBackDetail=='')
+	{
+		$('#dvLoading').hide();
+		alert("कृपया फीडबैक भरें !");	
+	}
+	else if(captcha=="")
+	{
+		$('#dvLoading').hide();
+		alert("कृपया कैप्चा भरें !");	
+	}
+	else{
+		
+		$.ajax({'url' : "SendOtpFeedback?complaintcode="+complaintCode+"&mobileno="+mobile+"&email="+email+"&captcha="+captcha,
+			'contentType' : "application/json; charset=utf-8",
+			'success' : function(data) {
+				if(data == "yes"){
+					$('#otp_layout').show();
+					$('#btnGenOTP').hide();
+					$('#btnSubmit').show();
+					$('.minutes').removeClass('hidden');
+					$('#btnResendOTP').addClass('hidden');
+					timer();
+				}else{
+					$('#otp_layout').hide();
+					$('#btnGenOTP').show();
+					$('#btnSubmit').hide();
+					if(data == "no"){
+						alert("ओ० टी० पी० सेंड नहीं हो पाया है कृपया कुछ समय बाद प्रयास करें  ");
+					}else{
+					 	alert(data);
+					}
+				}
+								
+				$('#dvLoading').hide();
+			}
+		}); 
+	}
+}
+
+
+function timer() {
+    'use strict';
+    var taregtminutes = 180;
+    function countdown() {
+        var minutes = $('.minutes').text().replace('03:00','');
+        if (taregtminutes == 0) {
+        	$('.minutes').addClass('hidden');
+            $('#btnResendOTP').removeClass('hidden');
+            clearInterval(interval);
+            return;
+        }
+        taregtminutes = taregtminutes - 1;
+
+        var minute = Math.floor(taregtminutes / 60);
+        var seconds = taregtminutes % 60;
+        
+        if(seconds < 10) {
+        	seconds = "0"+seconds;
+		}	
+        
+        $('.minutes').text('0'+minute+':'+seconds);
+    };
+    var interval = setInterval(countdown, 1000); 
+}
+
+
+/* function validateFeedBack()
+{
+	$('#dvLoading').show();
+	var flag=true;
+	
+	var complaintCode=$("#complaintCode").val();
+	var mobile=$("#txtmob").val();
+	var email=$("#txtEmail").val();
+	var satisfactionRating=$("#satisfactionRating").val();
+	var feedBackDetail=$("#feedBackDetail").val();
+	var captcha=$("#captcha").val();
+	var mobileOTP=$("#mobileOTP").val();
+	var otp = ""; 
+	
+	if(complaintCode=='')
+	{
+		$('#dvLoading').hide();
+		alert("आपकी शिकायत संख्या गलत है |");
+		flag=false;	
+	}
+	
+	if(mobile=='' && email=='')
+	{
+		$('#dvLoading').hide();
+		alert("कृपया पंजीकृत मोबाइल न० या पंजीकृत  ईमेल आई डी भरें!");
+		flag=false;	
+	}
+	
+	if(mobile != "" && !is_mobile_valid(mobile)){
+		$('#dvLoading').hide();
+		alert("कृपया 10 डिजिट का मोबाइल नंबर दर्ज करें ");
+		flag=false;	
+			
+	}
+	
+	if(email != "" && !isEmail(email)){
+		$('#dvLoading').hide();
+		alert("कृपया सही ईमेल आईडी दर्ज करें")
+		flag=false;	
+	}
+	if(satisfactionRating=='0')
+	{
+		$('#dvLoading').hide();
+		alert("कृपया गुणवत्ता स्तर का चयन करे |");
+		flag=false;	
+	}
+	if(feedBackDetail=='')
+	{
+		$('#dvLoading').hide();
+		alert("कृपया फीडबैक भरें !");
+		flag=false;	
+	}
+	if(captcha=="")
+	{
+		$('#dvLoading').hide();
+		alert("कृपया कैप्चा भरें !");
+		flag=false;	
+	}
+	if(mobileOTP=="")
+	{
+		$('#dvLoading').hide();
+		alert("कृपया ओ.टी.पी. जेनेरेट करके  ओ.टी.पी. भरें!");
+		flag=false;	
+	}
+
+	return flag;
+} */
+
+
+function validateFeedBack(){
+	
+	$('#dvLoading').show();
+	var complaintCode=$("#complaintCode").val();
+	var mobile=$("#txtmob").val();
+	//var email=$("#txtEmail").val();
+	var email='';
+	var satisfactionRating=$("#satisfactionRating").val();
+	var feedBackDetail=$("#feedBackDetail").val();
+	var captcha=$("#captcha").val();
+	var mobileOTP=$("#mobileOTP").val();
+
+	/* else if(email != "" && !isEmail(email)){
+		$('#dvLoading').hide();
+		alert("कृपया सही ईमेल आईडी दर्ज करें")
+	} */
+	
+	if(complaintCode=='')
+	{
+		$('#dvLoading').hide();
+		alert("आपकी शिकायत संख्या गलत है |");
+	}
+	
+	else if(mobile=='')
+	{
+		$('#dvLoading').hide();
+		alert("कृपया पंजीकृत मोबाइल न० भरें!");
+	}
+	
+	else if(mobile != "" && !is_mobile_valid(mobile)){
+		$('#dvLoading').hide();
+		alert("कृपया 10 डिजिट का मोबाइल नंबर दर्ज करें ");			
+	}
+	
+	
+	
+	else if(satisfactionRating=='0')
+	{
+		$('#dvLoading').hide();
+		alert("कृपया गुणवत्ता स्तर का चयन करे |");
+	}
+	else if(feedBackDetail=='')
+	{
+		$('#dvLoading').hide();
+		alert("कृपया फीडबैक भरें !");
+	}
+	else if(captcha=="")
+	{
+		$('#dvLoading').hide();
+		alert("कृपया कैप्चा भरें !");
+	}
+	else if(mobileOTP=="")
+	{
+		$('#dvLoading').hide();
+		alert("कृपया ओ.टी.पी. जेनेरेट करके  ओ.टी.पी. भरें!");
+	}else{
+		$.ajax({'url' : "VeryfyFeedbackOTP?complaintcode="+complaintCode+"&mobileno="+mobile+"&email="+email+"&otp="+mobileOTP,
+			'contentType' : "application/json; charset=utf-8",
+			'success' : function(data) {
+				
+				if(data == "otpMatch"){
+					$('#onlineFeedBack').submit();	
+				}else{
+					if(data == "no"){
+						alert("ओ०टी०पी० अमान्य है ");
+					}else if(data == "otpNotMatch"){
+						alert("ओ०टी०पी० अमान्य है ");
+					}else if(data == "InvalidMobile"){
+						alert("कृपया पंजीकृत मोबाइल न०  भरें!");
+						$('#otp_layout').hide();
+						$('#btnGenOTP').show();
+						$('#btnSubmit').hide();
+						$("#mobileOTP").val('');
+						$("#captcha").val('');
+						refeshCaptcha();
+					}else if(data == "InvalidEmail"){
+						alert("कृपया पंजीकृत  ईमेल आई डी भरें!");
+						$('#otp_layout').hide();
+						$('#btnGenOTP').show();
+						$('#btnSubmit').hide();
+						$("#mobileOTP").val('');
+						$("#captcha").val('');
+						refeshCaptcha();
+					}
+					$('#dvLoading').hide();
+				}
+								
+			}
+		});
+	}
+}
+
+
+function setdata(rating)
+{
+	
+	var complaintCode=$("#complaintCode").val();
+	var compType = complaintCode.substring(0, 1);
+	
+	if(rating<3)
+	{
+		$("#satisfactionRating").val("C");
+		if(compType === '9'){
+			 $('#feedback_type_sh').removeClass('hidden');
+		}else{
+			 $('#feedback_type_sh').addClass('hidden');
+		}
+	}
+	else if(rating==5 || rating==4)
+	{
+		$("#satisfactionRating").val("A");
+
+		if(compType === '9'){
+			 $('#feedback_type_sh').addClass('hidden');
+		}else{
+			 $('#feedback_type_sh').addClass('hidden');
+		}
+		
+	}
+	else if(rating==3)
+	{
+		$("#satisfactionRating").val("B");
+
+		if(compType === '9'){
+			 $('#feedback_type_sh').addClass('hidden');
+		}else{
+			 $('#feedback_type_sh').addClass('hidden');
+		}
+		
+		if(compType === '9'){
+			$("#satisfactionRating").val("A");
+		}
+	}
+	else
+	{
+		$("#satisfactionRating").val("C");
+		if(compType === '9'){
+			 $('#feedback_type_sh').removeClass('hidden');
+		}else{
+			 $('#feedback_type_sh').addClass('hidden');
+		}
+	}
+
+	
+}
+
+
+function is_mobile_valid(string_or_number){
+    var mobile=string_or_number;
+    if(mobile.length!=10){
+        return false;
+
+    }
+    intRegex = /[0-9 -()+]+$/;
+    is_mobile=true;
+    
+    for ( var i=0; i < 10; i++) {
+        if(intRegex.test(mobile[i]))
+             { 
+             continue;
+             }
+            else{
+                is_mobile=false;
+                break;
+            }
+         }
+    
+    return is_mobile;
+}
+
+function isEmail(email) {
+	var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    return regex.test(email);
+}
+
+</script>
+
+
+
+</html>

@@ -1,0 +1,537 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from agmstudio.io/themes/material-style/1.4/home-generic-7.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 03 May 2017 05:10:13 GMT -->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="#333">
+<title></title>
+
+<meta name="description" content="Material Style Theme">
+<link rel="shortcut icon"
+	href="/resources/index/img/favicon30f4.png?v=3">
+<link rel="stylesheet" href="resources/index/css/preload.min.css">
+<link rel="stylesheet" href="resources/index/css/plugins.min.css">
+<link rel="stylesheet" href="resources/index/css/style.css">
+<link rel="stylesheet" href="resources/index/css/main.css">
+<link rel="stylesheet" href="resources/index/css/width-boxed.min.css"
+	id="ms-boxed">
+
+
+<style>
+.text-center {
+	margin-top: 5rem;
+}
+
+a {
+	display: inline-block;
+}
+</style>
+</head>
+<body>
+	<div id="font-setting">
+		<a href="javascript:void(0)"
+			class="ms-conf-btn ms-configurator-btn btn-circle btn-circle-raised btn-circle-primary animated rubberBand">
+			<em class="fa fa-gears"></em>
+		</a>
+		<div id="ms-configurator" class="ms-configurator">
+			<div class="ms-configurator-title">
+				<h3>
+					<em class="fa fa-gear"></em> Theme Configurator
+				</h3>
+				<a href="javascript:void(0);" class="ms-conf-btn withripple"> <em
+					class="zmdi zmdi-close"></em>
+				</a>
+			</div>
+			<div class="panel-group" id="accordion_conf" role="tablist"
+				aria-multiselectable="true">
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="ms-conf-header-headers">
+						<h4 class="panel-title">
+							<a class="collapsed withripple" role="button"
+								data-toggle="collapse" data-parent="#accordion_conf"
+								href="#ms-collapse-conf-2" aria-expanded="false"
+								aria-controls="ms-collapse-conf-2"> <em
+								class="zmdi zmdi-view-compact"></em> Header Styles
+							</a>
+						</h4>
+					</div>
+					<div id="ms-collapse-conf-2" class="panel-collapse collapse"
+						role="tabpanel" aria-labelledby="ms-conf-header-headers">
+						<div class="panel-body">
+							<h6>Header Options</h6>
+							<form class="form-inverse ms-conf-radio" id="header-config">
+								<div class="form-group">
+									<fieldset>
+										<div class="radio radio-primary">
+											<label for="whiteHeader"> <input type="radio"
+												name="customHeader" id="whiteHeader" value="white"
+												checked="cheked"> Light Color
+											</label>
+										</div>
+										<div class="radio radio-primary">
+											<label for="primaryHeader"> <input type="radio"
+												name="customHeader" id="primaryHeader" value="primary">
+												Primary Color
+											</label>
+										</div>
+										<div class="radio radio-primary">
+											<label> <input type="radio" name="customHeader"
+												id="darkHeader" value="dark"> Dark Color
+											</label>
+										</div>
+										<div class="radio radio-primary">
+											<label for="noHeader"> <input type="radio"
+												name="customHeader" id="noHeader" value="hidden"> No
+												Header (Navbar Mode)
+											</label>
+										</div>
+									</fieldset>
+								</div>
+							</form>
+							<h6>Navbar Options</h6>
+							<form class="form-inverse ms-conf-radio" id="navbar-config">
+								<div class="form-group">
+									<fieldset>
+										<div class="radio radio-primary">
+											<label for="whiteNavbar"> <input type="radio"
+												name="customNavbar" id="whiteNavbar" value="white"
+												checked=""> Light Color
+											</label>
+										</div>
+										<div class="radio radio-primary">
+											<label for="primaryNavbar"> <input type="radio"
+												name="customNavbar" id="primaryNavbar" value="primary">
+												Primary Color
+											</label>
+										</div>
+										<div class="radio radio-primary">
+											<label for="darkNavbar"> <input type="radio"
+												name="customNavbar" id="darkNavbar" value="dark">
+												Dark Color
+											</label>
+										</div>
+									</fieldset>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="ms-conf-header-container">
+						<h4 class="panel-title">
+							<a class="collapsed withripple" role="button"
+								data-toggle="collapse" data-parent="#accordion_conf"
+								href="#ms-conf-collapse-3" aria-expanded="false"
+								aria-controls="ms-conf-collapse-3"> <em
+								class="zmdi zmdi-grid"></em> Container Options
+							</a>
+						</h4>
+					</div>
+					<div id="ms-conf-collapse-3" class="panel-collapse collapse"
+						role="tabpanel" aria-labelledby="ms-conf-header-container">
+						<div class="panel-body">
+							<form class="form-inverse ms-conf-radio" id="boxed-config">
+								<div class="form-group">
+									<fieldset>
+										<div class="radio radio-primary">
+											<label for="fullWidth"> <input type="radio"
+												name="customWidth" id="fullWidth" value="full" checked="">
+												Full Width
+											</label>
+										</div>
+										<div class="radio radio-primary">
+											<label for="boxedWidth"> <input type="radio"
+												name="customWidth" id="boxedWidth" value="boxed">
+												Boxed Mode
+											</label>
+										</div>
+									</fieldset>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="ms-preload" class="ms-preload">
+			<div id="status">
+				<div class="spinner">
+					<div class="dot1"></div>
+					<div class="dot2"></div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<!-- Top Header -->
+		<div class="wrapper common-wrapper">
+			<div class="container common-container four_content ">
+				<div class="common-left clearfix">
+
+					<ul>
+						<li><img src="resources/index/img/logo_up.png" alt=""></li>
+						<li class="gov-india" style="text-align: justify;"><span
+							class="responsive_go_hindi" lang="hi"><a target="_blank"
+								href="http://upcmo.up.nic.in/"
+								title="उत्तर प्रदेश  सरकार ( बाहरी वेबसाइट जो एक नई विंडो में खुलती है)">
+									उत्तर प्रदेश सरकार </a></span><span class="li_eng responsive_go_eng"><a
+								target="_blank" href="http://upcmo.up.nic.in/"
+								title="Government Of Uttar Pradesh,External Link that opens in a new window">
+									Uttar Pradesh Government</a></span></li>
+					</ul>
+
+				</div>
+				<div class="common-right clearfix">
+					<ul id="header-nav">
+						<li><a href="ScreenReader" title="Screen Reader"> <img
+								src="resources/index/img/icons/screenreader.png"
+								alt="screen-reader-icon">
+						</a></li>
+						<li class="ico-accessibility cf"><a
+							href="javascript:void(0);" id="toggleAccessibility"
+							title="Accessibility Dropdown"><img class="top"
+								src="resources/index/img/icons/ico-accessibility.png"
+								alt="Accessibility Dropdown"> </a>
+							<ul style="visibility: hidden;">
+								<li><a id="Image_fontp" class="increaseFont"
+									title="Increase font size" href="javascript:void(0);">A<sup>+</sup>
+								</a></li>
+								<li><a id="Image_fontr" class="top_navig resetFont"
+									title="Reset font size" href="javascript:void(0);">A<sup>&nbsp;</sup></a>
+								</li>
+								<li><a id="Image_fontm" class="top_navig decreaseFont"
+									title="Decrease font size" href="javascript:void(0);">A<sup>-</sup></a>
+								</li>
+
+
+
+							</ul></li>
+						<li class="ico-sitemap cf"><a href="Sitemap" title="Sitemap">
+								<img class="top" src="resources/index/img/icons/ico-sitemap.png"
+								alt="Sitemap">
+						</a></li>
+						<li class="hindi cmf_lan"><a href="javascript:;"
+							title="Select Language">Language</a>
+							<ul style="visibility: hidden;">
+								<li><a onclick="location.href='?language=hi_IN';"
+									style="cursor: pointer;">हिंदी</a> <a
+									onclick="location.href='?language=en_US';"
+									style="cursor: pointer;">English</a></li>
+							</ul></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- End Top Header -->
+		<header class="ms-header ms-header-primary"
+			style="background-color: #03a9f4;">
+			<div class="container container-full">
+				<div class="ms-title">
+					<a href="/"> <!-- <img src="/resources/index/img/demo/logo-header.png" alt=""> -->
+						<span class="ms-logo animated zoomInDown animation-delay-5">S</span>
+						<h1 class="animated fadeInRight animation-delay-6">
+							जनसुनवाई -समाधान 
+							<!--   <span>Style</span> -->
+						</h1>
+					</a>
+				</div>
+				<div class="header-right">
+
+					<span> 
+						अधिकारी लॉगिन</span> <a href="/login"
+						class="btn-circle btn-circle-primary no-focus animated zoomInDown animation-delay-8">
+						<em class="zmdi zmdi-account"></em>
+					</a> <a href="/"
+						class="btn-circle btn-circle-primary no-focus animated zoomInDown animation-delay-8">
+						<em class="zmdi zmdi-home"></em>
+					</a>
+				</div>
+			</div>
+		</header>
+		<div class="ms-hero-page-override ms-hero-img-city ms-hero-bg-primary">
+			<div class="container">
+				<div class="text-center">
+					<!--             <span class="ms-logo ms-logo-lg ms-logo-white center-block mb-2 mt-2 animated  animation-delay-5">A</span>
+ -->
+					<h3
+						class="no-m ms-site-title color-white center-block ms-site-title-lg mt-2 animated zoomInDown animation-delay-5">
+						शासनादेश</h3>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="card card-hero animated slideInUp animation-delay-8 mb-6">
+				<div class="card-block">
+
+
+
+
+					<div id="content" class="middleContent">
+
+						<div class="innerContentMain cf">
+							<table style="width: 100%;">
+								<tr>
+									<td style="text-align: left;">
+										<div class="innerCont">
+
+
+											<div id="" class="sitemap cf">
+												<div class="sitemapLinks">
+													<span></span><a class='menuFirstNode'
+														href="resources/pdf/IGRSGO/igrsgo_2023.pdf"
+														target="_blank"
+														style="background: transparent url(resources/index/img/bullet.png) no-repeat scroll 10px 9px; padding-top: 1rem; padding-left: 4rem;">
+
+														संख्या:   03/2023-324 /चौंतीस-लोoशिo-05/2023  जनसुनवाई -समाधान (IGRS) प्रणाली  सम्बन्धी  शाशनादेश संख्या   540/चौंतीस-लोoशिo--05/2021दिनांक  20 अक्टूबर , 2021 में संसोधन के सम्बन्ध में I <img
+														src="resources/index/img/pdf.png" alt="">(272 KB)
+													</a>
+												</div>
+
+												<div class="sitemapLinks">
+													<span></span><a class='menuFirstNode'
+														href="resources/pdf/IGRSGO/GO_0521_551.pdf"
+														target="_blank"
+														style="background: transparent url(resources/index/img/bullet.png) no-repeat scroll 10px 9px; padding-top: 1rem; padding-left: 4rem;">
+
+														संख्या:551/चौंतीस-लोoशिo-05/2021 जनसुनवाई - समाधान प्रणाली
+														(IGRS) के प्रभावी क्रियान्वयन के सम्बन्ध में I <img
+														src="resources/index/img/pdf.png" alt="">(272 KB)
+													</a>
+												</div>
+
+
+
+												<div class="sitemapLinks">
+													<span></span><a class='menuFirstNode'
+														href="resources/pdf/IGRSGO/GO_0521.pdf" target="_blank"
+														style="background: transparent url(resources/index/img/bullet.png) no-repeat scroll 10px 9px; padding-top: 1rem; padding-left: 4rem;">
+
+														संख्या:540/चौंतीस-लोoशिo-05/2021 जनसुनवाई - समाधान प्रणाली
+														(IGRS) में महत्वपूर्ण संशोधन विषयक I <img
+														src="resources/index/img/pdf.png" alt="">(4.17 MB)
+													</a>
+												</div>
+
+												<div class="sitemapLinks">
+													<span></span><a class='menuFirstNode'
+														href="resources/pdf/IGRSGO/IGRSSHASANADESH.PDF"
+														target="_blank"
+														style="background: transparent url(resources/index/img/bullet.png) no-repeat scroll 10px 9px; padding-top: 1rem; padding-left: 4rem;">
+
+														संख्या:1/2020/129/चौंतीस-लोoशिo-05/2020-05
+														लोoशिo/2019-समाधान पोर्टल पर समन्वित शिकायत निवारण प्रणाली
+														के प्रभावी क्रियान्वयन के सम्बन्ध में। <img
+														src="resources/index/img/pdf.png" alt="">(1.23 MB)
+													</a>
+												</div>
+												<div class="sitemapLinks">
+													<span></span><a class='menuFirstNode'
+														href="resources/pdf/IGRSGO/CMHELPLINE2018.pdf"
+														target="_blank"
+														style="background: transparent url(resources/index/img/bullet.png) no-repeat scroll 10px 9px; padding-top: 1rem; padding-left: 4rem;">
+														संख्या -1281/78-1-2018-66आईoटीo/2017टीसी - जन शिकायतों के
+														संपूर्ण समाधान के लिए समाधान प्रणाली मुख्यमंत्री हेल्पलाइन
+														पोर्टल (http://samadhan.gov.in/) के प्रभावी संचालन के
+														सम्बन्ध में <img src="resources/index/img/pdf.png" alt="">(1.97
+														MB)
+													</a>
+												</div>
+
+
+
+												<div class="sitemapLinks">
+													<span></span><a class='menuFirstNode'
+														href="resources/pdf/IGRSGO/ViewGOPDF_list_user.pdf"
+														target="_blank"
+														style="background: transparent url(resources/index/img/bullet.png) no-repeat scroll 10px 9px; padding-top: 1rem; padding-left: 4rem;">
+
+														समन्वित शिकायत निवारण प्रणाली (आई0जी0आर0एस0)-जन सुनवाई के
+														प्रभावी क्रियान्‍वयन के सम्‍बन्‍ध में। <img
+														src="resources/index/img/pdf.png" alt="">(165 KB)
+													</a>
+												</div>
+												<div class="sitemapLinks">
+													<span></span><a class='menuFirstNode'
+														href='resources/pdf/IGRSGO/ViewGOPDF_list_user_2.pdf'
+														target="_blank"
+														style="background: transparent url(resources/index/img/bullet.png) no-repeat scroll 10px 9px; padding-top: 1rem; padding-left: 4rem;">मुख्‍यमंत्री
+														कार्यालय में प्राप्‍त संदर्भो के निस्‍तारण हेतु दिशा
+														निर्देश <img src="resources/index/img/pdf.png" alt="">(170
+														KB)
+													</a>
+												</div>
+												<div class="sitemapLinks">
+													<span></span><a class='menuFirstNode'
+														href='resources/pdf/IGRSGO/ViewGOPDF_list_user_3.pdf'
+														target="_blank"
+														style="background: transparent url(resources/index/img/bullet.png) no-repeat scroll 10px 9px; padding-top: 1rem; padding-left: 4rem;">
+														समन्वित शिकायत निवारण प्रणाली-जनसुनवाई (आई0जी0आर0एस0) के
+														अन्तर्गत प्राप्त शिकायतों के निस्तारण में तत्परता व
+														निस्ता्रण की गुणवत्ता के आधार पर सम्बन्धित अधिकारियों के
+														मासिक मूल्यांकन के संबंध में। <img
+														src="resources/index/img/pdf.png" alt="">(900 KB)
+													</a>
+												</div>
+												<div class="sitemapLinks">
+													<span></span><a class='menuFirstNode'
+														href='resources/pdf/IGRSGO/ViewGOPDF_list_user_4.pdf'
+														target="_blank"
+														style="background: transparent url(resources/index/img/bullet.png) no-repeat scroll 10px 9px; padding-top: 1rem; padding-left: 4rem;">
+														समन्वित शिकायत निवारण प्रणाली (आई0जी0आर0एस0) जनसुनवाई के
+														अंतर्गत शिकायतों संदर्भों के निस्तारण की गुणवत्ता
+														सुनिश्चित करने हेतु असंतुष्ट फीडबैक पर कार्यवाही एवं
+														श्रेणीकरण किये जाने के संबंध में। <img
+														src="resources/index/img/pdf.png" alt="">(961 KB)
+													</a>
+												</div>
+
+
+											</div>
+										</div>
+
+									</td>
+
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+	<!-- Start footer -->
+
+	<footer id="footer" style="background: black;">
+		<aside class="ms-footbar" id="Aside1">
+			<div class="container">
+				<div class="row">
+					<div style="text-align: -webkit-center;">
+						<div class="ms-footbar-block">
+
+							<div class="ms-footbar-social mt-1">
+
+								<a href='/Disclaimer'
+									style="padding-right: 1rem; background: none;"> <em
+									class="zmdi zmdi-edit" style="color: #03a9f4"></em> 
+वेबसाइट नीतियां</a> <a
+									href='/About' style="padding-right: 1rem; background: none;">
+									<em class="zmdi zmdi-favorite-outline" style="color: #03a9f4"></em>
+									हमारे बारे में 
+								</a> <a href='/Support'
+									style="padding-right: 1rem; background: none;"> <em
+									class="zmdi zmdi-accounts" style="color: #03a9f4"></em> पोर्टल हेतु सुझाव</a> <a
+									href='/Contactus'
+									style="padding-right: 1rem; background: none;"> <em
+									class="zmdi zmdi-phone" style="color: #03a9f4"></em> संपर्क करें </a>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-5 ms-footer-col ms-footer-text-right">
+					<div class="ms-footbar-block">
+						<div class="ms-footbar-title"></div>
+
+					</div>
+				</div>
+
+			</div>
+		</aside>
+
+		<div style="text-align: -webkit-center;">
+			<div class="ms-footbar-social" style="padding-top: 10px;">
+				<a href="javascript:void(0)" class="btn-circle btn-facebook"> <em
+					class="zmdi zmdi-facebook"></em>
+				</a> <a href="javascript:void(0)" class="btn-circle btn-twitter"> <em
+					class="zmdi zmdi-twitter"></em>
+				</a> <a href="javascript:void(0)" class="btn-circle btn-youtube"> <em
+					class="zmdi zmdi-youtube"></em>
+				</a>
+
+			</div>
+
+			<p style="margin-top: 15px; margin-left: 15px;">
+				Last Updated: <span id="datetime"></span>
+			</p>
+
+		</div>
+
+
+		<div class="container">
+			<p style="text-align: center; color: white">&copy; Content owned,
+				updated by the Lok Shikayat Vibhag, Chief Minister Office Uttar
+				Pradesh Government. Website is designed, developed, maintained and
+				hosted by National Informatics Centre, Uttar Pradesh</p>
+		</div>
+	</footer>
+	<!-- End footer -->
+	</div>
+	<script src="/resources/index/js/plugins.min.js"></script>
+	<script src="/resources/index/js/app.min.js"></script>
+	<script src="/resources/index/js/configurator.min.js"></script>
+
+	<script>
+      (function(i, s, o, g, r, a, m)
+      {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function()
+        {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', '../../../../www.google-analytics.com/analytics.js', 'ga');
+      ga('create', 'UA-90917746-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+	<script src="/resources/index/js/home-generic-7.js"></script>
+
+
+	<script>
+	$(document).ready(function () {
+	    // Reset Font Size
+	    var originalFontSize = $('html').css('font-size');
+	    $(".resetFont").click(function () {
+	        $('html').css('font-size', originalFontSize);
+	    });
+	    // Increase Font Size
+	    $(".increaseFont").click(function () {
+	        var currentFontSize = $('html').css('font-size');
+	        var currentFontSizeNum = parseFloat(currentFontSize, 10);
+	        currentFontSizeNum = currentFontSizeNum * 1;
+	        if (currentFontSizeNum < 19) {
+	            var newFontSize = currentFontSizeNum * 1.1;
+	            $('html').css('font-size', newFontSize);
+	        }
+	        return false;
+	    });
+	    // Decrease Font Size
+	    $(".decreaseFont").click(function () {
+	        var currentFontSize = $('html').css('font-size');
+	        var currentFontSizeNum = parseFloat(currentFontSize, 10);
+	        if (currentFontSizeNum > 7) {
+	            var newFontSize = currentFontSizeNum * 0.8;
+	            $('html').css('font-size', newFontSize);
+	        }
+	        return false;
+	    });
+	});
+</script>
+
+
+</body>
+
+</html>

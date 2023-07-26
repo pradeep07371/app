@@ -1,0 +1,834 @@
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+<meta http-equiv='cache-control' content='no-cache'>
+<meta http-equiv='expires' content='0'>
+<meta http-equiv='pragma' content='no-cache'>
+
+<meta http-equiv="refresh"	content="1800;url=/login">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" ><!-- content="text/html; charset=UTF-8" -->
+<title>IGRS | Dashboard</title>
+<!-- Tell the browser to be responsive to screen width -->
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+	name="viewport">
+<!-- Bootstrap 3.3.7 -->
+<link rel="stylesheet"
+	href="/resources/bower_components/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="/resources/css/jquery-ui.css">
+<!-- Font Awesome -->
+<link rel="stylesheet"
+	href="/resources/bower_components/font-awesome/css/font-awesome.min.css">
+<!-- Ionicons -->
+<link rel="stylesheet" href="/resources/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
+<link rel="stylesheet"
+	href="/resources/bower_components/Ionicons/css/ionicons.min.css">
+<!-- jvectormap -->
+<!--<link rel="stylesheet"
+	href="/resources/bower_components/jvectormap/jquery-jvectormap.css">-->
+<!-- Theme style -->
+<link rel="stylesheet"
+	href="/resources/dist/css/AdminLTE.min.css">
+<!-- AdminLTE Skins. Choose a skin from the css/skins
+       folder instead of downloading all of them to reduce the load. -->
+<link rel="stylesheet"
+	href="/resources/dist/css/skins/_all-skins.min.css">
+	
+<link rel="stylesheet" href="/resources/bower_components/select2/dist/css/select2.min.css">
+
+<!-- <link rel="stylesheet" href="/resources/bower_components/bootstrap-daterangepicker/daterangepicker.css"> -->
+<!--   <!-- bootstrap datepicker --> 
+<!--   <link rel="stylesheet" href="/resources/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css"> -->
+<!--   <!-- iCheck for checkboxes and radio inputs --> 
+<!--   <link rel="stylesheet" href="/resources/plugins/iCheck/all.css"> -->
+  
+<!--   <!-- Bootstrap Color Picker --> 
+<!--   <link rel="stylesheet" href="/resources/bower_components/bootstrap-colorpicker/dist/css/bootstrap-colorpicker.min.css"> -->
+  <!-- Bootstrap time Picker -->
+
+
+  <link rel="stylesheet" href="/resources/plugins/timepicker/bootstrap-timepicker.min.css"> 
+     <link rel="stylesheet" href="/resources/css/jquery-ui.css"> 
+
+   
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+
+
+<!-- <link rel="stylesheet"
+	href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+ 	-->
+ <style>
+.pagination {
+	display: inline-block;
+}
+
+.pagination a {
+	color: black;
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+	transition: background-color .3s;
+	border: 1px solid #ddd;
+}
+
+.pagination a.active {
+	background-color: #4CAF50;
+	color: white;
+	border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not (.active ) {
+	background-color: #ddd;
+}
+
+.tfootc{
+   background-color: lightblue;
+    
+}
+
+.theadc{
+   background-color: #d7f2ea
+    
+}
+
+.theadh {
+    background-color: #337094;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
+div.b {
+  word-break: break-all;  
+  line-height: 22px;
+}
+
+.left{
+   text-align: left;
+}
+.right{
+   text-align: right;
+}
+/**** dialogt mpr formula dialog css ****************/
+   .dialogt{
+                border:1px solid #8fa7cf;
+                 padding: 3px;
+                 text-align: center;
+                 font-size: 14px
+            } 
+</style>
+
+<style type="text/css">
+#dvLoading {
+	background: rgba(0%,0%,0%,0.609)
+		url(/resources/assets/img/ajax-loader.gif)
+		no-repeat center center;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	display: block;
+	z-index: 2000;
+}
+
+.selecton{
+    border: 3px solid #669999;
+        border-collapse: collapse;
+    
+}
+
+.text-warning {
+    color: #000000 !important;
+}
+
+textarea {
+   resize: none;
+}
+</style>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- ./wrapper -->
+
+
+		
+
+<!-- jQuery 3 -->
+<script src="/resources/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/resources/js/jquery.loading.min.js"></script>
+<script src="/resources/voice/script.js"></script>
+
+<script src="/resources/dsc/mriDigitalSigner.js"></script>
+
+ <script type="text/javascript">
+        window.oncontextmenu = function () {
+            return false;
+        }
+        $(document).keydown(function (event) {
+            if (event.keyCode == 123) {
+             return false;
+			}
+            else if ((event.ctrlKey && event.shiftKey && event.keyCode == 73) || (event.ctrlKey && event.shiftKey && event.keyCode == 74)) {
+             return false;
+            }
+        }); 
+</script>  
+
+<script type="text/javascript">
+function preventBack() {
+   window.history.forward();
+}
+ window.onunload = function() {
+    null; 
+	   
+};
+setTimeout("preventBack()", 0);
+
+$(document).on("keyup",".specialChar",function () {
+	var yourInput = $(this).val();
+	re = /[`~^%$&#*()+\-!@_<>=?,;:'"<>\{\}\[\]\\\/]/gi;
+	var isSplChar = re.test(yourInput);
+	if(isSplChar)
+	{	
+		var no_spl_char = yourInput.replace(/[`~^%$&#*()+\-!@_<>=?,;:'"<>\{\}\[\]\\\/]/gi,'');
+		$(this).val($.trim(no_spl_char));
+	}
+});
+
+$(document).on("keyup",".specialCharAdd",function () {
+	var yourInput = $(this).val();
+	re = /[`~^%$&#*()+\!@_<>=?;:'"<>\{\}\[\]\\\/]/gi;
+	var isSplChar = re.test(yourInput);
+	if(isSplChar)
+	{	
+		var no_spl_char = yourInput.replace(/[`~^%$&#*()+\!@_<>=?;:'"<>\{\}\[\]\\\/]/gi,'');
+		$(this).val($.trim(no_spl_char));
+	}
+});
+
+//onkeypress="javascript:return isNumberValidate(event,this)
+function isNumberValidate(evt, ctrl) {
+	var iKeyCode = (evt.which) ? evt.which : evt.keyCode
+	if (iKeyCode != 46 && iKeyCode > 31 && (iKeyCode < 48 || iKeyCode > 57)) {
+		return false;
+	} else {
+		return true;
+	}
+}
+
+function isValidateInput(evt, ctrl) {
+	var iKeyCode = (evt.which) ? evt.which : evt.keyCode
+	if (iKeyCode != 46 && iKeyCode > 31 && (iKeyCode < 48 || iKeyCode > 57)) {
+		return false;
+	} else {
+		return true;
+	}
+}
+
+function is_mobile_valid(string_or_number){
+    var mobile=string_or_number;
+    if(mobile.length!=10){
+        return false;
+
+    }
+    intRegex = /[0-9 -()+]+$/;
+    is_mobile=true;
+    
+    for ( var i=0; i < 10; i++) {
+        if(intRegex.test(mobile[i]))
+             { 
+             continue;
+             }
+            else{
+                is_mobile=false;
+                break;
+            }
+         }
+    
+    return is_mobile;
+}
+
+function isEmail(email) {
+	var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    return regex.test(email);
+}
+
+</script>
+
+
+<!-- Bootstrap 3.3.7 -->
+<script
+	src="/resources/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- FastClick -->
+<script src="/resources/bower_components/fastclick/lib/fastclick.js"></script>
+<!-- AdminLTE App -->
+<script src="/resources/dist/js/adminlte.min.js"></script>
+<!-- Sparkline -->
+<script
+	src="/resources/bower_components/jquery-sparkline/dist/jquery.sparkline.min.js"></script>
+<!-- jvectormap  -->
+
+<!-- aj	<script -->
+<!-- 		src="/resources/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script> -->
+<!-- 	<script -->
+<!-- 		src="/resources/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script> -->
+<!-- SlimScroll -->
+
+
+<script
+	src="/resources/bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+<!-- ChartJS -->
+<!-- 	<script -->
+<!-- 		src="/resources/bower_components/Chart.js/Chart.js"></script> -->
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<!-- 	<script -->
+<!-- 		src="/resources/dist/js/pages/dashboard2.js"></script> -->
+<!-- AdminLTE for demo purposes -->
+<!-- 	<script -->
+<!-- 		src="/resources/dist/plugins/js/demo.js"></script> -->
+<!-- 		<script src="/resources/custom/angular.min.js"></script> -->
+<!-- 	<script -->
+<!-- 		src="/resources/dist/plugins/js/jquery.translate.js"></script> -->
+<script
+	src="/resources/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+<script
+	src="/resources/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+
+
+<script src="/resources/custom/custom2.js"></script>
+
+<script
+	src="/resources/bower_components/select2/dist/js/select2.full.min.js"></script>
+	
+<script src="/resources/print/printArea.js">
+
+</script>
+<!-- <script src="/resources/plugins/input-mask/jquery.inputmask.js"></script> -->
+<!-- <script src="/resources/plugins/input-mask/jquery.inputmask.date.extensions.js"></script> -->
+<!-- <script src="/resources/plugins/input-mask/jquery.inputmask.extensions.js"></script> -->
+<!-- <!-- date-range-picker -->
+<!-- <script src="/resources/bower_components/moment/min/moment.min.js"></script> -->
+<!-- <script src="/resources/bower_components/bootstrap-daterangepicker/daterangepicker.js"></script> -->
+<!-- <!-- bootstrap datepicker -->
+<!-- <script src="/resources/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script> -->
+<!-- <!-- bootstrap color picker -->
+<!-- <script src="/resources/bower_components/bootstrap-colorpicker/dist/js/bootstrap-colorpicker.min.js"></script> -->
+<!-- <!-- bootstrap time picker -->
+<!-- <script src="/resources/plugins/timepicker/bootstrap-timepicker.min.js"></script> -->
+<!-- iCheck 1.0.1 -->
+<!-- <script src="/resources/plugins/iCheck/icheck.min.js"></script> -->
+
+<script src="/resources/js/jquery-ui.js"></script>
+
+<script type="text/javascript" src="/resources/js/am-pagination.js"></script>
+<script type="text/javascript" src="/resources/js/FileSaver.js"></script>
+<script type="text/javascript" src="/resources/js/jquery.wordexport.js"></script>
+<link rel="stylesheet" href="/resources/css/am-pagination.css">
+
+<script>
+ 
+      function DownloadDoc(divid){
+          var docdiv = '#'+divid;
+    	  $(docdiv).wordExport();
+      }
+
+
+</script>
+<script src="/resources/js/moment.min.js"></script>
+<script src="/resources/js/datetime-moment.js"></script>
+<script src="/resources/js/datetime.js"></script>
+
+<script type="text/javascript">
+function rejectOfficeLevel_work_tree(complaintscode,forwardid)
+{ 	
+	var h = ((window.top.innerHeight) - 110);
+	var height = h + "px";
+	$('#dvLoading').fadeIn();
+	var compType=0;
+	if(complaintscode.toString().substring(0,2)=='41')
+		compType=41;
+	else if(complaintscode.toString().substring(0,2)=='14') 
+		compType=14;
+	else
+		compType=parseInt(complaintscode.toString().substring(0,1));
+	var type = '';
+    var link ='#';
+ 	link="ajax_getMarkingTree_app_status_work_tree?comp_code="+complaintscode+"&complaintType="+compType+"&forwardid="+forwardid;
+	var html = '<iframe src="' + link + '"frameBorder=0 width="100%" height="'+height+'" allowfullscreen scrolling="yes"></iframe>';
+	$('#modelbody').html(html);
+	$('#modal-document').modal('show');
+	$('#compNo').html("शिकायत संख्या - (" + complaintscode + ")");
+	$('#dvLoading').fadeOut();
+}	
+
+
+</script>
+
+
+<script type="text/javascript">
+function reliefOtherAtr(complaintscode,actionid)
+{ 	
+	var h = ((window.top.innerHeight) - 110);
+	var height = h + "px";
+	$('#dvLoading').fadeIn();
+	var compType=0;
+	if(complaintscode.toString().substring(0,2)=='41')
+		compType=41;
+	else if(complaintscode.toString().substring(0,2)=='14') 
+		compType=14;
+	else
+		compType=parseInt(complaintscode.toString().substring(0,1));
+	var type = '';
+    var link ='#';
+    link="/ajaxCheck/DownloadATRAttachment?complaintId="+complaintscode+"&complaintType=14&actionid="+actionid+"&AtrOf1stOR2nd=TWO";
+	var html = '<iframe src="' + link + '"frameBorder=0 width="100%" height="'+height+'" allowfullscreen scrolling="yes"></iframe>';
+	$('#modelbody').html(html);
+	$('#modal-document').modal('show');
+	$('#compNo').html("अन्य दस्तावेज -शिकायत संख्या - (" + complaintscode + ")");
+	$('#dvLoading').fadeOut();
+}	
+</script>
+
+<script type="text/javascript">
+
+function dscDocAtr(complaintscode, aid) {
+	
+	var h = ((window.top.innerHeight) - 110);
+	var height = h + "px";
+	
+	$('#dvLoading').fadeIn();
+	
+	var compType=0;
+	
+	if(complaintscode.toString().substring(0,2)=='41')
+		compType=41;
+	else if(complaintscode.toString().substring(0,2)=='14') 
+		compType=14;
+	else
+		compType=parseInt(complaintscode.toString().substring(0,1));
+	var type = '';
+
+	var type = '';
+	var link = '#';
+	link = "/ajaxCheck/DownloadAllAttachmentDsc?complaintId="
+			+ complaintscode + "&complaintType=" + compType
+			+ "&actionid=" + aid;
+	var html = '<iframe src="' + link
+			+ '"frameBorder=0 width="100%" height="' + height
+			+ '" allowfullscreen scrolling="yes"></iframe>';
+	$('#modelbody').html(html);
+	$('#modal-document').modal('show');
+	$('#compNo').html("शिकायत संख्या - (" + complaintscode + ")");
+	$('#dvLoading').fadeOut();
+}
+
+</script>
+
+
+<script src="resources/js/md5.js"></script>
+<style type="text/css">
+.table-hover>tbody>tr:hover {
+	background-color: #e5efff;
+}
+</style>
+<style>
+.error {
+	color: red;
+	font-weight: bold;
+}
+</style>
+<style type="text/css">
+#dvLoading {
+	background: #fff
+		url(/resources/assets/img/ajax-loader.gif)
+		no-repeat center center;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	display: block;
+	z-index: 2000;
+}
+</style>
+</head>
+<title>Insert title here</title>
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+    
+
+
+
+         <input  id="randomkey" type="hidden" value="6rge94"  />
+           
+
+        <div>
+
+            <div class="section" style="background-color: white;">
+                <div class="row ">
+
+                    <div class="col-lg-12">
+
+
+
+                        <div class="row">
+
+
+                            <div class="row col-lg-12 ">
+                                <div class="box box-primary">
+
+
+                                    <div class="box-body">
+                                     
+                                        
+                                      
+                                          <div class="col-sm-12 " style="text-align:center;vertical-align:middle;">
+                                              <center>
+                                              <table style="width:60%">
+                                                  <tbody><tr>
+                                                      <td>
+
+                                                <div class="row">
+                                                <div class="form-group" style="padding:5px;">
+                                                       <div class="col-sm-6">
+                                                    <label for="txtformobno">
+                                                   <span class="glyphicon glyphicon-phone"></span> मोबाइल न०/Mobile Number<span><b style="color: red;">*</b></span></label>
+                                                           </div>
+                                                    <div class="col-sm-6">                                                        
+                                                        <input name="mobile" autocomplete="off" type="text" id="mobile_id" maxlength="10"  class="form-control" placeholder="Please Enter Mobile No." style="width:211px;">
+                                                  
+                                                    </div>
+                                                     
+                                                </div>
+                                            </div>
+                                                  <div class="row">
+                                                <div class="form-group" style="padding:5px;">
+                                                     <div class="col-sm-12"> <center>OR</center> </div>
+                                                         </div></div>
+
+                                            <div class="row">
+                                                <div class="form-group" style="padding:5px;">
+                                                       <div class="col-sm-6">
+                                                    <label for="txtforemail">
+                                                  <span class="glyphicon glyphicon-envelope"></span>  ई-मेल/Email-Id<span><b style="color: red;">*</b></span></label>
+                                                           </div>
+                                                    <div class="col-sm-6">
+                                                        <input name="email" autocomplete="off" type="email"  id="email_id" maxlength="40"  class="form-control" placeholder="Please Enter Email Id." style="width:211px;">
+                                                    </div>
+                                                      
+                                                </div>
+                                            </div>
+
+                                       <div class="row">
+                                            
+                                              <div class="form-group" style="padding:5px;">
+                                                    <div class="col-sm-12">
+                                            <center><label>Please type the characters appearing in the image below / कृपया नीचे दिए बॉक्स में उपलब्ध सुरक्षा कोड अंकित करें </label></center>
+                                                        </div>
+                                       </div>
+                                           </div>
+                                            
+                                            
+                                                 
+                                            <div class="row">
+                                            
+                                              <div class="form-group" style="padding:5px;">
+                                                  <div class="col-sm-4">
+                                       
+                                                  </div>
+                                                  
+                                             </div>                                               
+                                           </div>                        
+                                            
+                                            <div class="row">
+                                                <div class="form-group" style="padding:5px;">
+                                                    <div class="col-sm-4">
+                                                      <label for="exampleInputEmail1">सुरक्षा कोड/Security Pin<span><b style="color: red;">*</b></span></label>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        
+                                                        <iframe src="/Captcha.jpg" border="0" id="captchaImg"
+									width="120px" height="45px" frameborder="0" scrolling="no"></iframe>
+                                                           <input  name="ctl00$MainContent$btnRefresh" style="cursor: pointer;" value="अन्य अंक प्राप्त करें " onclick="refeshCaptcha();" class="btn-link">
+                                                           <input type="hidden" id="randomToken" name="randomToken" value="" />
+                   
+                                                        
+                                                    </div>
+                                                      
+                                                    <div class="col-sm-4">
+                                                        <input name="txtforcapture" type="text" id="capta"  maxlength="4"class="form-control" placeholder="Enter Captcha Text" style="width:114px;">
+                                                        
+                                                    </div>
+                                                 
+                                                    
+                                                </div>
+
+
+                                            <div class="row">
+                                                      <div class="col-md-12">
+                                                         <p style="text-align:center; font-weight:bold; font-size:13px;"><span style="font-size:13px;color:red;">
+                                                        	 नोट-</span>उपरोक्त शिकायत संख्या. प्राप्त  करने के लिए शिकायतकर्ता के मोबाइल पर OTP-वन टाइम पासवर्ड प्राप्त होगा | OTP की प्रविष्टि करने के उपरांत ही शिकायत संख्या. प्राप्त हो सकेगी | 
+                                                           OTP प्राप्त करने हेतु 'OTP प्राप्त करें' बटन पर क्लिक करें |</p>
+                                                     </div>
+                                            </div>
+
+                                              <div class="row">
+                                                  
+                                               <div class="col-md-12" style="text-align:center;">
+                                                    
+                                                   <button  onclick="sendOTP();" id="otpbutton" class="btn btn-warning">OTP प्राप्त करें</button>
+                                                       &nbsp;&nbsp;
+<!--                                                   <input type="submit" name="Button1" value="रीसेट" id="Button1" class="btn btn-success">&nbsp;&nbsp;-->
+                                                      
+                                                  </div>&nbsp;&nbsp;
+                                                           
+                                                </div>
+                                                           
+                                                           
+                                            <div class="row">
+                                                <div class="form-group" style="padding:5px;">
+                                                       <div class="col-sm-6">
+                                                    <label for="txtforemail">
+                                                  <span class="glyphicon glyphicon-earphone"></span>  Enter OTP <span><b style="color: red;">*</b></span></label>
+                                                           </div>
+                                                    <div class="col-sm-6">
+                                                        <input name="txtforemail" autocomplete="off" type="text" autocomplete="off" maxlength="6" id="txtforemail" class="form-control" placeholder="Please Enter OTP." style="width:211px;">
+                                                    </div>
+                                                      
+                                                </div>
+                                            </div>   <br>           
+                                             <div class="row"  id="varifyotpbutton" style="display:none">
+                                                  
+                                               <div class="col-md-12" style="text-align:center;">
+                                                    
+                                                   <button  onclick="getVarifyOTPAndGetComplaintCode();" id="otpbutton" class="btn btn-success">Search Complaint </button>
+                                                       
+                                                    <center id="spin" style="display:none"><i class="fa fa-refresh fa-spin color:green" style="font-size:24px"></i></center>
+                                                      
+                                                  </div>
+                                                           
+                                                </div>    
+                                                           
+                                                           
+                                                           
+                                     </div></td>
+                                                  </tr>
+                                              </tbody></table>
+                                              </center>
+
+                                               </div>
+                                      
+                                        <div class="col-sm-12 " id="title_text" style="text-align:center;vertical-align:middle;padding:5px;display: none">
+                                            <b><span style="color:green">मोबाइल न./ईमेल द्वारा दर्ज शिकायत संख्या..</span></b>
+                                              
+
+                                           </div>
+                                            
+
+
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                          <!-- /.social-auth-links -->
+                      </div>
+                                                           <div class="row"  id="tableid" style="display:none">
+                                                               <div class="col-md-12">
+                                                               <table class="table-hover table" >
+                                                                   <thead>
+                                                                   <tr>
+                                                                       <th>सन्दर्भ संख्या </th>
+                                                                       <th>शिकायतकर्ता का नाम</th>
+                                                                       <th>शिकायतकर्ता का ई-मेल</th>
+                                                                       <th>शिकायतकर्ता का मोबाइल न.</th>
+                                                                       <th>सन्दर्भ दिनांक.</th>
+                                                                      
+                                                                      
+                                                                       
+                                                                       
+                                                                   </tr>
+                                                                   </thead>
+                                                                   <tbody id="tbodycomp">
+                                                                      
+                                                                       
+                                                                   </tbody>
+                                                                   
+                                                               </table>
+                                                               </div>
+                                                           </div>                                  
+                                                           
+                </div>
+
+            </div>
+          
+        
+    
+   <script type="text/javascript">
+	function refeshCaptcha() { 
+		$("#captchaImg").attr("src", "/Captcha.jpg");
+	}
+</script> 
+        
+<script>
+    
+    function isEmail(email) {
+  var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+  return regex.test(email);
+}
+    
+</script>                                                       
+                                                           
+                                                           
+    <script>
+    function sendOTP(){
+      
+        
+     //   alert("sendOTP  ");
+     // alert(hex_md5("sendOTP"));
+        
+//                    $("#sedOTPID").removeClass("btn-warning");
+//                    $("#sedOTPID").addClass("btn-info");
+//                    $('#sedOTPID').val("Re-Generate OTP/पुनः ओ०टी०पी० प्राप्त करें");
+//                    $('#otp').css("display","block");
+    var  captch  =  $('#capta').val();
+    var  randomkey  =  $('#randomkey').val();
+    var  mobile  =  $('#mobile_id').val();
+    var  email  =  $('#email_id').val();
+    
+   // alert("-- "+captch+"  == "+randomkey+" >>"+mobile+" --"+email);
+          
+        // var compcode = document.getElementById("compid").value;
+        if((mobile.length===10 && $.isNumeric(mobile)) || email!==""){
+            
+            
+              if(email!==""){
+                         
+                         if(!isEmail(email)){
+                             alert(" कृपया सही ईमेल आईडी दर्ज करें ");
+                             return false;
+                             
+                         }
+                     }
+            
+            
+            $.ajax({
+            type: "GET",
+           // contentType: "application/json; charset=utf-8",
+            url: "/senfOTPWithVrifyCapcha",
+            data: {capthca:captch,randomkey:randomkey,mobile:mobile,email:email},
+          
+            success: function (data){
+            
+          //  alert(" --- "+data);
+          
+            
+                if(data.length===6){
+                    
+                    alert("OTP आपके Mobile/Email पर भेज दिया गया है |");
+                   $("#otpbutton").html('Re-Generate OTP/पुनः ओ०टी०पी० प्राप्त करें');
+                    $("#otpbutton").removeClass("btn-warning");
+                    $("#otpbutton").addClass("btn-info");
+                   $('#varifyotpbutton').css("display","block");
+                
+                    
+                    
+                    
+                    
+                         
+                }else{
+                    alert(data); 
+                }
+               
+
+
+
+            }
+        });
+        
+    }else{
+        alert("कृपया 10 अंकों का मोबाइल नंबर / ई-मेल आईडी दर्ज करें। ");
+    }
+    }
+    </script>     
+                                                           
+   <script>
+     function getVarifyOTPAndGetComplaintCode(){
+          
+       
+         
+        $("#otpbutton").html('Re-Generate OTP/पुनः ओ०टी०पी० प्राप्त करें');
+       $("#otpbutton").removeClass("btn-warning");
+       $("#otpbutton").addClass("btn-info");
+//                    $("#sedOTPID").removeClass("btn-warning");
+//                    $("#sedOTPID").addClass("btn-info");
+//                    $('#sedOTPID').val("Re-Generate OTP/पुनः ओ०टी०पी० प्राप्त करें");
+//                    $('#otp').css("display","block");
+    var  captch  =  $('#capta').val();
+    var  randomkey  =  $('#randomkey').val();
+    var  mobile  =  $('#mobile_id').val();
+    var  email  =  $('#email_id').val();
+    var otp =  $('#txtforemail').val();
+ //   alert("-- "+captch+"  == "+randomkey+" "+mobile+" "+email);
+           $('#spin').css("display","block");
+        // var compcode = document.getElementById("compid").value;
+            $.ajax({
+            type: "GET",
+           // contentType: "application/json; charset=utf-8",
+            url: "/getVarifyOTPAndGetComplaintCode",
+            data: {capthca:captch,randomkey:randomkey,mobile:mobile,email:email,otp:otp},
+          
+            success: function (data){
+            
+           // alert(" --- "+data+"--"+JSON.stringify(data));
+            console.log(" --- "+data+"--"+JSON.stringify(data));
+             $('#spin').css("display","none");   
+            
+                if(data.sent_flag==='OK'){
+                    refeshCaptcha();
+                    option = '';
+                    var  i=0;
+                    
+                    for(i=0;i<data.list1.length;i++){
+                       option = option+'<tr><td>'+data.list1[i].complaintcode+'</td><td>'+data.list1[i].bfyname+'</td><td>'+data.list1[i].bfy_email+'</td><td>'+data.list1[i].bfy_mob+'</td><td>'+data.list1[i].appdateofreference+'</td></tr>'; 
+                        
+                    }
+                     $('#tableid').css("display","block");
+                     $('#title_text').css("display","block");
+                    $('#tbodycomp').html(option);
+                    
+                         
+                }else{
+                    alert(data.sent_flag); 
+                }
+               
+
+
+
+            }
+        });    
+       }
+       </script>
+                                                               
+    
+</body>
+
+    </html>
+

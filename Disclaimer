@@ -1,0 +1,373 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from agmstudio.io/themes/material-style/1.4/home-generic-7.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 03 May 2017 05:10:13 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#333">
+    <title>WEBSITE POLICIES </title>
+    <meta name="description" content="Material Style Theme">
+    <link rel="shortcut icon" href="/resources/index/img/favicon30f4.png?v=3">
+        <link rel="stylesheet" href="resources/index/css/preload.min.css">
+    <link rel="stylesheet" href="resources/index/css/plugins.min.css">
+    <link rel="stylesheet" href="resources/index/css/style.css">
+     <link rel="stylesheet" href="resources/index/css/main.css">
+    <link rel="stylesheet" href="resources/index/css/width-boxed.min.css" id="ms-boxed" >
+   
+
+
+  </head>
+  <body>
+  <div id="font-setting">
+    <a href="javascript:void(0)" class="ms-conf-btn ms-configurator-btn btn-circle btn-circle-raised btn-circle-primary animated rubberBand">
+      <em class="fa fa-gears"></em>
+    </a>
+    <div id="ms-configurator" class="ms-configurator">
+      <div class="ms-configurator-title">
+        <h3>
+          
+ Theme Configurator</h3>
+        <a href="javascript:void(0);" class="ms-conf-btn withripple">
+          <em class="zmdi zmdi-close"></em>
+        </a>
+      </div>
+      <div class="panel-group" id="accordion_conf" role="tablist" aria-multiselectable="true">
+       <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="ms-conf-header-headers">
+            <h4 class="panel-title">
+              <a class="collapsed withripple" role="button" data-toggle="collapse" data-parent="#accordion_conf" href="#ms-collapse-conf-2" aria-expanded="false" aria-controls="ms-collapse-conf-2">
+                <em class="zmdi zmdi-view-compact"></em> Header Styles </a>
+            </h4>
+          </div>
+          <div id="ms-collapse-conf-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="ms-conf-header-headers">
+            <div class="panel-body">
+              <h6>Header Options</h6>
+              <form class="form-inverse ms-conf-radio" id="header-config">
+                <div class="form-group">
+                <fieldset>
+                  <div class="radio radio-primary">
+                    <label for="whiteHeader">
+                      <input type="radio" name="customHeader" id="whiteHeader" value="white" checked="cheked"> Light Color </label>
+                  </div>
+                  <div class="radio radio-primary">
+                    <label for="primaryHeader">
+                      <input type="radio" name="customHeader" id="primaryHeader" value="primary"> Primary Color </label>
+                  </div>
+                  <div class="radio radio-primary">
+                    <label for="darkHeader">
+                      <input type="radio" name="customHeader" id="darkHeader" value="dark"> Dark Color </label>
+                  </div>
+                  <div class="radio radio-primary">
+                    <label for="noHeader">
+                      <input type="radio" name="customHeader" id="noHeader" value="hidden"> No Header (Navbar Mode) </label>
+                  </div>
+                  </fieldset>
+                </div>
+              </form>
+              <h6>Navbar Options</h6>
+              <form class="form-inverse ms-conf-radio" id="navbar-config">
+                <div class="form-group">
+                <fieldset>
+                  <div class="radio radio-primary">
+                    <label for="whiteNavbar">
+                      <input type="radio" name="customNavbar" id="whiteNavbar" value="white" checked=""> Light Color </label>
+                  </div>
+                  <div class="radio radio-primary">
+                    <label for="primaryNavbar">
+                      <input type="radio" name="customNavbar" id="primaryNavbar" value="primary"> Primary Color </label>
+                  </div>
+                  <div class="radio radio-primary">
+                    <label for="darkNavbar">
+                      <input type="radio" name="customNavbar" id="darkNavbar" value="dark"> Dark Color </label>
+                  </div>
+                  </fieldset>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="ms-conf-header-container">
+            <h4 class="panel-title">
+              <a class="collapsed withripple" role="button" data-toggle="collapse" data-parent="#accordion_conf" href="#ms-conf-collapse-3" aria-expanded="false" aria-controls="ms-conf-collapse-3">
+                <em class="zmdi zmdi-grid"></em> Container Options </a>
+            </h4>
+          </div>
+          <div id="ms-conf-collapse-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="ms-conf-header-container">
+            <div class="panel-body">
+              <form class="form-inverse ms-conf-radio" id="boxed-config">
+                <div class="form-group">
+                <fieldset>
+                  <div class="radio radio-primary">
+                    <label for="fullWidth">
+                      <input type="radio" name="customWidth" id="fullWidth" value="full" checked=""> Full Width </label>
+                  </div>
+                  <div class="radio radio-primary">
+                    <label for="boxedWidth">
+                      <input type="radio" name="customWidth" id="boxedWidth" value="boxed"> Boxed Mode </label>
+                  </div>
+                  </fieldset>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="ms-preload" class="ms-preload">
+      <div id="status">
+        <div class="spinner">
+          <div class="dot1"></div>
+          <div class="dot2"></div>
+        </div>
+      </div>
+    </div>
+    
+   
+
+   <!-- Top Header -->  
+	   <div class="wrapper common-wrapper">
+	   <div class="container common-container four_content ">
+	      <div class="common-left clearfix">
+	      
+	         <ul>
+             <li><img src="resources/index/img/logo_up.png" alt="..." /></li>
+             <li class="gov-india" style=" text-align: justify;"><span class="responsive_go_hindi" lang="hi"><a target="_blank" href="http://upcmo.up.nic.in/" title="उत्तर प्रदेश  सरकार ( बाहरी वेबसाइट जो एक नई विंडो में खुलती है)">
+                                                      उत्तर प्रदेश सरकार </a></span><span class="li_eng responsive_go_eng"><a target="_blank" href="http://upcmo.up.nic.in/" title="Government Of Uttar Pradesh,External Link that opens in a new window">
+               Uttar Pradesh Government</a></span></li>
+              </ul>
+
+        </div>
+        <div class="common-right clearfix">
+          <ul id="header-nav">
+           <li><a href="javascript:void(0)"title="Screen Reader" >
+             <img src="resources/index/img/icons/screenreader.png" alt="...">
+            </a></li>
+        	<li class="ico-accessibility cf"><a href="javascript:void(0);" id="toggleAccessibility" title="Accessibility Dropdown">
+				
+				<img class="top" src="resources/index/img/icons/ico-accessibility.png" alt="Accessibility Dropdown">
+				
+				</a>
+                  <ul style="visibility: hidden;">
+                     <li> <a   id="Image_fontp"  class="increaseFont" title="Increase font size"href="javascript:void(0);">A<sup>+</sup>
+					  </a> </li>
+                        <li> <a id="Image_fontr"  class="top_navig resetFont" title="Reset font size" href="javascript:void(0);">A<sup>&nbsp;</sup></a> </li>
+                        <li> <a id="Image_fontm" class="top_navig decreaseFont"  title="Decrease font size" href="javascript:void(0);">A<sup>-</sup></a> </li>
+       
+ 
+                     
+                    </ul>
+                </li>
+                  <li class="ico-sitemap cf"><a href="Sitemap" title="Sitemap">
+					 
+					  <img class="top" src="resources/index/img/icons/ico-sitemap.png" alt="Sitemap"></a></li>
+					   <li class="hindi cmf_lan"><a href="javascript:;" title="Select Language">Language</a>
+					   <ul style="visibility: hidden;">
+					   <li>
+					 <a onclick="location.href='?language=hi_IN';" style="cursor: pointer;">हिंदी</a>
+					<a onclick="location.href='?language=en_US';" style="cursor: pointer;">English</a></li>
+					   </ul></li> </ul>
+        </div>
+    </div>
+</div>
+ <!-- End Top Header -->  
+      <header class="ms-header ms-header-primary" style="background-color: #03a9f4;">
+        <div class="container container-full">
+          <div class="ms-title">
+            <a href="#">
+              <!-- <img src="/resources/index/img/demo/logo-header.png" alt=""> -->
+              <span class="ms-logo animated zoomInDown animation-delay-5">S</span>
+              <h1 class="animated fadeInRight animation-delay-6">जनसुनवाई -समाधान </h1>
+            </a>
+          </div>
+          <div class="header-right">
+ 
+ 		 <span>                      अधिकारी लॉगिन</span>
+				 <a href="/login" class="btn-circle btn-circle-primary no-focus animated zoomInDown animation-delay-8">
+              <em class="zmdi zmdi-account"></em>
+            </a>
+             
+            <a href="/" class="btn-circle btn-circle-primary no-focus animated zoomInDown animation-delay-8">
+              <em class="zmdi zmdi-home"></em>
+            </a>
+          </div>
+        </div>
+      </header>
+   <div class="ms-hero-page-override ms-hero-img-city ms-hero-bg-primary">
+        <div class="container">
+          <div class="text-center">
+<!--             <span class="ms-logo ms-logo-lg ms-logo-white center-block mb-2 mt-2 animated  animation-delay-5">W</span>
+ -->            <h3 class="no-m ms-site-title color-white center-block ms-site-title-lg mt-2 animated zoomInDown animation-delay-5">Website Policies
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card card-hero animated slideInUp animation-delay-8 mb-6">
+          <div class="card-block">
+            <h2 class="color-primary">Policies</h2>
+            <div class="row">
+              <div class="col-md-12 text-justify">
+              <p style="font-size:14px;">This Portal is designed, developed, hosted and maintained by NIC, U.P.
+Though all efforts have been made to ensure the accuracy and currency of the content on this Portal, the same should not be construed as a statement of law or used for any legal purposes. NIC accepts no responsibility in relation to the accuracy, completeness, usefulness or otherwise, of the contents. Users are advised to verify/check any information with the relevant Government department(s) and/or other source(s), and to obtain any appropriate professional advice before acting on the information provided in the Portal.
+Facts and information at this website are believed to be accurate at the time they were placed on the website. Changes may be made at any time without prior notice. All data provided on this website is to be used for information purposes only. The information contained on this website and pages within, are not intended to provide specific legal, financial or tax advice, or any other advice, whatsoever, for any individual or company and should not be relied upon in that regard. The services described on this website are only offered in jurisdictions where they may be legally offered. Information provided in our website is not all-inclusive, and is limited to information that is made available to the developers/promoters of the site and such information should not be relied upon as all-inclusive or accurate.
+In no event will the Government or NIC be liable for any expense, loss or damage including, without limitation, indirect or consequential loss or damage, or any expense, loss or damage whatsoever arising from use, or loss of use, of data, arising out of or in connection with the use of this Portal.
+Links to other websites that have been included on this Portal are provided for public convenience only. NIC is not responsible for the contents or reliability of linked websites and does not necessarily endorse the view expressed within them. We cannot guarantee the availability of such linked pages at all times.
+Material featured on this Portal may be reproduced free of charge after taking proper permission by sending a mail to us. However, the material has to be reproduced accurately and not to be used in a derogatory manner or in a misleading context. Wherever the material is being published or issued to others, the source must be prominently acknowledged. However, the permission to reproduce this material shall not extend to any material which is identified as being copyright of a third party. Authorisation to reproduce such material must be obtained from the departments/copyright holders concerned.
+These terms and conditions shall be governed by and construed in accordance with the Indian Laws. Any dispute arising under these terms and conditions shall be subject to the exclusive jurisdiction of the courts of India.</p>
+
+<h2 style="  color: #03a9f4;"> Copyright Statement</h2> <hr>
+<p style="font-size:14px;">Material featured on this site may be reproduced free of charge. However, the material has to be reproduced accurately and not to be used in a derogatory manner or in a misleading context. Wherever the material is being published or issued to others, the source must be prominently acknowledged. However, the permission to reproduce this material shall not extend to any material which is identified as being copyright of a third party. Authorization to reproduce such material must be obtained from the departments/copyright holders concerned.</p>
+		  
+
+
+
+
+
+<h2 style="  color: #03a9f4;">Hyper Linking Policy</h2> <hr>
+<p style="font-size:17px; color:red;">Links to external websites/portals</p>
+<p style="font-size:14px;">At many places in this Portal, you shall find links to other websites/portals. This links have been placed for your convenience. NIC is not responsible for the contents and reliability of the linked websites and does not necessarily endorse the views expressed in them. Mere presence of the link or its listing on this Portal should not be assumed as endorsement of any kind. We cannot guarantee that these links will work all the time and we have no control over availability of linked pages.
+Links to Public Grievance Portal by other websites
+We do not object to you linking directly to the information that is hosted on this Portal and no prior permission is required for the same. However, we would like you to inform us about any links provided to this Portal so that you can be informed of any changes or updations therein. Also, we do not permit our pages to be loaded into frames on your site. The pages belonging to this Portal must load into a newly opened browser window of the User.</p><p>
+</p>
+                
+
+<h2 style="  color: #03a9f4;"> Privacy Policy</h2> <hr>
+<p style="font-size:14px;">Public Grievance Portal does not automatically capture any specific personal information from you, (like name, phone number or e-mail address), that allows us to identify you individually.
+We do not sell or share any personally identifiable information volunteered on the Public Grievance Portal site to any third party (public/private). Any information provided to this Portal will be protected from loss, misuse, unauthorized access or disclosure, alteration, or destruction.
+We gather certain information about the User, such as Internet protocol (IP) addresses, domain name, browser type, operating system, the date and time of the visit and the pages visited. We make no attempt to link these addresses with the identity of individuals visiting our site unless an attempt to damage the site has been detected.</p>
+ 
+ 
+
+<h2 style="  color: #03a9f4;"> Terms and Conditions</h2> <hr>       
+<p style="font-size:14px;">
+This web site is designed and developed by : National Informatics Centre (NIC) U.P. State Unit, Lucknow but contents provided and maintained by Chief Minister Office Uttar Pradesh 
+IT Solution powered by National Informatics Center Uttar Pradesh State Unit Lucknow.
+Though all efforts have been made to ensure the accuracy and currency of the content on this Portal, the same should not be construed as a statement of law or used for any legal purposes. NIC accepts no responsibility in relation to the accuracy, completeness, usefulness or otherwise, of the contents. Users are advised to verify/check any information with the relevant Government department(s) and/or other source(s), and to obtain any appropriate professional advice before acting on the information provided in the Portal.
+In no event will the Government or NIC be liable for any expense, loss or damage including, without limitation, indirect or consequential loss or damage, or any expense, loss or damage whatsoever arising from use, or loss of use, of data, arising out of or in connection with the use of this Portal .
+Links to other websites that have been included on this Portal are provided for public convenience only. NIC is not responsible for the contents or reliability of linked websites and does not necessarily endorse the view expressed within them. We cannot guarantee the availability of such linked pages at all times.
+These terms and conditions shall be governed by and construed in accordance with the Indian Laws. Any dispute arising under these terms and conditions shall be subject to the exclusive jurisdiction of the courts of India.
+</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <!-- Start footer -->
+  
+  <footer id="footer" style="  background: black;">
+  <aside class="ms-footbar" id="Aside1">
+		<div class="container">
+			<div class="row">
+			<div style="  text-align: -webkit-center;">
+					<div class="ms-footbar-block">
+
+						<div class="ms-footbar-social mt-1">
+						
+							<a href='/Disclaimer' style="    padding-right: 1rem; background:none;"> <em class="zmdi zmdi-edit"
+								style="color: #03a9f4"></em> 
+वेबसाइट नीतियां</a> <a
+								href='/About' style="    padding-right: 1rem; background:none;"> <em class="zmdi zmdi-favorite-outline"
+								style="color:#03a9f4"></em> हमारे बारे में </a> <a
+								href='/Support' style="    padding-right: 1rem; background:none;"> <em class="zmdi zmdi-accounts"
+								style="color:#03a9f4"></em> पोर्टल हेतु सुझाव</a> <a
+								href='/Contactus' style="    padding-right: 1rem; background:none;"> <em class="zmdi zmdi-phone"
+								style="color: #03a9f4"></em> संपर्क करें </a>
+
+						</div>
+					</div></div>
+				</div>
+				<div class="col-md-3 col-sm-5 ms-footer-col ms-footer-text-right">
+					<div class="ms-footbar-block">
+						<div class="ms-footbar-title"></div>
+
+					</div>
+				</div>
+
+			</div>
+	</aside>
+  
+        <div style="   text-align: -webkit-center;">
+			<div class="ms-footbar-social" style="   padding-top: 10px;">
+                  <a href="javascript:void(0)" class="btn-circle btn-facebook">
+                    <em class="zmdi zmdi-facebook"></em>
+                  </a>
+                  <a href="javascript:void(0)" class="btn-circle btn-twitter">
+                    <em class="zmdi zmdi-twitter"></em>
+                  </a>
+                  <a href="javascript:void(0)" class="btn-circle btn-youtube">
+                    <em class="zmdi zmdi-youtube"></em>
+                  </a>
+           
+                </div>
+         
+        <p style="  margin-top: 15px;  margin-left: 15px;">
+        Last Updated: <span id="datetime"></span>
+        
+<!--        <a href="http://www.packersandmoversaj.com"></a>-->
+        
+        
+        </p>
+        
+        </div>
+
+    
+    <div class="container">
+			<p style="text-align: center; color:white">&copy; Content owned, updated by the Lok Shikayat Vibhag,
+				Chief Minister Office Uttar Pradesh Government. Website is designed,
+				developed, maintained and hosted by National Informatics Centre,
+				Uttar Pradesh
+                        </p>
+		</div>
+  </footer>
+  <!-- End footer -->
+
+
+    <script src="/resources/index/js/plugins.min.js"></script>
+    <script src="/resources/index/js/app.min.js"></script>
+    <script src="/resources/index/js/configurator.min.js"></script>
+    <script src="/resources/index/js/home-generic-7.js"></script>
+   
+
+	<script>
+	$(document).ready(function () {
+	    // Reset Font Size
+	    var originalFontSize = $('html').css('font-size');
+	    $(".resetFont").click(function () {
+	        $('html').css('font-size', originalFontSize);
+	    });
+	    // Increase Font Size
+	    $(".increaseFont").click(function () {
+	        var currentFontSize = $('html').css('font-size');
+	        var currentFontSizeNum = parseFloat(currentFontSize, 10);
+	        currentFontSizeNum = currentFontSizeNum * 1;
+	        if (currentFontSizeNum < 19) {
+	            var newFontSize = currentFontSizeNum * 1.1;
+	            $('html').css('font-size', newFontSize);
+	        }
+	        return false;
+	    });
+	    // Decrease Font Size
+	    $(".decreaseFont").click(function () {
+	        var currentFontSize = $('html').css('font-size');
+	        var currentFontSizeNum = parseFloat(currentFontSize, 10);
+	        if (currentFontSizeNum > 7) {
+	            var newFontSize = currentFontSizeNum * 0.8;
+	            $('html').css('font-size', newFontSize);
+	        }
+	        return false;
+	    });
+	});
+</script>
+	
+
+  </body>
+
+</html>

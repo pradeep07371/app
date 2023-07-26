@@ -1,0 +1,569 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>एंटी भू-माफिया पोर्टल
+</title>
+    <meta name="generator" content="Bootply" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 	<link rel="stylesheet" href="/resources/assets/css/plugins.min.css" />
+    <link href="/resources/assets1/css/style.css" rel="stylesheet">    
+    
+    <script src="/resources/assets/js/Modelpopforpublicregistion.js"></script>
+</head>
+<body >
+ 
+
+   
+<nav class="navbar navbar-trans navbar-fixed-top" style="max-height: 5%;" role="navigation">
+       <div class="container" style="    width: 94%;    font-size: medium;">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapsible">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-brand" style="padding-top: 7px">
+                <a href="#"> <img src="/resources/assets/img/goi1.png" class="img-circle logosize" style="  margin-top: -2rem;" alt="...">
+                 
+          <h3 style="margin-top: -3.5rem;padding-left: 6rem;font-size: smaller;"> उत्तर प्रदेश सरकार  </h3></a></div>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-collapsible">
+                 <ul class="nav navbar-nav navbar-right">
+                  <li>  <div class="dropdown">
+    <button class="dropbtn" style="background-color: #de631c;margin-top: 1.5rem;border: #de631c;"><em class="fa fa-language" aria-hidden="true"style="    color: black;"></em>
+
+     
+    </button>
+   <div class="dropdown-content" style="    min-width: 100px;">
+    <ul> 
+<li onclick="location.href='?language=hi_IN';" style="cursor: pointer;padding-right: 2rem;padding-top: 1.5rem;color: black;">
+हिंदी</li>
+
+                 <li onclick="location.href='?language=en_US';" style="cursor: pointer;padding-right: 1rem;padding-top: 1.5rem;color: black;"">English</li>
+              </ul>
+
+    </div></div></li>
+               
+               <li>  <div class="dropdown">
+    <button class="dropbtn" style="background-color: #de631c;margin-top: 1.5rem;border: #de631c;">संपर्क करें 
+
+      <em class="fa fa-caret-down"></em>
+    </button>
+    <div class="dropdown-content">
+     <a href="#" style=" font-size: x-small;">ईमेल आई डी :<br> abmp.bor-up@gov.in</a>
+
+    </div></div></li>
+                </ul>      
+  
+<!-- <ul class="nav navbar-nav navbar-right hidden-lg">
+                 <li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">महत्वपूर्ण लिंक
+    <span class="caret"></span></a>
+    <ul class="dropdown-menu">
+     <li><a href="http://upcmo.up.nic.in/" target="_blank">मुख्यमंत्री कार्यालय (उ.प्र.)</a></li>
+                    <li><a href="http://up.gov.in/" target="_blank">उत्तर प्रदेश सरकार</a></li>
+                    <li><a href="http://bor.up.nic.in/homepage/default.aspx" target="_blank">राजस्व परिषद, उत्तर प्रदेश</a></li>
+                    <li><a href="http://jansunwai.up.nic.in/" target="_blank">जनसुनवाई</a></li>
+                  
+    </ul>
+  </li></ul>
+              -->
+
+            </div>
+        </div>
+    </nav>
+
+    <section class="container-fluid" id="section1">
+        <br />
+        
+            <!--  <img src="../assets/yogi1.png" class="img-circle" width="100px" height="100px" style="background-color: #ec8245;" alt="..."> -->
+        
+
+        <h1 class="text-center v-center">एंटी भू-माफिया पोर्टल
+<br />
+            <span class="text-center " style="font-size:20px;color:#454545;">अतिक्रमण हटाने के सम्बन्ध में विवरण </span></h1>
+        
+       
+        <br />
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-sm-12 paraindex"  >
+
+                    <p style="text-align:justify;" >
+            		   
+भू-माफियाओं द्वारा सरकारी एवं निजी सम्पत्तियों पर अवैध कब्जा करने की शिकायतें शासन एवं प्रशासन स्तर पर प्राप्त होती रहती हैं। ऐसे अतिक्रमणकर्ताओं / भूमाफियाओं को चिन्हित कर उनके विरुद्ध प्रभावी कार्यवाही किया जाना आवश्यक है, ताकि जनमानस में सुरक्षा की भावना उत्पन्न हो। सार्वजनिक एवं निजी भूमि पर भू-माफियाओं द्वारा अवैध कब्जे के प्रकरणों में जनसामान्य को अपनी शिकायत सुगमतापूर्वक दर्ज कराने, शिकायत पर कृत कार्यवाही की जानकारी प्राप्त करने, अपना फीडबैक एवं सुझाव देने व वरिष्ठ अधिकारियों द्वारा इन शिकायतों पर की गयी कार्यवाही का सतत् अनुश्रवण किये जाने के उद्देश्य से इस ‘एन्टी भू-माफिया पोर्टल’ का विकास किया गया है।                  
+                    </p>
+                    
+                  	<p class="text-primary" style="text-decoration:solid">भू-माफियाओं के विरुद्ध कार्यवाही के सम्बन्ध में निर्गत महत्वपूर्ण आदेश:</p>
+                    <p style="text-align:justify;"></p>
+	               <ul class="a">                       
+                   <li> <span style="color:orange"><a style="color:#dc5101" href="/resources/pdf/BOR/doc/Anti_bhoomafiya0001.pdf" target="_blank">शासनादेश संख्या-402/1-2-2017-1(सामान्य)/2017 दिनांक-01 मई 2017</a></span></li>
+                   <li>   <span style="color:orange"><a style="color:#dc5101" href="http://bor.up.nic.in/pdf/ScanGOCopy1.pdf"  target="_blank">परिषादेश संख्या-आर-1082/जी-5-01अति/2017 दिनांक - 08 मई 2017</a></span></li>
+                   </ul>
+                   </div></div>
+				 <div class="row">
+                <div class="col-sm-3">
+                    <div class="row" style="margin-left:5px;">
+                      <div class="col-md-12 text-center pnlcom pnl1" style="    background: linear-gradient(-45deg,#0e3a61 0%, #58b5dc 100%);">
+                          
+                            <a style="color: white;" href="#" onclick="antiBhooMafia()">
+                                <i class="glyphicon glyphicon-list-alt dashboard-div-icon " ></i>
+                                <hr />
+                                <h3><u>शिकायत पंजीकरण</u></h3>
+                               <!-- <p>अवैध कब्जे एवं भू-माफिया से सम्बंधित शिकायतों को ऑनलाइन दर्ज करे..</p>-->
+                               </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 text-center">
+                    <div class="row" style="margin-left:5px;">
+                     <div class="col-md-12 text-center pnlcom pnl2" style="    background: linear-gradient(-45deg,#e08a20 0%, #ecc525 100%);">
+                             <a style="color: white;" href="../ComplaintTracker">
+                                  <i class="glyphicon glyphicon-search dashboard-div-icon"  ></i>
+                                 <hr />
+                            <h3><u>शिकायत की स्थिति</u></h3>
+                            <!--<p>अवैध कब्जे एवं भू-माफिया से सम्बंधित दर्ज की गई शिकायतों की वर्तमान स्थिति जानें ..</p>-->
+                          
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 text-center" >
+                    <div class="row" style="margin-left:5px;">
+                       <div class="col-md-12 text-center pnlcom pnl3" style="    background: linear-gradient(-45deg,#186113 0%, #69e86f 100%);">
+                          <a style="color: white;" href="../SendReminder">
+                         
+                             
+                                  <i class="glyphicon glyphicon-time dashboard-div-icon"  ></i>
+
+                          
+                            <hr />
+                               <h3><u>अनुस्मारक भेजें</u></h3>
+                           <!-- <p>शिकायतों के निस्तारण में विलम्ब होने पर सम्बंधित अधिकारी को अनुस्मारक भेजें.. </p>-->
+                          
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-sm-3 text-center">
+                    <div class="row" style="margin-left:5px;">
+                        <div class="col-md-12 text-center pnlcom pnl4" style=" background: linear-gradient(-45deg,#960a0a 0%, #ec8d8d 100%);">
+                          <a style="color: white;" href="../onlineFeedbackEntry">
+                               <i class="glyphicon glyphicon-comment dashboard-div-icon"  ></i>
+                              <hr/>
+                               <h3><u>आपकी प्रतिक्रिया</u></h3>
+                            <!--<p>अपनी प्रतिक्रिया व्यक्त करें.. </p>-->
+                          
+                            </a>
+                        </div>
+                    </div>
+                </div>
+              
+            </div>
+            <!--/row-->
+            <div class="row">
+                <br>
+            </div>
+        </div>
+        <!--/container-->
+    </section>
+
+  <div class="wrapper carousel-wrapper">
+        <div class="container carousel-container">
+            <div id="flexCarousel" class="flexslider carousel"     style="padding-top: 10px;">
+                <div class="region region-featured">
+                    <div id="block-views-footer-banner-block" class="block block-views first last odd">
+
+
+                        <div class="view view-footer-banner view-id-footer_banner view-display-id-block nbs-flexisel-container view-dom-id-5571e0ab7813a36f90e1283a3d2779dc">
+
+
+
+                            <div class="view-content">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="row hidden-xs" >
+                    
+                    <div class="col-md-2 col-sm-3">
+                        <div class="thumbnail thum1" style="padding-bottom: 0px;margin-bottom:10px; border: none;">
+                            <a href="http://india.gov.in/" target="_blank" title="Click here to view more" role="link">
+                                <img src="/resources/assets/img/email/indiaGov.gif" alt="..."/>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-3">
+                        <div class="thumbnail thum1" style="padding-bottom: 0px; margin-bottom:10px;border: none;">
+                            <a href="http://bor.up.nic.in/homepage/default.aspx" target="_blank" title="Click here to view more" role="link">
+                                  <img src="/resources/assets/img/email/bor.png" alt="..."/>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-3">
+                        <div class="thumbnail thum1" style="padding-bottom: 0px;margin-bottom:10px; border: none;">
+                            <a href="http://www.up.gov.in/" target="_blank" title="Click here to view more" role="link">
+                                  <img src="/resources/assets/img/email/govup.png" alt="..."/>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-3">
+                        <div class="thumbnail thum1" style="padding-bottom: 0px;margin-bottom:10px; border: none;">
+                            <a href="http://upcmo.up.nic.in/" target="_blank" title="Click here to view more" role="link">
+                                  <img src="/resources/assets/img/email/upcmo.png" alt="..."/>
+                            </a>
+                        </div>
+                    </div>  
+                              
+                    <div class="col-md-2 col-sm-3">
+                        <div class="thumbnail thum1" style="padding-bottom: 0px;margin-bottom:10px; border: none;">
+                            <a href="/" title="Click here to view more" role="link">
+                                <img src="/resources/assets/img/email/jansunwai.png" alt="..."/>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-2 col-sm-3">
+                        <div class="thumbnail thum1" style="padding-bottom: 0px;margin-bottom:10px; border: none;">
+                            <a href="https://edistrict.up.gov.in/edistrictup/" target="_blank" title="Click here to view more" role="link">
+                                <img src="/resources/assets/img/email/edistrict.png" alt="..."/>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+              <!--  <ul class="flex-direction-nav">
+                    <li class="flex-nav-prev"><a class="flex-prev" href="#" role="link">Previous</a></li>
+                    <li class="flex-nav-next"><a tabindex="-1" class="flex-next flex-disabled" href="#" role="link">Next</a></li>
+                </ul>-->
+            </div>
+        </div>
+    </div>
+
+  
+    <footer id="footer">
+        <div class="container">
+		<div>
+		 
+            
+            
+       
+	  
+	   <div class="clear">
+       </div>
+             <div style="text-align:center; padding-right:50px;padding-left:50px;">© Content owned, updated by Board of Revenue, Uttar Pradesh. 
+                 <br>
+                 Website is designed, developed, maintained and hosted by National Informatics Centre, Uttar Pradesh</div>
+		   </div>
+	</div>
+	
+    </footer>
+     <style>
+        .glybig {
+           font-size:46px;
+          
+        }
+        .glycir {
+            border:2px solid #454545;height:60px;width:60px;font-size:45px; padding: 20px;
+             background-color:#494949;
+             text-align:center;
+             vertical-align:middle;
+             margin:5px;
+        }
+
+
+        
+
+        .pnlcom {
+                
+    margin: 10px;
+    /*padding: 33px;*/
+        padding: 6px;
+    min-height:110px;
+    border-radius: 12px;
+        }
+        .pnl1 {
+            /*background-color: #fed934;
+            // border: 3px solid #ffe46d;*/
+         background: linear-gradient(-45deg,#a77201 0%, #f7c65d 100%);
+        }
+        .pnl2 {
+             background: linear-gradient(-45deg,#019089 0%, #4dd6cf 100%);
+        }
+        .pnl3 {
+               background: linear-gradient(-45deg,#19823c 0%, #9de0b4 100%);
+        }
+        .pnl4 {
+              background: linear-gradient(-45deg,#900623 0%, #e47089 100%);
+        }
+
+
+        .dashboard-div-icon {
+    height: 75px;
+    width: 75px;
+    border: 2px solid #fff;
+    padding: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    font-size: 30px;
+    /*margin-bottom: 20px;*/
+    color: #fff;
+}
+        .pnlcom h3 {
+            font-size:18px;
+        }
+        .paraindex {
+            /*background-color:#fff;*/
+            color:#454545;
+            /*padding:10px;*/
+            font-size:16px;
+        }
+        .logosize
+        {
+                height: 45px;
+    width: 48px;
+    margin-top: -4px;
+        }
+
+.wrapper {
+    display: block;
+    position: relative;
+}
+.carousel-wrapper {
+    padding: 0px 0 0px 0px;
+    background: rgba(178, 181, 176, 0.62) repeat !important;
+    border-top: 2px solid #d2d2d2;
+    border-bottom: 2px solid #d2d2d2;
+}
+
+
+/*
+A custom Bootstrap 3.3.x template
+from http://bootply.com
+
+This CSS code should follow the 'bootstrap.css'
+in your HTML file.
+
+license: MIT
+author: bootply.com
+*/
+
+html,body {
+	height:100%;
+    background:center no-repeat fixed url('#');
+    background-size: cover;
+}
+
+.icon-bar {
+	background-color:#fff;
+}
+
+.logosize {
+    height: 45px;
+    width: 48px;
+    margin-top: -4px;
+}
+
+.navbar-trans {
+	/*background-color:rgba(221, 115, 39, 0.81);*/
+    background-color:#de631c;
+   /*background-color: rgba(255, 108, 52, 0.99);*/
+    color:#fff;
+}
+
+.navbar-trans li>a:hover,.navbar-trans li>a:focus,.navbar-trans li.active {
+	background-color:#09610c;
+}
+
+.navbar-trans a{
+    color:#fefefe;
+}
+
+.navbar-trans .form-control:focus {
+	border-color: #eee;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(100,100,100,0.6);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(100,100,100,0.6);
+}
+
+section {
+	padding-top:55px;  
+    padding-bottom:10px; 
+    min-height:100vh;
+}
+
+.v-center {
+   padding-top: 1%;
+    font-size: 40px;
+    /*text-shadow: #b9b8b7 -7px 3px 8px, #e0e0df 0 45px 30px;*/
+    color: #dc5101;
+}
+  
+.well {
+	border-color:transparent;
+}
+
+a.list-group-item.active,[class*='-info'] {
+	background-color: #168ccc;
+    color:#fff;
+}
+  
+#section1 {
+	/*background-color: #FF9934;*/
+    /*background-color: rgba(255, 153, 52, 0.72);
+    color:#dedeff;*/
+        background-color: rgba(251, 251, 251, 0.79);
+}
+  
+#section2 {
+	background-color: #e5e5ef;
+    color:#686868;
+}
+  
+#section3 {
+	background-color: #168ccc;
+    color:#ddd;
+}
+
+#section4 {
+	background-color: #fff;
+    color:#444;
+}
+
+#section5,#section7,#section7 a {
+    color:#f5f5f5;
+}
+
+#section6 {
+	background-color: #168ccc;
+    color:#ddd;
+}
+
+footer {
+	/*background-color:rgb(44, 68, 62);
+    color:#ddd;
+    min-height:100px;
+    padding-top:20px;
+    padding-bottom:40px;*/
+     background-color: rgb(44, 68, 62);
+    color: #ddd;
+    min-height: 73px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+   
+
+footer .nav>li>a {
+    padding:3px;
+    color:#ccc;
+}
+footer .footermenu {
+    margin: 5px 5px 0;
+    float: none;
+    font-size: 1.2em;
+}
+
+footer .nav>li>a:hover {
+    background-color:transparent;
+	color:#fff;
+}
+.PanelMain
+{
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px;
+   
+}
+
+.box-body {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding: 10px 10px 5px 10px;
+}
+.box.box-solid.box-success {
+    border: 1px solid rgb(48, 76, 30);
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.box.box-solid.box-success > .box-header {
+    color: #000;
+    /* background: #00a65a; */
+    background-color: rgba(85, 168, 7, 0.4);
+    
+}
+
+.box-header.with-border {
+    border-bottom: 1px solid rgb(48, 76, 30);
+    border-top-left-radius: 1em;
+    border-top-Right-radius: 1em;
+}
+
+.box-header {
+    color: #444;
+    display: block;
+    padding: 10px;
+    position: relative;
+}
+    .box-header .box-title {
+        display: inline-block;
+        font-size: 12px;
+        margin: 0;
+        line-height: 1;
+    }
+    
+    
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+    </style>
+
+    <!-- script references -->
+   
+     
+
+    
+</body>
+</html>

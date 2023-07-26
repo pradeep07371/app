@@ -1,0 +1,940 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from agmstudio.io/themes/material-style/1.4/home-generic-7.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 03 May 2017 05:10:13 GMT -->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="#333">
+<title>FAQ</title>
+<meta name="description" content="Material Style Theme">
+<link rel="shortcut icon"
+	href="/resources/index/img/favicon30f4.png?v=3">
+<link rel="stylesheet" href="resources/index/css/preload.min.css">
+<link rel="stylesheet" href="resources/index/css/plugins.min.css">
+<link rel="stylesheet" href="resources/index/css/style.css">
+<link rel="stylesheet" href="resources/index/css/main.css">
+<link rel="stylesheet" href="resources/index/css/width-boxed.min.css"
+	id="ms-boxed">
+<link rel="stylesheet" href="resources/index/css/faq.css">
+<script src="resources/index/js/faq.js"></script>
+
+
+</head>
+<body>
+	<div id="font-setting">
+		<a href="javascript:void(0)"
+			class="ms-conf-btn ms-configurator-btn btn-circle btn-circle-raised btn-circle-primary animated rubberBand">
+			<em class="fa fa-gears"></em>
+		</a>
+		<div id="ms-configurator" class="ms-configurator">
+			<div class="ms-configurator-title">
+				<h3>
+					<em class="fa fa-gear"></em> Theme Configurator
+				</h3>
+				<a href="javascript:void(0);" class="ms-conf-btn withripple"> <em
+					class="zmdi zmdi-close"></em>
+				</a>
+			</div>
+			<div class="panel-group" id="accordion_conf" role="tablist"
+				aria-multiselectable="true">
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="ms-conf-header-headers">
+						<h4 class="panel-title">
+							<a class="collapsed withripple" role="button"
+								data-toggle="collapse" data-parent="#accordion_conf"
+								href="#ms-collapse-conf-2" aria-expanded="false"
+								aria-controls="ms-collapse-conf-2"> <em
+								class="zmdi zmdi-view-compact"></em> Header Styles
+							</a>
+						</h4>
+					</div>
+					<div id="ms-collapse-conf-2" class="panel-collapse collapse"
+						role="tabpanel" aria-labelledby="ms-conf-header-headers">
+						<div class="panel-body">
+							<h6>Header Options</h6>
+							<form class="form-inverse ms-conf-radio" id="header-config">
+								<div class="form-group">
+								<fieldset>
+									<div class="radio radio-primary">
+										<label for="whiteHeader"> <input type="radio" name="customHeader"
+											id="whiteHeader" value="white" checked="cheked">
+											Light Color
+										</label>
+									</div>
+									<div class="radio radio-primary">
+										<label for="primaryHeader"> <input type="radio" name="customHeader"
+											id="primaryHeader" value="primary"> Primary Color
+										</label>
+									</div>
+									<div class="radio radio-primary">
+										<label for="darkHeader"> <input type="radio" name="customHeader"
+											id="darkHeader" value="dark"> Dark Color
+										</label>
+									</div>
+									<div class="radio radio-primary">
+										<label for="noHeader"> <input type="radio" name="customHeader"
+											id="noHeader" value="hidden"> No Header (Navbar Mode)
+										</label>
+									</div>
+									</fieldset>
+								</div>
+							</form>
+							<h6>Navbar Options</h6>
+							<form class="form-inverse ms-conf-radio" id="navbar-config">
+								<div class="form-group">
+								<fieldset>
+									<div class="radio radio-primary">
+										<label for="whiteNavbar"> <input type="radio" name="customNavbar"
+											id="whiteNavbar" value="white" checked=""> Light
+											Color
+										</label>
+									</div>
+									<div class="radio radio-primary">
+										<label for="primaryNavbar"> <input type="radio" name="customNavbar"
+											id="primaryNavbar" value="primary"> Primary Color
+										</label>
+									</div>
+									<div class="radio radio-primary">
+										<label for="darkNavbar"> <input type="radio" name="customNavbar"
+											id="darkNavbar" value="dark"> Dark Color
+										</label>
+									</div>
+									</fieldset>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="ms-conf-header-container">
+						<h4 class="panel-title">
+							<a class="collapsed withripple" role="button"
+								data-toggle="collapse" data-parent="#accordion_conf"
+								href="#ms-conf-collapse-3" aria-expanded="false"
+								aria-controls="ms-conf-collapse-3"> <em
+								class="zmdi zmdi-grid"></em> Container Options
+							</a>
+						</h4>
+					</div>
+					<div id="ms-conf-collapse-3" class="panel-collapse collapse"
+						role="tabpanel" aria-labelledby="ms-conf-header-container">
+						<div class="panel-body">
+							<form class="form-inverse ms-conf-radio" id="boxed-config">
+								<div class="form-group">
+								<fieldset>
+									<div class="radio radio-primary">
+										<label for="fullWidth"> <input type="radio" name="customWidth"
+											id="fullWidth" value="full" checked=""> Full Width
+										</label>
+									</div>
+									<div class="radio radio-primary">
+										<label for="boxedWidth"> <input type="radio" name="customWidth"
+											id="boxedWidth" value="boxed"> Boxed Mode
+										</label>
+									</div>
+									</fieldset>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="ms-preload" class="ms-preload">
+			<div id="status">
+				<div class="spinner">
+					<div class="dot1"></div>
+					<div class="dot2"></div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<!-- Top Header -->
+		<div class="wrapper common-wrapper">
+			<div class="container common-container four_content ">
+				<div class="common-left clearfix">
+
+					<ul>
+						<li><img src="resources/index/img/logo_up.png" alt="up-gov-logo"></li>
+						<li class="gov-india" style="text-align: justify;"><span
+							class="responsive_go_hindi" lang="hi"><a target="_blank"
+								href="http://upcmo.up.nic.in/"
+								title="उत्तर प्रदेश  सरकार ( बाहरी वेबसाइट जो एक नई विंडो में खुलती है)">
+									उत्तर प्रदेश सरकार </a></span><span class="li_eng responsive_go_eng"><a
+								target="_blank" href="http://upcmo.up.nic.in/"
+								title="Government Of Uttar Pradesh,External Link that opens in a new window">
+									Uttar Pradesh Government</a></span></li>
+					</ul>
+
+				</div>
+				<div class="common-right clearfix">
+					<ul id="header-nav">
+						<li><a href="ScreenReader" title="Screen Reader"> <img
+								src="resources/index/img/icons/screenreader.png" alt="">
+						</a></li>
+						<li class="ico-accessibility cf"><a
+							href="javascript:void(0);" id="toggleAccessibility"
+							title="Accessibility Dropdown"> <img class="top"
+								src="https://dipp.gov.in/sites/all/modules/cmf/cmf_content/assets/images/ico-accessibility.png"
+								alt="Accessibility Dropdown">
+
+						</a>
+							<ul style="visibility: hidden;">
+								<li><a id="Image_fontp" class="increaseFont"
+									title="Increase font size" href="javascript:void(0);">A<sup>+</sup>
+								</a></li>
+								<li><a id="Image_fontr" class="top_navig resetFont"
+									title="Reset font size" href="javascript:void(0);">A<sup>&nbsp;</sup></a>
+								</li>
+								<li><a id="Image_fontm" class="top_navig decreaseFont"
+									title="Decrease font size" href="javascript:void(0);">A<sup>-</sup></a>
+								</li>
+
+
+
+							</ul></li>
+						<li class="ico-sitemap cf"><a href="Sitemap"
+							title="Sitemap"> <img class="top"
+								src="resources/index/img/icons/ico-sitemap.png" alt="Sitemap"></a></li>
+						<li class="hindi cmf_lan"><a href="javascript:;"
+							title="Select Language">Language</a>
+							<ul style="visibility: hidden;">
+								<li><a onclick="location.href='?language=hi_IN';"
+									style="cursor: pointer;">हिंदी</a> <a
+									onclick="location.href='?language=en_US';"
+									style="cursor: pointer;">English</a></li>
+							</ul></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- End Top Header -->
+		<header class="ms-header ms-header-primary"
+			style="background-color: #03a9f4;">
+			<div class="container container-full">
+				<div class="ms-title">
+					<!-- <a href="index-2"> --> <!-- <img src="/resources/index/img/demo/logo-header.png" alt=""> -->
+						<span class="ms-logo animated zoomInDown animation-delay-5">S</span>
+						<h1 class="animated fadeInRight animation-delay-6">
+							जनसुनवाई -समाधान 
+							<!--   <span>Style</span> -->
+						</h1>
+					</a>
+				</div>
+				<div class="header-right">
+
+					<span> 
+						अधिकारी लॉगिन</span> <a href="/login"
+						class="btn-circle btn-circle-primary no-focus animated zoomInDown animation-delay-8">
+						<em class="zmdi zmdi-account"></em>
+					</a> <a href="/"
+						class="btn-circle btn-circle-primary no-focus animated zoomInDown animation-delay-8">
+						<em class="zmdi zmdi-home"></em>
+					</a>
+				</div>
+			</div>
+		</header>
+		<div class="ms-hero-page-override ms-hero-img-city ms-hero-bg-primary">
+			<div class="container">
+				<div class="text-center">
+					<!--             <span class="ms-logo ms-logo-lg ms-logo-white center-block mb-2 mt-2 animated  animation-delay-5">W</span>
+ -->
+					<h3
+						class="no-m ms-site-title color-white center-block ms-site-title-lg mt-2 animated zoomInDown animation-delay-5"
+						style="padding-top: 5rem;">Frequently Asked Questions</h3>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="card card-hero animated slideInUp animation-delay-8 mb-6">
+				<div class="card-block">
+					<h2 class="color-primary"></h2>
+					<div class="row">
+
+						<div class="cd-faq-items" style="padding-left: 0.1rem;">
+							<ul id="basics" class="cd-faq-group">
+								<li class="cd-faq-title"><h2></h2></li>
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;">प्रणाली कब से प्रारंभ  हुयी है?</a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">
+											• यह प्रणाली 25 जनवरी 2016 से जनपद स्तर पर प्रारम्भ की गयी
+											थी|<br /> • अन्य स्तरों पर यह प्रणाली 20 फ़रवरी 2016 से लागू
+											की गयी|
+										</p>
+
+									</div> <!-- cd-faq-content --></li>
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;">प्रणाली की वेबसाइट कैसे खोलें?</a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">• कंप्यूटर के वेब ब्राउज़र
+											(Mozilla Firefox, Google Chrome) से इस यूoआरoएल के द्वारा -
+											http://jansunwai.up.nic.in/ अथवा http://samadhan.gov.in/</p>
+
+									</div> <!-- cd-faq-content --></li>
+
+
+
+								<!-- cd-faq-group -->
+
+
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;">यदि यूजर आई.डी. ना हो तो कैसे
+										प्राप्त करें?</a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">
+											• प्रमुख सचिव,जिलाधिकारी/SSP आदि के Login-Id, IGRS cell
+											द्वारा उपलब्ध कराये गए है शेष अधिकारियों के Login-Id/Password
+											अपने जनपद के जिला सूचना विज्ञान अधिकारी से प्राप्त कर सकते है
+											<br /> • अपने कार्यालय के प्रमुख सचिव एवं जनसुनवाई हेतु
+											कार्यालय के नोडल अधिकारी का विवरण देकर jansunwai-up@gov.in पर
+											ईमेल करें|
+										</P>
+									</div> <!-- cd-faq-content --></li>
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;">यदि पासवर्ड भूल गए हैं, या पासवर्ड
+										गलत बता रहा है,तो क्या करें?</a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">• प्रणाली के लॉग इन पेज पर
+											नीचे की तरफ पासवर्ड रिसेट करने का आप्शन दिया गया है, जिस पर
+											क्लिक करके पासवर्ड को रिस्टोर किया जा सकता है|</p>
+									</div> <!-- cd-faq-content --></li>
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;">यदि प्रणाली संचालन का प्रशिक्षण
+										प्राप्त करना चाहते हैं तो कहाँ से प्राप्त करें?</a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">
+											•‘सहायता/HELP’के आप्शन में प्रशिक्षण हेतु सामग्री उपलब्ध है|<br />
+											•इसके अतिरिक्त शासन एवं लखनऊ स्थित विभागाध्यक्ष / निदेशालय
+											स्तर के अधिकारी मुख्यमंत्री कार्यालय में स्थित लोक शिकायत
+											अनुभाग -5 में प्रशिक्षण हेतु संपर्क कर सकते हैं|<br /> •अन्य
+											जनपदों में स्थित विभागाध्यक्ष / निदेशालय स्तर के अधिकारी तथा
+											मंडल, जनपद इत्यादि  स्तर के अधिकारी अपने जनपद के जिला सूचना
+											विज्ञान अधिकारी (NIC) से संपर्क कर प्रशिक्षण प्राप्त कर सकते
+											हैं |
+										</p>
+									</div> <!-- cd-faq-content --></li>
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;">प्रणाली पर कार्य कैसे प्रारम्भ
+										करें? क्या प्रशिक्षण हेतु यूजर मैन्युअल या प्रशिक्षण वीडियो
+										उपलब्ध हैं? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">
+											•लॉग इन करने के पश्चात् बाये ओर मेनू बार पर स्थित विभिन्न
+											मेनू विकल्पों का प्रयोग करके कार्य प्रारंभ कर सकते है। <br />
+											•जनसुनवाई पोर्टल पर कार्य करने हेतु प्रशिक्षण वीडियो , यूजर
+											मनुअल तथा FAQ लॉग इन करने के पश्चात बाये ओर स्थित मेनू बार
+											(वर्किंग बोर्ड) में ‘सहायता/HELP’ आप्शन में उपलब्ध हैं जिनको
+											देखकर/पढ़कर इस सिस्टम की कार्य प्रणाली  को समझा जा सकता है| <br />
+										</p>
+									</div> <!-- cd-faq-content --></li>
+
+
+								<li class="cd-faq-title"><h2></h2></li>
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;">डैशबोर्ड क्या है? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">•डैशबोर्ड आपको प्राप्त समस्त
+											सन्दभों का संक्षिप्त विवरण है| यहाँ  से आप विभिन्न रिपोर्ट्स
+											प्रिंट कर सकते हैं| इसके अतिरिक्त डैशबोर्ड पर विभिन्न
+											समीक्षात्मक सूचनाएं व् नवीनतम निर्देश भी देखे जा सकते है| •
+											यह वर्किंग बोर्ड नहीं है अर्थात यहाँ दिख रहे संदर्भो पर
+											कार्यवाही यहाँ से नहीं की जा सकती हैं | कार्यवाही हेतु बायीं
+											ओर काली पट्टी पर दिए गये विभिन्न मेनू विकल्पों का प्रयोग
+											करें|</p>
+									</div> <!-- cd-faq-content --></li>
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;"> वर्किंग बोर्ड क्या है? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">• प्रणाली में प्राप्त सन्दर्भ 
+											पर कार्यवाही हेतु बायीं ओर काली पट्टी पर विभिन्न मेनू आप्शन
+											दिए गए हैं, इसी को वर्किंग बोर्ड कहते हैं|</p>
+									</div> <!-- cd-faq-content --></li>
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;">सन्दर्भ संख्या क्या है? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">जनसुनवाई प्रणाली में सन्दर्भ
+											के पंजीकृत होने पर प्रणाली द्वारा उस सन्दर्भ  हेतु चौदह अंको की
+											एक विशिष्ट संख्या आवंटित की जाती है, जो सन्दर्भ संख्या कहलाती
+											है। यह सन्दर्भ संख्या महत्वपूर्ण होती है, इसका प्रयोग करके
+											किसी भी समय उस सन्दर्भ की निस्तारण  स्थिति को प्रणाली में ज्ञात
+											किया जा सकता है|</p>
+									</div> <!-- cd-faq-content --></li>
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;"> ऑनलाइन सन्दर्भ कौन से सन्दर्भ
+										होते हैं? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">प्रदेश में पहली बार आम-जन को
+											अपनी शिकायतों को ऑनलाइन दर्ज करने की सुविधा इस प्रणाली के
+											माध्यम से दी गयी है| जनता द्वारा इस सुविधा  का प्रयोग करके
+											दर्ज किये गये संदर्भो/ शिकायतों को ऑनलाइन सन्दर्भ कहते हैं।</p>
+									</div></li>.
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;"> PG पोर्टल सन्दर्भ कौन से सन्दर्भ
+										होते हैं? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">पी0जी0 पोर्टल सन्दर्भ वह
+											सन्दर्भ होते है जो भारत सरकार द्वारा राज्य सरकार को भेजे जाते
+											हैं और राज्य सरकार द्वारा उन संदर्भो को विभिन्न विभागों को
+											प्रेषित कर उनका निस्तारण  करवाया जाता है।</p>
+									</div></li>
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;">मुख्यमंत्री सन्दर्भ और ऑनलाइन
+										सन्दर्भ को सन्दर्भ संख्या से कैसे पहचानें? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">सन्दर्भ संख्या के प्रथम अकं से
+											आप सन्दर्भ का श्रोत जान सकते हैं- ‘1’ मुख्यमंत्री सन्दर्भ,
+											‘2’ जिलाधिकारी सन्दर्भ , ‘3’ तहसील दिवस सन्दर्भ, ‘4’ ऑनलाइन
+											सन्दर्भ, ‘5’ CSC/लोकवाणी सन्दर्भ एवं ‘6’ PG पोर्टल सन्दर्भ
+											उदहारण स्वरुप  - 11166160021769 मुख्यमंत्री सन्दर्भ  है और
+											40018316000393 ऑनलाइन सन्दर्भ  है|</p>
+									</div></li>
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;"> ‘आख्या’ और ‘अंतरित’ श्रेणी क्या
+										है? यह सन्दर्भ कैसे निस्तारित होंगे? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">
+											• ‘आख्या’ श्रेणी का अर्थ यह है कि प्रेषक अधिकारी ने सन्दर्भ
+											पर आपसे आख्या (रिपोर्ट) मांगी है| आख्या सन्दर्भ  आपके खाते से
+											तभी निस्तारित होंगे, जब आप द्वारा अंकित /अपलोड की गयी आख्या
+											को उच्च स्तर से अनुमोदन प्राप्त हो जाएगा| आख्या श्रेणी का
+											सन्दर्भ  सभी यूजर के खाते से अंतिम रूप से तभी निस्तारित होंगे ,
+											जब अंकित /अपलोड की गयी आख्या को प्रथम आदेशकर्ता  अधिकारी स्तर
+											से अनुमोदन प्राप्त हो जाएगा| <br /> • ‘अंतरित ’ श्रेणी का यह
+											है कि प्रेषक ने आख्या की अपेक्षा नही की है, आपके या आपके
+											अधीनस्थ कार्यालय द्वारा सन्दर्भ की निस्तारण  आख्या /टिप्पणी
+											अंकित करते ही सन्दर्भ समस्त स्तरों से निस्तारित हो जाएगा| <br />•
+											मुख्यमंत्री सन्दभों में आख्या का आशय है सक्षम स्तर से
+											हस्ताक्षरित  व् स्कैन्ड रिपोर्ट | अन्य सन्दभों यथा- ऑनलाइन,
+											पी०जी०पोर्टल, तहसील दिवस अदि में आख्या सन्दभों में स्कैन्ड
+											रिपोर्ट को अपलोड करना अनिवार्य नही है, आख्या को बॉक्स में
+											टाइप करके अंकित करना भी पर्याप्त है|
+										</p>
+									</div></li>
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;"> यदि कोई सन्दर्भ हमसे सम्बंधित 
+										नहीं है, तो ऐसी स्थिति में क्या करें? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">लाल रंग के ‘कार्यालय से
+											 सम्बंधित  नहीं’ बटन पर क्लिक करके वह सन्दर्भ प्रेषक को वापस
+											भेजें|</p>
+									</div></li>
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;"> कौन से सन्दर्भ अधीनस्थ कार्यालय
+										को प्रेषित किये जाने हैं? और कैसे? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">
+											•ऐसे सन्दर्भ जिनके  संबध में कार्यवाही अधीनस्थ कार्यालय स्तर से
+											की जानी है, वे सन्दर्भ ‘अधीनस्थ को प्रेषित करें’ बटन पर क्लिक
+											करके भेजे जा सकते हैं| <br /> • यदि कोई सन्दर्भ शासन स्तरीय
+											कार्यालय में प्राप्त हुआ है, परन्तु सन्दर्भ का निस्तारण 
+											निदेशालय या जनपद स्तरीय कार्यालय से होना है, तो शासन स्तरीय
+											नोडल अधिकारी ऐसे संदर्भो को निदेशालय  या जनपदीय कार्यालय  को
+											सीधे ऑनलाइन ही मार्क करते हुए अग्रसारित करेंगे| <br /> • इन
+											संदर्भो का प्रिंट निकालने की आवश्यकता नहीं है|
+										</p>
+									</div></li>
+
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;"> कौन से सन्दर्भ अधीनस्थ कार्यालय
+										को प्रेषित किये जायेंगे?</a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">
+											दो प्रकार के सन्दर्भ - <br />1. जिनकी आख्या अधीनस्थ कार्यालय
+											से मंगानी है| <br /> 2. जिनका निस्तारण अधीनस्थ कार्यालय
+											द्वारा ही होना है|
+										</p>
+									</div></li>
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;"> यदि सन्दर्भ एक से अधिक कार्यालयों
+										से सम्बंधित है तो उसे कैसे प्रेषित करें?</a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">अग्रसारण पेज पर एक से अधिक
+											अधिकारियो को मार्क करने हेतु बटन दिया गया है जिसका नाम है-
+											‘अग्रसारित एवं अन्य अधिकारी को अग्रसारित’</p>
+									</div></li>
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;"> क्या सारे सन्दर्भ कार्यालय स्तर
+										पर लंबित किये जाने हैं? और कैसे? कार्यालय स्तर पर लंबित किये
+										जाने के बाद सन्दर्भ का व्यवहरण कैसे किया जाएगा? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">
+											• नहीं| मात्र वही सन्दर्भ कार्यालय  स्तर पर लंबित किये जायेंगे
+											सम्बन्ध में कायवाही आपके ही कार्यालय से की जानी है| <br /> •
+											उदहारण स्वरुप  -यदि सन्दर्भ विभाग की नीति से संबंधित है, और इस
+											सन्दर्भ में शासन स्तरीय कार्यालय को निदेशालय से कोई आख्या
+											अपेक्षित न हो, तो ऐसे सन्दर्भ का जवाब शासन स्तरीय कार्यालय
+											में ही बनेगा| अतः यह सन्दर्भ शासन स्तर के नोडल अधिकारी द्वारा
+											अपने कार्यालय स्तर पर लंबित किया जायेगा | <br />•कार्यालय
+											स्तर पर लंबित करने हेतु ‘कार्यालय स्तर पर लंबित करें’ बटन का
+											उपयोग करें| <br /> • कार्यालय स्तर पर सन्दर्भ को लंबित करने
+											के उपरांत उसका प्रिंट निकलकर सक्षम अधिकारी से मार्क कराकर
+											संबंधित अनुभाग/पटल को हार्ड कॉपी में भेजा जाएगा| <br /> •
+											संबंधित अनुभाग/पटल इस सन्दर्भ पर कार्यवाही करने के उपरांत
+											अनुमोदित आख्या नोडल अधिकारी को उपलब्ध करायेंगे, जिसे नोडल
+											अधिकारी द्वारा प्रणाली में अपलोड किया जाएगा|
+										</p>
+									</div></li>
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;"> क्या सभी संदर्भो को आख्या श्रेणी
+										में अग्रसारित करना है? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">
+											• जिन सन्दभों पर आपको अपने अधीनस्थ कार्यालय से आख्या चाहिए ,
+											उनको ही आप आख्या श्रेणी में अग्रसारित करें| अग्रसारण के
+											उपरांत जब अधीनस्थ कार्यालय से आख्या प्राप्त होगी, तब उसे आपको
+											अनुमोदित करना होगा, तभी वह अधीनस्थ कार्यालय के स्तर पर
+											निस्तारित हो जायेगी| <br /> • शेष अन्य को आप ‘अंतरित श्रेणी’
+											में अग्रसारित करें|
+										</p>
+									</div></li>
+
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;"> क्या उच्च स्तर से प्राप्त सन्दर्भ
+										की श्रेणी बदल सकते हैं? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">उच्च स्तर से प्राप्त आख्या
+											सन्दभों की श्रेणी परिवर्तित नहीं की जा सकती है, जबकि अंतरित
+											सन्दभों की श्रेणी आप अपनी आवश्यकतानुसार बदल सकते है|</p>
+									</div></li>
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;"> कार्यालय स्तर पर लंबित सन्दर्भ को
+										आप प्रिंट कैसे करेंगे? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">प्रिंट करने हेतु सबसे पहले 14
+											अंको की सन्दर्भ संख्या पर क्लिक करें| सन्दर्भ का विस्तृत
+											विवरण पॉप-अप विंडो में खुल जाएगा| जिसे आप "प्रिंट करो" बटन का
+											उपयोग करके प्रिंट कर सकते है विस्तृत विवरण में नीचे की ओर
+											"संलग्नक देखे" का बटन भी है, जहाँ  से आप संलग्नक को देख और
+											प्रिंट कर सकते हैं|</p>
+									</div></li>
+
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;"> क्या समस्त प्राप्त संदर्भो का
+										प्रिंट निकलना हैं ? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">नहीं, समस्त सन्दभों का प्रिंट
+											निकालना आवश्यक नहीं है| मात्र कार्यालय स्तर पर कार्यवाही किये
+											जाने वाले सन्दभों को ही प्रिंट करके उन पर आदेश प्राप्त कर
+											कार्यवाही की जानी है|</p>
+									</div></li>
+
+
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;"> कार्यालय स्तर पर लंबित करके
+										अनुभागों को मार्क किये  गए संदर्भो का रिकॉर्ड कैसे रखा जाएगा
+										कि कौन-कौन से सन्दर्भ कब और किस अधिकारी /सेक्शन /पटल को भेजे
+										गए हैं? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">
+											• कार्यालय स्तर पर लंबित संदर्भो का प्रिंट निकाले | <br /> •
+											उस प्रिंट का सक्षम स्तर से आदेश प्राप्त करें| <br /> •
+											सन्दर्भ जिसको मार्क किया गया है, उस अधिकारी/सेक्शन /पटल की
+											प्रविष्टी प्रणाली में ‘कार्यालय स्तर पर लंबित  सन्दर्भ ’ आप्शन
+											में की जायेगी| कौन-कौन से सन्दर्भ कब और किस अधिकारी/सेक्शन
+											/पटल को भेजे गए हैं, यह सूचना आप ‘रिपोर्ट्स ’ आप्शन से
+											प्राप्त कर सकते हैं|
+										</p>
+									</div></li>
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;"> यदि किसी सन्दर्भ का उत्तर हमको
+										ज्ञात है, और हम उसका जवाब भेजना चाहते हैं, तो कहाँ  पर एंट्री
+										करें? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">
+											• सन्दर्भ को पहले कार्यालय स्तर पर लंबित करें| <br /> •
+											लंबित करने के बाद ‘कार्यालय स्तर पर लंबित सन्दर्भ ’ ऑप्शन में
+											जाये | <br /> • सन्दर्भ के समक्ष ‘आख्या डालें’ बटन पर क्लिक
+											करके आख्या भर दें।
+										</p>
+									</div></li>
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;"> प्रणाली में आख्या हिंदी में लिखनी
+										है या इंग्लिश में भी? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">हिंदी में|</p>
+									</div></li>
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;">हिंदी में लिखने हेतु किस फॉण्ट का
+										प्रयोग किया जाएगा? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">हिंदी में लिखने हेतु यूनिकोड
+											मंगल फॉण्ट या गूगल हिंदी इनपुट टूल का प्रयोग करें|</p>
+									</div></li>
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;">अधीनस्थ कार्यालय से आख्या कैसे और
+										कहाँ  प्राप्त होगी? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">अधीनस्थ कार्यालय द्वारा आख्या
+											प्रेषित किये जाने पर वह आख्या आपके ‘अधीनस्थ से आख्या प्राप्त,
+											परन्तु अनुमोदन हेतु लंबित ’ आप्शन में प्राप्त होगी| . अधीनस्थ
+											द्वारा प्रेषित आख्या आपको ऑनलाइन ही प्राप्त होगी, हार्ड कॉपी
+											में आख्या भेजने/मंगाने की आवश्यकता अब नहीं होगी|</p>
+									</div></li>
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;"> अधीनस्थ कार्यालय से आख्या प्राप्त
+										होने पर क्या करें? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">
+											चार विकल्प हैं- <br /> 1. प्राप्त आख्या से सहमति की दशा में
+											उसको अनुमोदित करें| <br /> 2. आख्या से सहमत न होने पर आपत्ति
+											के साथ वापस कर दें| <br /> 3. अग्रेतर कार्यवाही हेतु आख्या
+											को अपने कार्यालय पर लंबित करें| <br /> 4. अग्रेतर कायावाही
+											हेतु अन्य अधीनस्थ कार्यालय को प्रेषित करें |
+										</p>
+									</div></li>
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;"> क्या सभी संदर्भो की आख्या
+										कार्यालय स्तर से भरी जानी है? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">नहीं। मात्र उन्ही संदर्भो की
+											आख्या आपके कार्यालय स्तर से भरी जायेगी जिनकी आख्या आपके
+											कार्यालय में तैयार की गयी है|</p>
+									</div></li>
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;"> कार्यालय स्तर से आख्या कैसे भरी
+										जायेगी? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">
+											• कार्यालय स्तर पर सन्दर्भ लंबित करने के पश्चात संबंधित पटल
+											सहायक द्वारा प्रकरण में जो कार्यवाही की गयी है, उसकी आख्या
+											भरने हेतु पहले ‘कार्यालय स्तर पर लंबित सन्दर्भ ’ आप्शन में
+											जाये | <br /> • सन्दर्भ के समक्ष ‘आख्या डालें’ बटन पर क्लिक
+											करके आख्या प्रविष्टि /अपलोड कर दें।
+										</p>
+									</div></li>
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;"> क्या सभी संदर्भो में संलग्नक को
+										स्कैन-अपलोड किया जाना आवश्यक है? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">नहीं। मात्र आख्या श्रेणी के
+											मुख्यमंत्री संदर्भो  में सक्षम स्तर से हस्ताक्षरित व् स्कैन्ड
+											आख्या/रिपोर्ट को स्कैन-अपलोड किया जाना अनिवार्य हैं |</p>
+									</div></li>
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;"> क्या एक से अधिक पेज का संलग्नक
+										अपलोड किया जा सकता है? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">हॉं । कई पेजों को एक साथ pdf
+											फाइल में स्कैन करके |</p>
+									</div></li>
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;"> कौन कौन से फाइल फॉर्मेट अपलोड
+										हेतु मान्य हैं? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">500 के0वी0।</p>
+									</div></li>
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;"> फाइल की साइज़ को 500 kb तक सीमित
+										कैसे करें? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">
+											• आख्या को स्कैन करते समय स्कैनर की सेटिंग्स में B/W चुनें,
+											इसके अतिरिक्त फाइल की रिजुलेसन (DPI) को न्यूनतम पर सेट
+											करें| <br /> • आप पिक्चर फाइल्स को Microsoft Office Picture
+											Manager में खोलकर उनकी साइज़ कम कर सकते हैं|
+										</p>
+									</div></li>
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;"> यदि सन्दर्भ में अधीनस्थ कार्यालय
+										से आख्या प्राप्त हो गयी है, पर सन्दर्भ के किसी बिंदु पर किसी
+										अन्य अधिकारी का मंतव्य लेना आवश्यक हो, तो उस अधिकारी को
+										सन्दर्भ कैसे भेजें? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">
+											• यदि वह अधिकारी आपके ही कार्यालय में तैनात है, तो आख्या को
+											कार्यालय स्तर पर लंबित करने के पश्चात् उसका प्रिंट लेकर उस
+											अधिकारी से पत्रावली पर मंतव्य प्राप्त किया जाएगा| <br /> •
+											यदि वह अधिकारी आपके किसी अन्य अधीनस्थ कार्यालय में तैनात है,
+											तो प्राप्त आख्या को अन्य अधीनस्थ कार्यालय को प्रेषित करें|
+										</p>
+									</div></li>
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;"> यदि अधिनस्थ कार्यालय से आख्या
+										प्राप्त होने पर यह निर्धारित नहीं हो पा रहा है की आख्या पर
+										क्या किया जाना है तो क्या करें? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">
+											• अग्रेतर कार्यवाही  हेतु आख्या को अपने कार्यालय पर लंबित करें|
+											<br /> • कार्यालय स्तर पर लंबित आख्या के साथ सन्दर्भ का
+											प्रिंट निकाले | <br /> • उस प्रिंट पर सक्षम स्तर से आदेश
+											प्राप्त करें| <br /> • आख्या जिसको मार्क की गयी है, उस
+											अधिकारी/सेक्शन /पटल की प्रविष्टि प्रणाली में ‘कार्यालय स्तर
+											पर लंबित आख्या’ आप्शन में की जायेगी| <br /> • तदोपरांत
+											संबंधित अधिकारी/सेक्शन /पटल द्वारा उस आख्या का व्यवहरण
+											पत्रावली पर किया जाएगा| <br /> • पत्रावली पर लिए गए अंतिम
+											निर्णय को प्रणाली में दर्ज किया जाएगा|
+										</p>
+									</div></li>
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;"> क्या सभी श्रेणी के संदर्भो पर
+										अनोमोदन दिया जाना है? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">नहीं। मात्र प्राप्त आख्या
+											श्रेणी सन्दभों में अधीनस्थ से प्राप्त आख्या से सहमति की दशा
+											में उसको अनुमोदित करें|</p>
+									</div></li>
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;"> किस सन्दर्भ की आख्या भरते ही वह
+										निस्तारित समझा जायेगा? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">अंतरित श्रेणी के सन्दर्भ में
+											किसी भी स्तर से आख्या/रिपोर्ट को अंकित करने पर वह सन्दर्भ
+											समस्त स्तरों से निस्तारित हो जाएगा|</p>
+									</div></li>
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;"> क्या पुराने मुख्यमंत्री सन्दर्भ
+										इस प्रणाली में हैं? यदि हैं, तो उनको कैसे देखें ? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">वर्किंग बोर्ड में (बायीं ओर
+											काली पट्टी पर) ‘आख्या अपलोड हेतु दिनांक 20 फ़रवरी 2016 से
+											पूर्व के मुख्यमंत्री सन्दर्भ ’ का आप्शन दिया गया है |</p>
+									</div></li>
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;"> कोई सन्दर्भ यदि नहीं मिल रहा है,
+										तो उसे कैसे खोजें? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">
+											<br /> • बाईं ओर स्थित वर्किंग बोर्ड में ‘सन्दर्भ खोंजे ’
+											आप्शन पर क्लिक करें| <br /> • तत्पश्चात खुले पेज के बॉक्स  में
+											14 अंक वाली सन्दर्भ संख्या को डालकर आप सन्दर्भ खोज सकते है। <br />
+											• तदोपरांत प्रकट हुए सन्दर्भ के अग्रसारण प्रवाह को देखकर उस
+											सन्दर्भ को संबंधित मेनू आप्शन में भी खोजा जा सकता है ताकि
+											उसपर अग्रेतर कार्यवाही की जा सके|
+										</p>
+									</div></li>
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;"> समीक्षा हेतु रिपोर्ट  का प्रिंट
+										कैसे निकाले ? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">
+											<br /> • बाईं ओर स्थित वर्किंग  बोर्ड में ‘रिपोर्ट ’ आप्शन पर
+											क्लिक करके विभिन्न प्रकार की रिपोर्ट्स निकाली जा सकती हैं <br />
+											• डैशबोर्ड से भी रिपोर्ट्स निकाली जा सकती हैं|
+										</p>
+									</div></li>
+
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;"> क्या प्रोफाइल को अपडेट रखना
+										आवश्यक है? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">
+											<br /> • हाँ क्यूंकि प्रणाली संबंधी ईमेल एवं SMS प्रोफाइल में
+											अंकित सूचनाओं के अनुसार भेजे जायेंगे | <br /> • इसके
+											अतिरिक्त पासवर्ड भूलने या रिसेट करने पर OTP (वन-टाइम-पासवर्ड
+											) इन्ही नंबरों पर प्राप्त होगा |
+										</p>
+									</div></li>
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;"> यदि कार्यालयाध्यक्ष एवं नोडल
+										अधिकारी  दोनों एक ही हैं, तो प्रोफाइल में नोडल अधिकारी  का विवरण
+										भरा जाय या नहीं? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">
+											<br /> •भरा जाएगा | <br /> • ऐसी स्थिति में दोनों स्थानों
+											पर समान विवरण अनिवार्य  रूप से अंकित अवश्य किया जाए|
+										</p>
+									</div></li>
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;"> क्या इस प्रणाली पर हमको रोज
+										लॉग-इन करना जरूरी है? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">जैसे कार्यालय में प्रतिदिन डाक
+											मार्क की जाती है, उसी भांति इस प्रणाली के माध्यम से प्राप्त
+											हो रही डाक (सन्दर्भ ) पर कार्यवाही हेतु इस प्रणाली पर
+											प्रतिदिन लॉग-इन किया जाना अपेक्षित है|</p>
+									</div></li>
+								<li><a class="cd-faq-trigger" href="#0"
+									style="font-size: 18px;"> यदि किसी समस्या का समाधान नहीं हो
+										पा रहा हो, तो कहाँ  संपर्क करें? </a>
+									<div class="cd-faq-content">
+										<p style="font-size: 15px;">
+											<br /> • ईमेल jansunwai-up@gov.in एवं
+											jansunwaiup2016@gmail.com पर समस्या का विवरण भेजें| ईमेल में
+											विभाग /कार्यालय का नाम, नोडल अधिकारी का संपर्क सूत्र अवश्य
+											अंकित करें| <br /> • मुख्यमंत्री कार्यालय के भूतल पर स्थित
+											लोक शिकायत अनुभाग-5 में जनसुनवाई IGRS-सेल से संपर्क करें।
+										</p>
+									</div></li>
+
+
+
+								<li>
+									<h4
+										style="color: red; text-align: -webkit-center; padding-top: 2rem; padding-bottom: 2rem;">
+										नोट – यदि ऊपर अंकित प्रश्नों से इतर आपके कोई अन्य प्रश्न हों,
+										तो आप उन्हें हमारे ई-मेल आई0डी0 jansunwai-up@gov.in पर प्रेधषत
+										कर उत्तर प्राप्त कर सकते हैं |</h4>
+
+								</li>
+
+							</ul>
+							<!-- cd-faq-group -->
+						</div>
+						<!-- cd-faq-items -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Start footer -->
+
+	<footer id="footer" style="background: black;">
+		<aside class="ms-footbar" id="Aside1">
+			<div class="container">
+				<div class="row">
+					<div style="text-align: -webkit-center;">
+						<div class="ms-footbar-block">
+
+							<div class="ms-footbar-social mt-1">
+
+								<a href='/Disclaimer'
+									style="padding-right: 1rem; background: none;"> <em
+									class="zmdi zmdi-edit" style="color: #03a9f4"></em> 
+वेबसाइट नीतियां</a> <a
+									href='/About'
+									style="padding-right: 1rem; background: none;"> <em
+									class="zmdi zmdi-favorite-outline" style="color: #03a9f4"></em>
+									हमारे बारे में </a> <a
+									href='/Support'
+									style="padding-right: 1rem; background: none;"> <em
+									class="zmdi zmdi-accounts" style="color: #03a9f4"></em> पोर्टल हेतु सुझाव</a> <a
+									href='/Contactus'
+									style="padding-right: 1rem; background: none;"> <em
+									class="zmdi zmdi-phone" style="color: #03a9f4"></em> संपर्क करें </a> <a href='/FAQ'
+									style="padding-right: 1rem; background: none;"> <em
+									class="zmdi zmdi-comment-alert" style="color: #03a9f4"></em>FAQ
+								</a>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-5 ms-footer-col ms-footer-text-right">
+					<div class="ms-footbar-block">
+						<div class="ms-footbar-title"></div>
+
+					</div>
+				</div>
+
+			</div>
+		</aside>
+
+		<div style="text-align: -webkit-center;">
+			<div class="ms-footbar-social" style="padding-top: 10px;">
+				<a href="javascript:void(0)" class="btn-circle btn-facebook"> <em
+					class="zmdi zmdi-facebook"></em>
+				</a> <a href="javascript:void(0)" class="btn-circle btn-twitter"> <em
+					class="zmdi zmdi-twitter"></em>
+				</a> <a href="javascript:void(0)" class="btn-circle btn-youtube"> <em
+					class="zmdi zmdi-youtube"></em>
+				</a>
+
+			</div>
+
+			<p style="margin-top: 15px; margin-left: 15px;">
+				Last Updated: <span id="datetime"></span>
+
+				<!--        <a href="http://www.packersandmoversaj.com"></a>-->
+
+
+			</p>
+
+
+		</div>
+
+
+		<div class="container">
+			<p style="text-align: center; color: white">&copy; Content owned,
+				updated by the Lok Shikayat Vibhag, Chief Minister Office Uttar
+				Pradesh Government. Website is designed, developed, maintained and
+				hosted by National Informatics Centre, Uttar Pradesh</p>
+		</div>
+	</footer>
+	<!-- End footer -->
+
+
+	<script src="/resources/index/js/plugins.min.js"></script>
+	<script src="/resources/index/js/app.min.js"></script>
+	<script src="/resources/index/js/configurator.min.js"></script>
+	<script src="/resources/index/js/home-generic-7.js"></script>
+
+
+	<script>
+		$(document).ready(function() {
+			// Reset Font Size
+			var originalFontSize = $('html').css('font-size');
+			$(".resetFont").click(function() {
+				$('html').css('font-size', originalFontSize);
+			});
+			// Increase Font Size
+			$(".increaseFont").click(function() {
+				var currentFontSize = $('html').css('font-size');
+				var currentFontSizeNum = parseFloat(currentFontSize, 10);
+				currentFontSizeNum = currentFontSizeNum * 1;
+				if (currentFontSizeNum < 19) {
+					var newFontSize = currentFontSizeNum * 1.1;
+					$('html').css('font-size', newFontSize);
+				}
+				return false;
+			});
+			// Decrease Font Size
+			$(".decreaseFont").click(function() {
+				var currentFontSize = $('html').css('font-size');
+				var currentFontSizeNum = parseFloat(currentFontSize, 10);
+				if (currentFontSizeNum > 7) {
+					var newFontSize = currentFontSizeNum * 0.8;
+					$('html').css('font-size', newFontSize);
+				}
+				return false;
+			});
+		});
+	</script>
+
+
+</body>
+
+</html>

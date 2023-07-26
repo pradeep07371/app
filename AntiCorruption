@@ -1,0 +1,227 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from agmstudio.io/themes/material-style/1.4/home-generic-7.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 03 May 2017 05:10:13 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#333">
+    <title>एंटी करप्शन पोर्टल </title>
+    <meta name="description" content="Material Style Theme">
+    <link rel="shortcut icon" href="/resources/index/img/favicon30f4.png?v=3">
+    <link rel="stylesheet" href="resources/index/css/preload.min.css">
+    <link rel="stylesheet" href="resources/index/css/plugins.min.css">
+    <link rel="stylesheet" href="resources/index/css/style.css">
+    <link rel="stylesheet" href="resources/index/css/main.css">
+    <link rel="stylesheet" href="resources/index/css/flaticon.css">
+    <link rel="stylesheet" href="resources/index/css/width-boxed.min.css" id="ms-boxed" >
+    <link rel="stylesheet" href="resources/index/css/home.css">
+
+   <style>
+   a
+   {
+       color: white;
+   }
+   p
+   {
+    color:  rgb(243, 170, 6);
+    font-weight: 600;
+    
+   }
+   .ms-header.ms-header-primary .ms-title h1
+    {
+    color:  rgb(243, 170, 6);
+    font-weight: 900;
+    }
+    
+   </style>
+  </head>
+  <body>
+  <div id="font-setting">
+   <div id="ms-preload" class="ms-preload">
+      <div id="status">
+        <div class="spinner">
+          <div class="dot1"></div>
+          <div class="dot2"></div>
+        </div>
+      </div>
+    </div>
+    
+   
+ 
+   <section class="hero-area" id="home">
+      <header class="ms-header ms-header-royal ms-header-primary" style="
+    background: rgba(0, 0, 0, 0.47);    border-bottom: 2px solid rgba(0, 0, 0, 0.25);    ">
+        <div class="container container-full">
+          <div class="ms-title">
+ 
+             <img src="resources/index/img/UP.png" style=" height: 80px;   margin-top: 10px;" alt="...">
+             
+              <h1 class="animated fadeInRight animation-delay-6" style="font-family: -webkit-pictograph;">
+               एंटी-करप्शन पोर्टल, उत्तर प्रदेश सरकार
+              </h1>
+           
+          </div>
+          <div class="header-right" style="margin-top: 10px">
+ 
+ 		 	<span>   होम</span>
+				 <a href="/" class="btn-circle btn-circle-royal no-focus animated zoomInDown animation-delay-8" style="margin-right: 10px">
+              <i class="zmdi zmdi-home"></i>
+            </a>
+            
+            <!--  <img src="resources/index/img/image1.png" class="btn-circle" 
+             style="background-color: #f3aa06;height:80px;width: 80px;" alt="..."> -->
+
+          </div>
+        </div>
+      </header>
+   
+  
+   <section class="container-fluid" id="section1">
+        
+        <h1 class="text-center v-center" style="padding-left: 50px;padding-right: 50px">
+
+        	<span class="text-center " style="font-size:20px;color:white;">
+ 			<b>
+ 			भ्रष्टाचार के विरुद्ध संघर्ष में उत्तर प्रदेश सरकार के भागीदार बनें |
+ 			</b><br/>प्रदेश का कोई भी नागरिक किसी भी अधिकारी या कर्मचारी  के विरुद्ध इस पोर्टल के माध्यम से शिकायत दर्ज कर सकता है | जिसके पश्चात ऐसे भ्रष्ट अधिकारी या कर्मचारी  के विरुद्ध जांच  की जाएगी | और यदि वह दोषी पाए गए , तो उनके विरुद्ध सख्त से सख्त कार्रवाई की जाएगी |			
+ 			</span></h1>
+        
+       
+        <br>
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-sm-12 paraindex">
+
+                    <p style="text-align:justify;">
+            		   
+                    </p>
+
+                   </div></div>
+	
+	<div class="row">
+				<div class="col-md-4">
+					<div class="course-item">
+						<div class="ci-icon">
+							<i class="glyphicon glyphicon-pencil"></i>
+						</div>
+						<span></span>
+						<a href="corruptionOnlinecomplaint">
+						<h4>शिकायत पंजीकरण</h4></a>
+						<p>शिकायत ऑनलाइन दर्ज करें</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="course-item">
+						<div class="ci-icon">
+							<i class="glyphicon glyphicon-search"></i>
+						</div>
+						<span></span>
+						<a href="ComplaintTrackerCorruption">
+						<h4>शिकायत की स्थिति</h4></a>
+						<p>कार्यवाही का विवरण मोबाइल/ ई-मेल के माध्यम से जानें </p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="course-item">
+						<div class="ci-icon">
+								<i class="glyphicon glyphicon-star"></i>
+						</div>
+						<span></span>
+						<a href="feedbackEntryCorruption">
+						<h4>आपकी प्रतिक्रिया</h4></a>
+						<p>शिकायत के निस्तारण के सम्बन्ध में फीडबैक/सुझाव  दें </p>
+					</div>
+				</div>
+			</div>
+			
+	<!--/row-->
+            <div class="row">
+            <br>
+            </div>
+            <div class="row">
+            <br>
+            </div>
+            <div class="row">
+            <br>
+            </div>
+        </div>
+        <!--/container-->
+    </section>
+  	<!-- Start footer -->
+  	</section>
+  
+ 	 <footer id="footer" style="  background: #000000;">
+ 		<div class="container">
+			<p style="text-align: center; color:white">&copy; Content owned, updated by the Lok Shikayat Vibhag,
+				Chief Minister Office Uttar Pradesh Government. Website is designed,
+				developed, maintained and hosted by National Informatics Centre, Uttar Pradesh</p>
+		</div>
+	  </footer>
+ 	 <!-- End footer -->
+	</div>
+    <script src="/resources/index/js/plugins.min.js"></script>
+    <script src="/resources/index/js/app.min.js"></script>
+    <script src="/resources/index/js/configurator.min.js"></script>
+   
+    <script>
+      (function(i, s, o, g, r, a, m)
+      {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function()
+        {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', '../../../../www.google-analytics.com/analytics.js', 'ga');
+      ga('create', 'UA-90917746-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script src="/resources/index/js/home-generic-7.js"></script>
+   
+
+	<script>
+	$(document).ready(function () {
+	    // Reset Font Size
+	    var originalFontSize = $('html').css('font-size');
+	    $(".resetFont").click(function () {
+	        $('html').css('font-size', originalFontSize);
+	    });
+	    // Increase Font Size
+	    $(".increaseFont").click(function () {
+	        var currentFontSize = $('html').css('font-size');
+	        var currentFontSizeNum = parseFloat(currentFontSize, 10);
+	        currentFontSizeNum = currentFontSizeNum * 1;
+	        if (currentFontSizeNum < 19) {
+	            var newFontSize = currentFontSizeNum * 1.1;
+	            $('html').css('font-size', newFontSize);
+	        }
+	        return false;
+	    });
+	    // Decrease Font Size
+	    $(".decreaseFont").click(function () {
+	        var currentFontSize = $('html').css('font-size');
+	        var currentFontSizeNum = parseFloat(currentFontSize, 10);
+	        if (currentFontSizeNum > 7) {
+	            var newFontSize = currentFontSizeNum * 0.8;
+	            $('html').css('font-size', newFontSize);
+	        }
+	        return false;
+	    });
+	});
+</script>
+	
+
+  </body>
+
+</html>

@@ -1,0 +1,470 @@
+
+
+
+
+
+<!DOCTYPE>
+
+<html>
+<head>
+<!-- <link href="App_Themes/Default/Default.css" type="text/css" rel="stylesheet" /> -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="#333">
+<title>समाधान उत्तर प्रदेश सरकार</title>
+<meta name="description" content="Material Style Theme">
+<meta name="description" content="Material Style Theme">
+
+<!-- <link rel="shortcut icon" href="/resources/assets/img/favicon30f4.png?v=3"> -->
+<link rel="stylesheet" href="resources/bower_components/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="/resources/assets/css/preload.min.css" />
+<link rel="stylesheet" href="/resources/assets/css/plugins.min.css" />
+<link rel="stylesheet" href="/resources/assets/css/style.light-blue-500.min.css" />
+<link rel="stylesheet" href="/resources/assets/css/width-boxed.min.css" id="ms-boxed" disabled="">
+<link rel="stylesheet" href="/resources/css/jquery-ui.css">
+<!-- <link rel="stylesheet" href="/resources/css/screen.css" type="text/css" media="screen" title="default" /> -->
+<!-- <link href="/Content/themes/ColorBox/CSS/colorbox.css" rel="stylesheet" />
+<script src="/Content/themes/ColorBox/JS/jquery.colorbox-min.js"></script> -->
+<script src="/resources/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/resources/js/jquery-ui.js"></script>
+
+
+<style>
+.headertextstyle {
+	display: inline-block;
+	display: inline-block;
+	vertical-align: bottom;
+	font-family: Bradley Hand ITC, cursive;
+	font-size: 34px;
+	margin: 0px 0px 30px 135px;
+	text-align: left;
+	color: rgb(237, 255, 0);
+	font-weight: bold;
+	padding-left: 10px;
+	line-height: 28px;
+}
+
+.css-typing {
+	display: inline-block;
+	width: 15%;
+	height: 35px;
+	white-space: nowrap;
+	overflow: hidden;
+	animation: type 4s steps(60, end);
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+
+@
+keyframes type {from { width:0;
+	
+}
+
+}
+@
+-webkit-keyframes type {from { width:0;
+	
+}
+}
+</style>
+<style>
+.form-horizontal .form-group {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.form-control, .form-group .form-control {
+	border: 0;
+	background-image: linear-gradient(#605f54, #605f54),
+		linear-gradient(#d2d2d2, #d2d2d2);
+	background-size: 0 2px, 100% 1px;
+	background-repeat: no-repeat;
+	background-position: center bottom, center calc(100% - 1px);
+	/* background-color: rgba(119, 113, 113, 0.13); */
+	transition: background 0s ease-out;
+	float: none;
+	box-shadow: none;
+}
+
+.form-group label.control-label {
+	font-size: 12px;
+	line-height: 1.07143;
+	font-weight: 400;
+	margin: 16px 0 0;
+	text-align: left;
+}
+
+.ms-hero-bg-dark-light:after {
+	display: block;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	/* background-color: rgba(255, 152, 0, 0.52); */
+	z-index: 0;
+	background-color: rgba(11, 33, 64, 0.64);
+}
+</style>
+</head>
+<body>
+
+	<div class="sb-site-container"
+		style="max-width: none; background-color: none; min-height: 0px;">
+		
+		<!-- Header start-->
+		<header class="ms-header ms-header-primary">
+			<section class="top_head">
+				<div class="container container-full" style="width: 100%;">
+					<div id="block-block-4" class="block block-block no-title" style="margin-top: 3px">
+						<div class="block-inner clearfix">
+							<div class="block-content ">
+								<div class="common-right clearfix hidden-xs hidden-sm"
+									style="float: left; vertical-align: middle">
+									
+									<div class="top-left">
+									
+										<img 
+											src="resources/index/img/UP.png"
+											style="height: 30px; width: 30px;" alt="..."/>
+											
+										<a href="http://upcmo.up.nic.in" title="Government of UP"
+											target="_blank" class="ext"><span>उत्तर प्रदेश, सरकार</span></a>
+
+									</div>
+								</div>
+								
+							</div>
+
+							<div class="pull-right" style="margin-top: 3px">
+								<img 
+									src="resources/index/img/image1.png"
+									style="height: 22px; width: 22px;" alt="..."/>
+							    
+							    <a href="/AntiCorruption"><span>Home</span></a>
+
+							</div>
+						</div>
+					</div>					
+				</div>
+			</section>
+
+		</header>
+
+
+		<div id="MainContent_UpdatePanel1">
+			<div class="contentbackground" style="max-width: none;">
+
+				<div
+					class="ms-hero-page-override ms-hero-img-Track ms-bg-fixed ms-hero-bg-dark-light "
+					style="margin-top: -70px;">
+					<div class="container md-500 mt-4">
+						<div class="text-center">
+							<h2
+								class="no-m ms-site-title color-white center-block ms-site-title-lg  mt-2 animated zoomInDown animation-delay-5"
+								style="font-size: 28px; font-weight: 600; word-spacing: 5px;">सन्दर्भ
+								की स्थिति देखें/Track Complaint Status</h2>
+							<p
+								class="lead lead-lg color-light text-center center-block mt-2 mw-800 text-uppercase fw-300 animated fadeInUp animation-delay-7"
+								style="font-size: 15px; text-align: center;"> केवल 3 माह पूर्व तक के निस्तारित सन्दर्भों का विवरण देखा
+								जा सकेगा</p>
+						</div>
+					</div>
+				</div>
+
+
+
+				<div class="container" style="width: 52%;">
+					<div
+						class="card card-warning card-hero animated fadeInUp animation-delay-7"
+						style="margin-top: -120px;">
+						
+						<div class="card-block" style="padding: 2rem;">
+							<form method="post" action="sendReminderAndVarify2"
+								autocomplete="off" htmlEscape="true">
+								
+								<div class="form-group">
+								
+									<input type="hidden" name="randomkey" id="randomkey"
+										value="f82u0b" />
+										 
+									<label for="exampleInputEmail1"
+										class="col-md-5 control-label" style="font-size: 14px;">Reference Number/
+										सन्दर्भ संख्या <span style="color: Red;">*</span>
+									</label>
+									
+									<div class="col-md-7">
+										<input maxlength="14" id="compid" name="compcode"
+											autocomplete="off" class="form-control"
+											placeholder="सन्दर्भ संख्या अंकित करें" />
+									</div>
+
+
+									<div>
+										<label for="" class="col-md-5 control-label" style="font-size: 14px;"> Mobile
+											Number/मोबाइल नंबर +91- <span style="color: Red;">*</span>
+										</label>
+										<div class="col-md-7">
+											<input path="mobile" maxlength="10" autocomplete="off"
+												id="mobno" placeholder="मोबाइल नंबर अंकित करें"
+												class="form-control" />
+										</div>
+									
+										
+										<div class="text-center">									    
+											Please type the characters appearing in the image below:<br>कृपया
+											नीचे दिए बॉक्स में उपलब्ध सुरक्षा कोड अंकित करें
+										</div>
+                                       
+                                       <br>
+
+										<label for="exampleInputEmail1" class="col-md-5 control-label"></label>
+
+										<div class="col-md-7">
+
+											<iframe src="/Captcha.jpg" border="0" id="captchaImg"
+												width="120px" height="45px" frameborder="0" scrolling="no"></iframe>
+											<input autocomplete="off" name="ctl00$MainContent$btnRefresh"
+												style="cursor: pointer;" value="अन्य अंक प्राप्त करें "
+												onclick="refeshCaptcha();" class="btn-link"> <input
+												type="hidden" id="randomToken" name="randomToken"
+												value="" />
+
+
+
+										</div>
+
+										<label for="exampleInputEmail1" class="col-md-5 control-label" style="font-size: 14px">
+											Enter The Captcha/कैप्चा अंकित करें <span style="color: Red;">*</span>
+										</label>
+										<div class="col-md-7">
+											<input type="text" maxlength="4" id="capta"
+												class="form-control" name="capta_code"
+												placeholder="कैप्चा अंक अंकित करें!" required="required" />
+										</div>
+										
+
+										<div id="MainContent_divbtnGenOTP"
+											class="form-group col-md-12">
+											
+											<label for="exampleInputEmail1" class="col-md-5 control-label"></label>
+											
+											<div  class="col-md-7">
+												<a onclick="getFullComdetailofUser()"
+													class="btn btn-raised btn-success">
+												सबमिट करें</a>
+												
+												<!-- </button> -->
+												
+												<button id="sedOTPID" onclick="location.href='/ComplaintTrackerCorruption'"
+													class="btn btn-raised btn-warning">
+													रीसेट
+												</button>
+												
+											</div>
+										</div>
+										
+
+									</div>
+
+
+								</div>
+							</form>
+
+							<div class="row">
+								<div class="row col-lg-12 ">
+									<div class="box-body">
+										<div class="box box-primary">
+
+											<div class="box box-BlackBlue  box-solid">
+												<div id="popupdiv" style="display: none"></div>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+														 
+						</div>
+						
+					</div>
+						
+				</div>
+
+				<footer class="ms-footer">
+					<div class="container">
+						<p>&copy; Content owned, updated by the Lok Shikayat Vibhag,
+							Cheif Minister Office Uttar Pradesh Government. Website is
+							designed, developed, maintained and hosted by National
+							Informatics Centre, Uttar Pradesh</p>
+					</div>
+				</footer>
+
+			</div>
+
+			<!-- model     Details herer  -->
+
+			<div class="modal fade" id="modal-info">
+				<div class="modal-dialog" style="width: 95%;">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" onclick="refreshPage()"
+								data-dismiss="modal">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							<!-- data-dismiss="modal"   aria-label="Close"-->
+							<h4 class="modal-title" id="modeltitle"></h4>
+						</div>
+						<div class="modal-body">
+
+							<div id="filebody"></div>
+
+						</div>
+					</div>
+					<!-- /.modal-content -->
+				</div>
+				<!-- /.modal-dialog -->
+			</div>
+
+		</div>
+
+	</div>
+
+	
+
+<script type="text/javascript">
+
+function refeshCaptcha() {
+	$("#captchaImg").attr("src", "/Captcha.jpg");
+}
+					 
+
+function refreshPage() {
+	window.location.replace("/ComplaintTracker");
+}
+
+
+// सबमिट करें 
+function getFullComdetailofUser() {
+	//debugger;
+	var compCode = $('#compid').val();
+	var capcha = $('#capta').val();
+	var mob = $('#mobno').val();
+	var randomkey = $('#randomkey').val();
+
+	//alert(compCode+" "+capcha+"  "+randomkey+" "+mob);
+	if ($.isNumeric(compCode)) {
+		if (mob.length === 10 && $.isNumeric(mob)) {
+			if (capcha.length === 4 && $.isNumeric(capcha)) {
+					// send request
+				$.ajax({
+					type : 'GET',
+					url : '/varifyCaptchawithRandomkeyAndMobileNo',
+					async : false,
+					data : {
+						capthca : capcha,
+						randomkey : randomkey,
+						mobileno : mob,
+						complaintcode : compCode
+					},
+					success : function(res) {
+						
+						console.log('res ==='+ res);
+						
+						if (res === 'OK') {
+							openIframe(compCode, mob);
+
+						} else {
+							alert(res);
+						}
+					}
+
+				});
+
+				function openIframe(icompCode,imob) {
+
+					//  alert(icompCode+" "+iemail+" "+imob);
+					var h = ((window.innerHeight) - 110);
+					var height = h + "px";
+
+					$('#dvLoading').fadeIn();
+
+					var link = "fullCompDetailsCorr?mob="
+							+ imob + "&complanitcode="
+							+ icompCode;
+
+					var html = '<iframe src="' + link
+							+ '"frameBorder=0 width="100%" height="'
+							+ height
+							+ '" allowfullscreen scrolling="yes"></iframe>';
+					$('#forwordbody').html(html);
+					$('#dvLoading').fadeOut();
+					$('#modal-forword').modal('show');
+					refeshCaptcha();
+				}
+
+			}else {
+				alert("कृपया 4 अंकों का कैप्चा दर्ज करें");
+			}
+
+		} else {
+
+			alert("कृपया 10 अंकों का मोबाइल नंबर दर्ज करें");
+			return false;
+		}
+
+	} else {
+
+		alert("कृपया सही शिकायत कोड दर्ज करें");
+		return false;
+	}
+}
+
+
+$(function () {
+    $('#showbelow').css("display", "none");
+});
+
+</script>
+
+
+	<div class="modal fade" id="modal-forword" role="dialog"
+		aria-hidden="true">
+		<div class="modal-dialog"
+			style="width: 100%; height: 98%; margin: 10px 10px 0px 10px; padding: 0px">
+			<div class="modal-content"
+				style="min-height: 99%; border-radius: 5px;">
+				<div class="modal-header">
+					<button type="button" class="close" 
+						data-dismiss="modal"> <!-- onclick="refreshPage()" -->
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<!-- data-dismiss="modal"   aria-label="Close"-->
+					<h4 class="modal-title" id="modeltitlef"></h4>
+				</div>
+				<div class="modal-body">
+					<div id="forwordbody"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<!-- <script src="/js/md5.js"></script> -->
+<script src="/resources/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/resources/assets/js/plugins.min.js"></script>
+<script src="/resources/assets/js/app.min.js"></script>
+<script src="/resources/assets/js/configurator.min.js"></script>
+<script src="/resources/assets/js/imageresizer.js"></script>
+<script src="/resources/assets/js/index.js"></script>
+<script src="/resources/assets/js/Modelpopforpublicregistion.js"></script>
+<script src="/resources/js/jquery.inputmask.js"></script> 
+
+</body>
+</html>
+

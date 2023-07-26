@@ -1,0 +1,208 @@
+
+/*--------------------------------------
+-------- HERO AREA CSS START --------
+---------------------------------------*/
+.hero-area {
+  /*  padding-top: 140px;*/
+  
+	z-index: 1;
+	position: relative;
+    background-image: url(../img/hero-area.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+	background-attachment: fixed;
+    background-size: cover;
+	overflow: hidden;
+}
+.hero-area::before {
+	content: "";
+	top: 0;
+	left: 0;
+    opacity: 0.85;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	position: absolute;
+	background: #000529; /* Old browsers */
+	background: -moz-linear-gradient(left, #000529 1%, #002055 24%, #005db5 67%, #0074d9 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #000529 1%,#002055 24%,#005db5 67%,#0074d9 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #000529 1%,#002055 24%,#005db5 67%,#0074d9 100%);
+}
+.hero-area-content {
+    color: #fff;
+	padding: 80px 0 170px;
+}
+.hero-area-content h1 {
+    color: #fff;
+}
+.hero-area-content p {
+    margin: 28px 0 25px;
+}
+.hero-area-content .appao-btn {
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.hand-mockup {
+    position: absolute;
+    bottom: -2px;
+    max-width: 100%;
+}
+/*------------------------------------
+--------- HERO AREA CSS END ---------
+------------------------------------*/
+
+/*--------------------------------------
+-------- ABOUT AREA CSS START --------
+---------------------------------------*/
+.about-area {
+	text-align: center;
+}
+.single-about-box {
+	padding: 25px;
+    transition: all 0.4s;
+}
+.single-about-box i::before {
+    color: #0074da;
+    font-size: 40px;
+    transition: all 0.4s;
+    display: block;
+}
+.single-about-box.active,
+.single-about-box:hover {
+	box-shadow: 0 0 5px #ccc;
+}
+.single-about-box.active i::before ,
+.single-about-box:hover i::before {
+    color: #000;
+}
+.single-about-box h4 {
+	margin: 25px 0 15px;
+}
+/*--------------------------------------
+---------- ABOUT AREA CSS END ----------
+---------------------------------------*/
+
+/*--------------------------------------
+-------- FEATURE AREA CSS START --------
+---------------------------------------*/
+.feature-area {
+	z-index: 1;
+	position: relative;
+    background-image: url(#);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.feature-area::before {
+	content: "";
+	top: 0;
+	left: 0;
+    opacity: 0.85;
+	right: 0;
+	bottom: 0;
+	background: #000529; /* Old browsers */
+	background: -moz-linear-gradient(left, #000529 1%, #002055 24%, #005db5 67%, #0074d9 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #000529 1%,#002055 24%,#005db5 67%,#0074d9 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #000529 1%,#002055 24%,#005db5 67%,#0074d9 100%);
+	z-index: -1;
+	position: absolute;
+}
+.single-feature-box h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.single-feature-box li {
+    margin-bottom: 45px;
+    display: flex;
+}
+.single-feature-box li:last-child {
+    margin-bottom: 0;
+}
+.feature-box-info {
+    flex: 5;
+}
+.feature-box-icon {
+    flex: 1;
+	font-size: 20px;
+	transition: all 0.4s;
+}
+.single-feature-box li:hover .feature-box-icon i::before {
+    border-radius: 0;
+}
+.single-feature-box h2,
+.single-feature-box h3,
+.single-feature-box h4,
+.single-feature-box {
+	color: #fff;
+}
+.feature-box-icon i::before {
+    border: 2px dashed #fff;
+    width: 40px;
+    display: inline-block;
+    height: 40px;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 100%;
+	transition: all 0.4s;
+}
+
+
+/*--------------------------------------
+-------- HEADER AREA CSS START --------
+---------------------------------------*/
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+	transition: all 0.4s;
+    width: 100%;
+    z-index: 99;
+	padding: 18px 0;
+}
+.mainmenu {
+    text-align: right;
+}
+.mainmenu li {
+    display: inline-block;
+    text-transform: uppercase;
+}
+.mainmenu li a {
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    padding: 5px 16px;
+	margin: 0 3px;
+    border: 1px solid transparent;
+}
+.slicknav_menu {
+	padding: 0;
+    background: transparent;
+}
+.slicknav_menu a.active,
+.mainmenu ul li a:hover,
+.mainmenu ul li a.active {
+    border: 1px solid #fff;
+}
+.mainmenu {
+    display: block;
+}
+.slicknav_menu {
+	display: none;
+}
+.header.sticky {
+	border-bottom: 1px solid #fff;
+	background: #000529; /* Old browsers */
+	background: -moz-linear-gradient(left, #000529 1%, #002055 24%, #005db5 67%, #0074d9 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #000529 1%,#002055 24%,#005db5 67%,#0074d9 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #000529 1%,#002055 24%,#005db5 67%,#0074d9 100%);
+}
+.header.sticky {
+	padding: 10px 0;
+}
+.mainmenu li a.appao-btn {
+	margin-left: 55px;
+}
+/*--------------------------------------
+--------- HEADER AREA CSS END ---------
+---------------------------------------*/
+

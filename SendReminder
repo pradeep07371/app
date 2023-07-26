@@ -1,0 +1,967 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+   
+<!--	    <link href="App_Themes/Default/Default.css" type="text/css" rel="stylesheet" />-->
+	 	<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	    <meta name="theme-color" content="#333">
+	    <title>Send Reminder | Samadhan</title>
+	    <meta name="description" content="Material Style Theme">
+				
+    	<!-- <link href="App_Themes/Default/Default.css" type="text/css" rel="stylesheet" /> -->
+
+     
+        <meta name="description" content="Material Style Theme">
+        <meta name="description" content="Material Style Theme">
+	    <link rel="shortcut icon" href="/resources/index/img/favicon30f4.png?v=3">
+	    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	    <link rel="stylesheet" href="resources/index/css/preload.min.css">
+	    <link rel="stylesheet" href="resources/index/css/plugins.min.css">
+	    <link rel="stylesheet" href="resources/index/css/style.css">
+	    <link rel="stylesheet" href="resources/index/css/main.css">
+	    <link rel="stylesheet" href="resources/index/css/width-boxed.min.css" id="ms-boxed" >
+   
+        <script src="/resources/bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="/resources/js/jquery-ui.js"></script>
+		 <meta name="description" content="Material Style Theme">
+   
+   
+	<style>
+
+            .headertextstyle
+            {
+                display: inline-block;
+                display: inline-block;
+                vertical-align: bottom;
+                font-family: Bradley Hand ITC,cursive;
+                font-size: 34px;
+                margin: 0px 0px 30px 135px;
+                text-align: left;
+                color: rgb(237, 255, 0);
+                font-weight: bold;
+                padding-left: 10px;
+                line-height: 28px;
+            }
+            .css-typing{
+                display: inline-block;
+                width: 15%;
+                height: 35px;
+                white-space: nowrap;
+                overflow: hidden;
+                animation: type 4s steps(60, end);
+                -webkit-animation-iteration-count: infinite;
+                animation-iteration-count: infinite;
+            }
+            @keyframes type{
+                from { width: 0; }
+            }
+            @-webkit-keyframes type{
+                from { width: 0;  }
+            }
+
+
+        </style>
+        <style type="text/css">
+            #dvLoading {
+                background: #fff
+                    url(/resources/assets/img/ajax-loader.gif)
+                    no-repeat center center;
+                height: 100%;
+                width: 100%;
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                left: 0;
+                display: block;
+                z-index: 2000;
+            }
+        </style>
+   </head>
+
+
+<body>
+    
+
+ <div id="font-setting">
+        <div class="aspNetHidden">
+            <input type="hidden" name="" id="" value="" />
+            <input type="hidden" name="" id="" value="" />
+            <input type="hidden" name="" id="" value="" />
+            <input type="hidden" name="" id="" value="" />
+        </div>
+
+
+
+
+        <script src="" type="text/javascript"></script>
+
+
+        <script src="" type="text/javascript"></script>
+        <script src="" type="text/javascript"></script>
+        <script src="" type="text/javascript"></script>
+        <div class="aspNetHidden">
+
+            <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="80E4B851" />
+            <input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+            <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="I8lBUGSr/E0e1/xQCTgyIL+NQlk+F24f4F4cLH5GeqTxvi/cpnDmBVPKXxn1IrivCjminx5ukWpHsmw2VJR8QPgv6Ty10ScMQCZU5BS/0PF7GCmzvKYvyGAL4TKnwEj+WSSI/Qke6G+VdnGgVHXXSqg94So0bRwjqek/Qzm/TkptdXbZMGhRk3NE5vKjsDjHWtn12w==" />
+        </div>
+        <!--      <div id="ms-preload" class="ms-preload">
+              <div id="status">
+                <div class="spinner">
+                  <div class="dot1"></div>
+                  <div class="dot2"></div>
+                </div>
+              </div>
+            </div>-->
+        <div id="dvLoading" ></div>
+        
+        <div class="sb-site-container" style=" max-width: none;background-color:none;min-height: 0px;">     
+            <div class="modal modal-primary" id="ms-account-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog animated zoomIn animated-3x" role="document">
+                    <div class="modal-content">
+
+                        <div class="modal-header shadow-2dp no-pb">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">
+                                    <i class="zmdi zmdi-close"></i>
+                                </span>
+                            </button>
+                            <div class="modal-title text-center">
+                                <span class="ms-logo ms-logo-white ms-logo-sm mr-1">M</span>
+                                <h3 class="no-m ms-site-title">Material
+                                    <span>Style</span>
+                                </h3>
+                            </div>
+                            <div class="modal-header-tabs">
+                                <ul class="nav nav-tabs nav-tabs-full nav-tabs-3 nav-tabs-primary" role="tablist">
+                                    <li role="presentation" class="active">
+                                        <a href="#ms-login-tab" aria-controls="ms-login-tab" role="tab" data-toggle="tab" class="withoutripple">
+                                            <i class="zmdi zmdi-account"></i> Login</a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a href="#ms-register-tab" aria-controls="ms-register-tab" role="tab" data-toggle="tab" class="withoutripple">
+                                            <i class="zmdi zmdi-account-add"></i> Register</a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a href="#ms-recovery-tab" aria-controls="ms-recovery-tab" role="tab" data-toggle="tab" class="withoutripple">
+                                            <i class="zmdi zmdi-key"></i> Recovery Pass</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="modal-body">
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane fade active in" id="ms-login-tab">
+                                    <form autocomplete="off">
+                                        <fieldset>
+                                            <div class="form-group label-floating">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon">
+                                                        <i class="zmdi zmdi-account"></i>
+                                                    </span>
+                                                    <label class="control-label" for="ms-form-user">Username</label>
+                                                    <input type="text" id="ms-form-user" class="form-control"> </div>
+                                            </div>
+                                            <div class="form-group label-floating">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon">
+                                                        <i class="zmdi zmdi-lock"></i>
+                                                    </span>
+                                                    <label class="control-label" for="ms-form-pass">Password</label>
+                                                    <input type="password" id="ms-form-pass" class="form-control"> </div>
+                                            </div>
+                                            <div class="row mt-2">
+                                                <div class="col-md-6">
+                                                    <div class="form-group no-mt">
+                                                        <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox"> Remember Me </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <button class="btn btn-raised btn-primary pull-right">Login</button>
+                                                </div>
+                                            </div>
+                                        </fieldset>
+                                    </form>
+                                    <div class="text-center">
+                                        <h3>Login with</h3>
+                                        <a href="javascript:void(0)" class="wave-effect-light btn btn-raised btn-facebook">
+                                            <i class="zmdi zmdi-facebook"></i> Facebook</a>
+                                        <a href="javascript:void(0)" class="wave-effect-light btn btn-raised btn-twitter">
+                                            <i class="zmdi zmdi-twitter"></i> Twitter</a>
+                                        <a href="javascript:void(0)" class="wave-effect-light btn btn-raised btn-google">
+                                            <i class="zmdi zmdi-google"></i> Google</a>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade" id="ms-register-tab">
+                                    <form>
+                                        <fieldset>
+                                            <div class="form-group label-floating">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon">
+                                                        <i class="zmdi zmdi-account"></i>
+                                                    </span>
+                                                    <label class="control-label" for="ms-form-user">Username</label>
+                                                    <input type="text" id="Text1" class="form-control"> </div>
+                                            </div>
+                                            <div class="form-group label-floating">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon">
+                                                        <i class="zmdi zmdi-email"></i>
+                                                    </span>
+                                                    <label class="control-label" for="ms-form-email">Email</label>
+                                                    <input type="email" id="ms-form-email" class="form-control"> </div>
+                                            </div>
+                                            <div class="form-group label-floating">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon">
+                                                        <i class="zmdi zmdi-lock"></i>
+                                                    </span>
+                                                    <label class="control-label" for="ms-form-pass">Password</label>
+                                                    <input type="password" id="Password1" class="form-control"> </div>
+                                            </div>
+                                            <div class="form-group label-floating">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon">
+                                                        <i class="zmdi zmdi-lock"></i>
+                                                    </span>
+                                                    <label class="control-label" for="ms-form-pass">Re-type Password</label>
+                                                    <input type="password" id="Password2" class="form-control"> </div>
+                                            </div>
+                                            <button class="btn btn-raised btn-block btn-primary">Register Now</button>
+                                        </fieldset>
+                                    </form>
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade" id="ms-recovery-tab">
+                                    <fieldset>
+                                        <div class="form-group label-floating">
+                                            <div class="input-group">
+                                                <span class="input-group-addon">
+                                                    <i class="zmdi zmdi-account"></i>
+                                                </span>
+                                                <label class="control-label" for="ms-form-user">Username</label>
+                                                <input type="text" id="Text2" class="form-control"> </div>
+                                        </div>
+                                        <div class="form-group label-floating">
+                                            <div class="input-group">
+                                                <span class="input-group-addon">
+                                                    <i class="zmdi zmdi-email"></i>
+                                                </span>
+                                                <label class="control-label" for="ms-form-email">Email</label>
+                                                <input type="email" id="Email1" class="form-control"> </div>
+                                        </div>
+                                        <button class="btn btn-raised btn-block btn-primary">Send Password</button>
+                                    </fieldset>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+
+            <!-- Header start-->
+ <!-- Top Header -->  
+	   <div class="wrapper common-wrapper">
+	   <div class="container common-container four_content ">
+	      <div class="common-left clearfix">
+	      
+	         <ul>
+             <li><img src="resources/index/img/logo_up.png" alt="..."></li>
+             <li class="gov-india" style=" text-align: justify;"><span class="responsive_go_hindi" lang="hi"><a target="_blank" href="http://upcmo.up.nic.in/" title="उत्तर प्रदेश  सरकार ( बाहरी वेबसाइट जो एक नई विंडो में खुलती है)">
+                                                      उत्तर प्रदेश सरकार </a></span><span class="li_eng responsive_go_eng"><a target="_blank" href="http://upcmo.up.nic.in/" title="Government Of Uttar Pradesh,External Link that opens in a new window">
+               Uttar Pradesh Government</a></span></li>
+              </ul>
+
+        </div>
+        <div class="common-right clearfix">
+          <ul id="header-nav">
+           <li><a href="ScreenReader"title="Screen Reader" >
+             <img src="resources/index/img/icons/screenreader.png" alt="screen-reader-icon">
+            </a></li>
+        	<li class="ico-accessibility cf"><a href="javascript:void(0);" id="toggleAccessibility" title="Accessibility Dropdown">
+				
+				<img class="top" src="resources/index/img/icons/ico-accessibility.png" alt="Accessibility Dropdown">
+				
+				</a>
+                  <ul style="visibility: hidden;">
+                     <li> <a   id="Image_fontp"  class="increaseFont" title="Increase font size"href="javascript:void(0);">A<sup>+</sup>
+					  </a> </li>
+                        <li> <a id="Image_fontr"  class="top_navig resetFont" title="Reset font size" href="javascript:void(0);">A<sup>&nbsp;</sup></a> </li>
+                        <li> <a id="Image_fontm" class="top_navig decreaseFont"  title="Decrease font size" href="javascript:void(0);">A<sup>-</sup></a> </li>
+       
+ 
+                     
+                    </ul>
+                </li>
+                  <li class="ico-sitemap cf"><a href="Sitemap" title="Sitemap">
+					 
+					  <img class="top" src="resources/index/img/icons/ico-sitemap.png" alt="Sitemap"></a></li>
+					   <li class="hindi cmf_lan"><a href="javascript:;" title="Select Language">Language</a>
+					   <ul style="visibility: hidden;">
+					   <li>
+					 <a onclick="location.href='?language=hi_IN';" style="cursor: pointer;">हिंदी</a>
+					<a onclick="location.href='?language=en_US';" style="cursor: pointer;">English</a></li>
+					   </ul></li> </ul>
+        </div>
+    </div>
+</div>
+ <!-- End Top Header -->  
+      <header class="ms-header ms-header-primary" style="background-color: #03a9f4;">
+        <div class="container container-full">
+          <div class="ms-title">
+            <a href="/">
+              <!-- <img src="/resources/index/img/demo/logo-header.png" alt=""> -->
+              <span class="ms-logo animated zoomInDown animation-delay-5">S</span>
+              <h1 class="animated fadeInRight animation-delay-6">जनसुनवाई -समाधान 
+              <!--   <span>Style</span> -->
+              </h1>
+            </a>
+          </div>
+          <div class="header-right">
+ 
+ 		 <span>                      अधिकारी लॉगिन</span>
+				 <a href="/login" class="btn-circle btn-circle-primary no-focus animated zoomInDown animation-delay-8">
+              <i class="zmdi zmdi-account"></i>
+            </a>
+             
+            <a href="/" class="btn-circle btn-circle-primary no-focus animated zoomInDown animation-delay-8">
+              <i class="zmdi zmdi-home"></i>
+            </a>
+          </div>
+        </div>
+      </header>
+
+
+
+
+            <style>
+                .form-horizontal .form-group
+                {
+                    margin-right: 0px;
+                    margin-left: 0px;
+                }
+
+                .form-control, .form-group .form-control
+                {
+                    border: 0;
+                    background-image: linear-gradient(#605f54,#605f54),linear-gradient(#d2d2d2,#d2d2d2);
+                    background-size: 0 2px,100% 1px;
+                    background-repeat: no-repeat;
+                    background-position: center bottom,center calc(100% - 1px);
+                    /* background-color: rgba(119, 113, 113, 0.13); */
+                    transition: background 0s ease-out;
+                    float: none;
+                    box-shadow: none;
+                }
+
+                .form-group label.control-label
+                {
+                    font-size: 12px;
+                    line-height: 1.07143;
+                    font-weight: 400;
+                    margin: 16px 0 0;
+                    text-align: left;
+                }
+
+                .ms-hero-bg-dark-light:after
+                {
+                    display: block;
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    width: 100%;
+                    height: 100%;
+                    /* background-color: rgba(255, 152, 0, 0.52); */
+                    z-index: 0;
+                    background-color: rgba(11, 33, 64, 0.64);
+                }
+            </style>
+            <script type="text/javascript">
+                //Close Popup-Window and Parent Page
+                function close_window() {
+                    var getpname = document.referrer;
+                    window.opener.location = getpname;
+                    window.close();
+                }
+            </script>
+
+            <script type="text/javascript">
+                function cnt() {
+                    var a = document.getElementById("txtReminder").value;
+                    document.getElementById("Label1").innerHTML = 5000 - a.length;
+                }
+            </script>
+
+<!--            <link href="/Content/themes/ColorBox/CSS/colorbox.css" rel="stylesheet" />-->
+<!--            <script src="/Content/themes/ColorBox/JS/jquery.colorbox-min.js"></script>-->
+<!--            <link rel="stylesheet" href="css/screen.css" type="text/css" media="screen" title="default" />-->
+
+
+
+
+
+
+            <div id="MainContent_UpdatePanel1">
+
+
+
+                <div class="contentbackground" style="max-width: none; min-height:630px;">
+
+   <div class="ms-hero-page-override ms-hero-img-city ms-hero-bg-primary">
+        <div class="container" style=" padding-top: 5rem;">
+          <div class="text-center">
+          <h6 class="no-m ms-site-title color-white center-block ms-site-title-lg mt-2 animated zoomInDown animation-delay-5">
+			 <h2 class="no-m ms-site-title color-white center-block ms-site-title-lg  mt-2 animated zoomInDown animation-delay-5" style="font-size: 28px;font-weight:600;word-spacing: 5px;">
+				<span>अनुस्मारक भेजें</span>
+            </h6>
+          </div>
+        </div>
+      </div>
+
+                    <div class="container" style="width: 52%;">
+                        <div class="card card-primary card-hero animated fadeInUp animation-delay-7" style="margin-top: -106px;">
+                            <div class="card-block" style=" padding: 2rem;">
+                                <form id="remindfrom" action="sendReminderAndVarify" method="post" autocomplete="off"> 
+                                    <div class="form-group">
+                                        <input type="hidden" name="randomkey" id="randomkey" value="h4j9j4"/>
+
+                                        <label for="exampleInputEmail1" class="col-md-4 control-label"> 
+                                            शिकायत संख्या
+                                            <span style="color: Red;">*</span>
+                                        </label>
+                                        <div class="col-md-8">
+                                            <input id="compid" name="compcode" placeholder="Enter Complaint Number" class="form-control" type="text" value="0" maxlength="14"/>
+                                        </div>
+                                        <center id="spin" style="display:none"><i class="fa fa-refresh fa-spin color:green" style="font-size:24px"></i></center>
+                                        <center id="searchbtn" style="display:block"> 
+                                            <div class="col-md-12">                                          
+                                                <a  href="javascript:void(0)" onclick="validat_form()"  class="btn btn-raised  btn-success">खोजें</a>
+                                                <a  href=""  class="btn btn-raised btn-warning" >रीसेट</a> 
+                                            </div>  
+                                        </center>
+                                        <div id="showbelow">
+                                            <label for="" class="col-md-4 control-label"> 
+                                                Mobile Number / मोबाइल नंबर* <span style="color: Red;">*</span>
+                                            </label>
+                                            <div class="col-md-8">
+                                                <input id="mobno" name="mobile" class="form-control" readonly="readonly" type="text" value="" maxlength="14"/>
+                                            </div>
+
+                                            <label for="" class="col-md-4 control-label"> 
+                                                Email Id/ई-मेल आईडी <span style="color: Red;">*</span>
+                                            </label>
+                                            <div class="col-md-8">
+                                                <input id="email" name="email" type="text" class="form-control" readonly="readonly" value=""/>
+                                            </div>
+
+
+                                            <label for="exampleInputEmail1" class="col-md-4 control-label"> 
+
+                                            </label>
+                                            <div class="col-md-8">
+
+                                                <iframe src="/Captcha.jpg" border="0" id="captchaImg"
+                                                        width="120px" height="45px" frameborder="0" scrolling="no"></iframe>
+                                                <input  name="ctl00$MainContent$btnRefresh" style="cursor: pointer;" value="अन्य अंक प्राप्त करें " onclick="refeshCaptcha();" class="btn-link">
+                                                <input type="hidden" id="randomToken" name="randomToken" value="" />
+
+
+
+                                            </div>
+
+                                            <label for="exampleInputEmail1" class="col-md-4 control-label"> 
+                                                Enter The Captcha/कैप्चा अंकित करें <span style="color: Red;">*</span> 
+                                            </label>
+                                            <div class="col-md-8">
+                                                <input id="capta" name="capta_code" placeholder="Enter The Captcha No." type="text" class="form-control" required="required" value="" maxlength="4"/>
+                                            </div> 
+
+                                            <div id="MainContent_divbtnGenOTP" class="form-group col-md-12">
+
+
+                                                <center><input type="button" value="ओ० टी० पी० प्रविष्ट करें/Submit and Generate OTP"  id="sedOTPID" onclick="getOTP();" class="btn btn-raised btn-warning" />
+                                                    <br><center id="farefresh"> </center>  
+                                            </div>
+                                            <div id="otp" style="display:none">
+                                                <label for="exampleInputEmail1" class="col-md-4 control-label"> 
+                                                    Enter OTP <span style="color: Red;">*</span> 
+                                                </label>
+                                                <div class="col-md-8">
+                                                    <input id="otp_id" name="otp" placeholder="Enter OTP" type="text" class="form-control" required="required" value="" maxlength="5"/>
+                                                </div>   
+                                                <center><button type="button" name=""  id="VarifyOTPID122" onclick="showFullComplaint();" class="btn btn-raised btn-warning">सत्यापित ओ० टी० पी०/Verify OTP</button></center>
+                                            </div>
+
+                                        </div>       
+
+
+                                    </div>  
+                                <div>
+<input type="hidden" name="_csrf" value="5d4c381a-d01e-46fb-a6b0-ad82f35c3199" />
+</div></form>
+
+
+
+                                <div class="form-group">
+
+
+                                    <div  class="col-md-8">
+
+                                        <span id="MainContent_lblmobshow" style="color:White;">Label</span>
+                                    </div>
+                                </div>  
+                                <div class="form-group">
+
+                                    <div class="col-md-8">
+
+                                        <span id="MainContent_lblemailsearchdisp" style="color:White;">Label</span>
+
+                                    </div>
+                                </div>
+                            <div class="row">
+                           </div>
+                             <div class="row">
+                                    <div class="row col-lg-12 ">
+                                        <div class="box-body">
+                                            <div class="box box-primary">
+                                              <div class="box box-BlackBlue  box-solid" >
+                                                    <div id="popupdiv" style="display:none" >
+
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+  
+    <script type="text/javascript">
+        function refeshCaptcha() {
+            $("#captchaImg").attr("src", "/Captcha.jpg");
+        }
+    </script> 
+
+    <script>
+
+        $(function () {
+            $('#dvLoading').fadeOut();
+            $("#compid").inputmask({"mask": "99999999999999"});
+            $('#showbelow').css("display", "none");
+        });
+    </script>  
+    <script type="text/javascript">
+        function validat_form() {
+
+            var errMessage = "";
+
+            var txtbxgvId = document.getElementById("compid").value;
+
+
+            if (txtbxgvId === '') {
+
+                errMessage += "कृपया शिकायत संख्या डाले!\n";
+                return false;
+            }
+            if(!$.isNumeric(txtbxgvId)){
+               errMessage="अमान्य शिकायत संख्या ";
+               return false;   
+                
+            }
+            else {
+
+                $('#searchbtn').css("display", "none");
+                $('#spin').css("display", "block");
+                $.ajax({
+                    type: "GET",
+                    contentType: "application/json; charset=utf-8",
+                    url: "/fetchReminderInfo",
+                    data: {comp_id: txtbxgvId},
+                    dataType: "json",
+                    success: function (data) {
+
+                        // console.log("data=== "+JSON.stringify(data)+"+"+data.errormsg);
+                        if (data.errormsg === 'NOERROR') {
+                            $('#showbelow').css("display", "block");
+                            $('#spin').css("display", "none");
+                            $('#mobno').val(data.bfy_mob1);
+                            $('#email').val(data.bfy_email);
+
+                        }
+                        if (data.errormsg === 'NOCOMPLAINT') {
+
+                            $('#showbelow').css("display", "none");
+                            $('#spin').css("display", "none");
+                            $('#searchbtn').css("display", "block");
+                            alert("कोई शिकायत नहीं मिली,कृपया सही शिकायत संख्या दर्ज करें.");
+
+                        }
+                        if (data.errormsg === 'NODEFAULTERCOMPLAINT') {
+
+                            $('#showbelow').css("display", "none");
+                            $('#spin').css("display", "none");
+                            $('#searchbtn').css("display", "block");
+                            alert("your complaint is under process/आपकी शिकायत प्रक्रिया में है.");
+
+                        }
+                        if (data.errormsg === 'ERROR15') {
+
+                            $('#showbelow').css("display", "none");
+                            $('#spin').css("display", "none");
+                            $('#searchbtn').css("display", "block");
+                            alert("You can not send reminder before 15 day./आप 15 दिन से पहले अनुस्मारक नहीं भेज सकते हैं.");
+
+                        }
+                        if (data.errormsg === 'ERRORFAFD') {
+
+                            $('#showbelow').css("display", "none");
+                            $('#spin').css("display", "none");
+                            $('#searchbtn').css("display", "block");
+                            alert("संदर्भ निस्तारित हो चुका है इसलिए अनुस्मारक नहीं भेज सकते हैं.");
+
+                        }
+                        if (data.errormsg === 'NOCOMPLAINTEXISTS') {
+
+                            $('#showbelow').css("display", "none");
+                            $('#spin').css("display", "none");
+                            $('#searchbtn').css("display", "block");
+                            alert("No Complaint Exists./कोई शिकायत नहीं है.");
+
+
+                        }
+
+
+
+                    }
+                });
+
+
+            }
+
+
+
+            if (errMessage !== "") {
+                alert(errMessage);
+                return false;
+            }
+        }
+
+
+    </script>
+    <script>
+        //ओ० टी० पी० प्रविष्ट करें/Submit and Generate OTP
+        function getOTP() {
+            
+            var captch = $('#capta').val();
+            var randomkey = $('#randomkey').val();
+
+            var compcode = document.getElementById("compid").value;
+            $('#farefresh').html('<i class="fa fa-refresh fa-spin" style="font-size:24px"></i>');
+            $.ajax({
+                type: "GET",
+                // contentType: "application/json; charset=utf-8",
+                url: "/SendOPTreminder",
+                data: {comp_id: compcode, captacha: captch, randomkey: randomkey},
+
+                success: function (data) {
+
+
+                    // alert("data=== response  "+data.length);
+                      $('#farefresh').html('');
+                    if (data.length === 4) {
+
+                        alert("OTP आपके Mobile/Email पर भेज दिया गया है |");
+                        $("#sedOTPID").removeClass("btn-warning");
+                        $("#sedOTPID").addClass("btn-info");
+                        $('#sedOTPID').val("Re-Generate OTP/पुनः ओ०टी०पी० प्राप्त करें");
+                        $('#otp').css("display", "block");
+
+
+                    }
+                    if (data === 'NOCOMPLAINT') {
+                        alert(" इस शिकायत संख्या पर कोई संदर्भ उपलब्ध नहीं है ");
+                    }
+                    if (data === 'ErrorNo15') {
+
+                    }
+                    if (data === 'You Entered invalidate Captcha Number.') {
+                        alert("आपने गलत कैप्चा नंबर दर्ज किया है ।");
+                    }
+                    if (data === 'Regenrate OTP After 10 Second.') {
+                        alert("10 सेकंड के बाद ओटीपी भेजें ।");
+                    }
+
+
+
+                }
+            });
+        }
+    </script>
+    <script>
+        //सत्यापित ओ० टी० पी०/Verify OTP
+        function showFullComplaint() {
+            var compCode = $('#compid').val();
+            var capcha = $('#capta').val();
+            var otp = $('#otp_id').val();
+
+            var randomkey = $('#randomkey').val();
+            console.log(compCode+" "+capcha+"  "+randomkey+" "+otp);
+
+            $.ajax({
+                type: 'GET',
+                url: 'varifyOTP',
+                async: false,
+                data: {capcha: capcha, otp: otp, SessRandomKey: randomkey},
+                success: function (res) {
+                  
+
+                    if (res === 'OK') {
+                        openIframe(compCode, capcha, otp);
+                        refeshCaptcha();
+                    } else {
+                        alert(res);
+                    }
+                }
+
+            });
+
+            function openIframe(compCode, capcha, otp) {
+
+                //  alert(icompCode+" "+iemail+" "+imob);
+                var h = ((window.innerHeight) - 110);
+                var height = h + "px";
+
+                $('#dvLoading').fadeIn();
+
+                var link = "fullComplaintDetail?complanitcode=" + compCode + "&otp=" + otp + "&randomkey=" + randomkey + "&captcha=" + capcha + "&comtype=0";
+
+                var html = '<iframe src="' + link + '"frameBorder=0 width="100%" height="' + height + '" allowfullscreen scrolling="yes"></iframe>';
+                $('#forwordbody').html(html);
+                $('#dvLoading').fadeOut();
+                $('#modal-forword').modal('show');
+
+                //                $.ajax({
+                //                      type:'GET',
+                //                      url:'findCompTypebyCompCode',
+                //                      data:{compcode:compCode,captch:capcha,otp:otp},
+                //                     
+                //                      success:function(res){
+                //                          
+                //                         
+                //                          window.open("fullComplaintDetail?complanitcode="+compCode+"&otp="+otp+"&randomkey="+randomkey+"&captcha="+capcha+"&comtype=0", "_blank","titlebar=no,directories=no,location=no,toolbar=no,scrollbars=yes,resizable=yes,top=100,left=300,width=1800,height=700");
+                // 
+                //                      }
+                //                 });
+            }
+
+
+        }
+    </script>        
+
+    <div class="modal fade" id="modal-forword" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" style="width: 100%;height: 98%; margin: 10px 10px 0px 10px; padding: 0px">
+            <div class="modal-content" style="min-height: 99%; border-radius: 5px;">
+                <div class="modal-header">
+                    <button type="button" class="close" onclick="refreshPageSendReminder()" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <!-- data-dismiss="modal"   aria-label="Close"-->
+                    <h4 class="modal-title" id="modeltitlef"></h4>
+                </div>
+                <div class="modal-body">
+                    <div id="forwordbody">			
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function refreshPageSendReminder(){
+            
+               window.location.replace("/SendReminder");
+        }
+        
+    </script>
+    
+    
+    <script type="text/javascript">
+        function _MarkOfficeLevel(title, src, width, height) {
+            showmodalpopup(title, src, width, height);
+
+        }
+        function showmodalpopup(title, src, width, height) {
+
+            $.colorbox({
+                inline: true, title: "Print", iframe: false, href: "#popupdiv", open: true, width: '70%', height: '95%',
+                onOpen: function () {
+                    $('body').css('overflow', 'hidden');
+                    $('#popupdiv').show();
+                    $("#cboxTitle").css('display', 'none');
+                },
+                onClosed: function () {
+                    $('body').css('overflow', 'auto');
+                    $('#popupdiv').hide();
+
+                }
+            });
+
+
+
+        }
+
+
+
+
+
+    </script>
+<!--    <script src="/js/md5.js"></script>
+    <script type="text/javascript">
+        function encryptotp() {
+            if (document.getElementById('MainContent_txtSubOTP').value != "") {
+                document.getElementById('MainContent_txtSubOTP').value = hex_md5(document.getElementById('MainContent_txtSubOTP').value);
+
+            }
+        }
+    </script>-->
+
+	<script>
+	$(document).ready(function () {
+	    // Reset Font Size
+	    var originalFontSize = $('html').css('font-size');
+	    $(".resetFont").click(function () {
+	        $('html').css('font-size', originalFontSize);
+	    });
+	    // Increase Font Size
+	    $(".increaseFont").click(function () {
+	        var currentFontSize = $('html').css('font-size');
+	        var currentFontSizeNum = parseFloat(currentFontSize, 10);
+	        currentFontSizeNum = currentFontSizeNum * 1;
+	        if (currentFontSizeNum < 19) {
+	            var newFontSize = currentFontSizeNum * 1.1;
+	            $('html').css('font-size', newFontSize);
+	        }
+	        return false;
+	    });
+	    // Decrease Font Size
+	    $(".decreaseFont").click(function () {
+	        var currentFontSize = $('html').css('font-size');
+	        var currentFontSizeNum = parseFloat(currentFontSize, 10);
+	        if (currentFontSizeNum > 7) {
+	            var newFontSize = currentFontSizeNum * 0.8;
+	            $('html').css('font-size', newFontSize);
+	        }
+	        return false;
+	    });
+	});
+</script>
+    <script src="resources/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/resources/assets/js/plugins.min.js"></script>
+    <script src="/resources/assets/js/app.min.js"></script>
+    <script src="/resources/assets/js/configurator.min.js"></script>
+    <script src="/resources/assets/js/imageresizer.js"></script>
+
+
+    <script src="/resources/assets/js/index.js"></script>
+    <script src="/resources/assets/js/Modelpopforpublicregistion.js"></script>
+    <script src="/resources/js/jquery.inputmask.js"></script> 
+</form>
+ <!-- Start footer -->
+  
+  <footer id="footer" style="  background: black;">
+  <aside class="ms-footbar" id="Aside1">
+		<div class="container">
+			<div class="row">
+			<div style="  text-align: -webkit-center;">
+					<div class="ms-footbar-block">
+
+						<div class="ms-footbar-social mt-1">
+						
+							<a href='/Disclaimer' style="    padding-right: 1rem; background:none;"> <i class="zmdi zmdi-edit"
+								style="color: #03a9f4"></i>
+								 
+वेबसाइट नीतियां</a> 
+								 <a href='/About' style="    padding-right: 1rem; background:none;"> <i class="zmdi zmdi-favorite-outline"
+								style="color:#03a9f4"></i> हमारे बारे में </a> 
+								<a	href='/Support' style="    padding-right: 1rem; background:none;"> <i class="zmdi zmdi-accounts"
+								style="color:#03a9f4"></i> पोर्टल हेतु सुझाव</a>
+								 <a	href='/Contactus' style="    padding-right: 1rem; background:none;"> <i class="zmdi zmdi-phone"
+								style="color: #03a9f4"></i> संपर्क करें </a>
+
+						</div>
+					</div></div>
+				</div>
+			
+			
+			
+			
+			
+				<div class="col-md-3 col-sm-5 ms-footer-col ms-footer-text-right">
+					<div class="ms-footbar-block">
+						<div class="ms-footbar-title"></div>
+
+					</div>
+				</div>
+
+			</div>
+	</aside>
+  
+        <div style="   text-align: -webkit-center;">
+			<div class="ms-footbar-social" style="   padding-top: 10px;">
+                  <a href="javascript:void(0)" class="btn-circle btn-facebook">
+                    <i class="zmdi zmdi-facebook"></i>
+                  </a>
+                  <a href="javascript:void(0)" class="btn-circle btn-twitter">
+                    <i class="zmdi zmdi-twitter"></i>
+                  </a>
+                  <a href="javascript:void(0)" class="btn-circle btn-youtube">
+                    <i class="zmdi zmdi-youtube"></i>
+                  </a>
+           
+                </div>
+         
+        <p style="  margin-top: 15px;  margin-left: 15px;">
+        Last Updated: <span id="datetime"></span></p>
+        
+        </div>
+
+    
+    <div class="container">
+			<p style="text-align: center; color:white">&copy; Content owned, updated by the Lok Shikayat Vibhag,
+				Chief Minister Office Uttar Pradesh Government. Website is designed,
+				developed, maintained and hosted by National Informatics Centre,
+				Uttar Pradesh</p>
+		</div>
+  </footer>
+  <!-- End footer -->    
+</body>
+
+</html>
+

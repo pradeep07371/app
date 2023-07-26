@@ -1,0 +1,535 @@
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="resources/assets/css/style.orange-500.min.css"
+	rel="stylesheet" />
+
+<link href="resources/assets/css/width-boxed.min.css" rel="stylesheet" />
+<link href="resources/assets/css/plugins.min.css" rel="stylesheet" />
+<link href="resources/assets/css/preload.min.css" rel="stylesheet" />
+<!-- <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" rel="stylesheet"> -->
+<script src="/resources/star-rating/jquery.js"></script>
+
+<link rel="stylesheet" href="/resources/star-rating/star-rating.min.css" />
+<script src="/resources/star-rating/star-rating.min.js"></script>
+
+<title>समाधान उत्तर प्रदेश सरकार</title>
+<script	src="/resources/assets/jquery-1.11.0.min.js"></script>
+<style type="text/css">
+.form-group {
+	/* margin-bottom: -1px; */
+	
+}
+
+.form-group {
+	padding-bottom: 2px;
+	margin: 14px 0 0;
+}
+
+.form-group.label-floating label.control-label, .form-group.label-placeholder label.control-label
+	{
+	top: -7px;
+	font-size: 13px;
+	line-height: 1.42857;
+}
+
+.card {
+	box-shadow: none;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px
+		rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+	border-radius: 2px;
+	background-color: #fff;
+	margin-bottom: 5px;
+}
+
+.nav-tabs>li>a {
+	margin-right: 2px;
+	line-height: 0.428571;
+	border: 1px solid transparent;
+	border-radius: 4px 4px 0 0;
+}
+
+.btn {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+.nav.nav-tabs li a {
+	font-weight: 400;
+	padding: 17px 20px;
+	padding: 0.7rem 2rem;
+	color: rgba(255, 255, 255, .8) !important;
+	text-align: center;
+}
+</style>
+<script type="text/javascript"
+	src="resources/bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript">
+	function refeshCaptcha() {
+		$("#captchaImg").attr("src", "/Captcha.jpg");
+	}
+</script>
+</head>
+<body class="hold-transition login-page" style="background: #d2d6de; background-image: url(/resources/assets/img/download.jpg);  background-position: center; background-size: cover; width: 100%; height: 100%;">
+	
+	<form id="onlineFeedBack" action="feedbackEntryCorruption" method="POST" autocomplete="off">
+		<div class="bg-full-page">
+
+			<div class="mw-500 absolute-center"
+				style="max-width:65% !important; top: 1%;">
+				<div class="card card-success animated zoomInUp animation-delay-5"
+					style="border-bottom: solid 3px #0a0a0a; background-color: #0000003b;">
+					<div class="ms-hero-bg-primary ms-hero-img-mountain">
+						<h3 class="text-center no-m pt-4 pb-4 color-white index-1">
+							एंटी करप्शन निस्तारित सन्दर्भों पर फीडबैक<br>Feedback on Disposed Anti Corruption Complaints
+						</h3>
+					</div>
+					<ul
+						class="nav nav-tabs nav-tabs-full nav-tabs-12 nav-tabs-transparent indicator-success"
+						style="border-bottom-color: #00000052;">
+						<li  class="active pmargin"><a
+							href="#ms-register-tab" 
+							 class="withoutripple "
+							style="font-size: 1.0em; color: #fbfffb !important; padding-bottom: 2rem; padding-top: 2rem;"
+							style="font-size: 1.0em;"> <i class="zmdi zmdi-account-add"></i>
+								समाधान पोर्टल द्वारा केवल 3 माह पूर्व तक के निस्तारित सन्दर्भों पर फीडबैक दिया जा सकेगा I
+						</a></li>
+
+					</ul>
+					<div class="card-block">
+
+						<div class="tab-content" style="-webkit-text-fill-color: white;">
+							<div class="tab-pane fade active in"
+								id="ms-register-tab">
+								
+								<div class="row">
+
+									<div class="col-sm-6">
+										<div class="form-group label-floating">
+											<div class="input-group">
+												<span class="input-group-addon"> <i
+													class="fa fa-pencil-square-o"></i>
+												</span>
+												<input id="rbtnFeedBack" name="rbtnFeedBack" type="hidden" value="0"/>
+												<label class="control-label"
+													for="ms-form-user" style="font-size: 16px;">
+													शिकायत पंजीकरण संख्या
+												</label>
+												<div style="margin-top: 10px;">
+												<input id="complaintCode" name="complaintCode" class="form-control" onkeypress="javascript:return isNumberValidate (event);" MaxLength="14" type="text" value=""/>
+												
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-sm-6">
+										<div class="form-group label-floating">
+											<div class="input-group">
+												<span class="input-group-addon"> <i
+													class="zmdi zmdi-phone"></i>
+												</span>
+												<label for="ms-form-user" style="font-size: 16px;" class="control-label">
+													पंजीकृत मोबाइल न०
+												</label>
+												<div style="margin-top: 10px;">
+												<input id="txtmob" name="mobileNo" class="form-control" onkeypress="javascript:return isNumberValidate (event);" MaxLength="10" type="text" value=""/>
+												
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="row" style="margin-top: 15px">
+									<div class="col-sm-12">
+										<div class="form-group label-floating">
+											<div class="input-group">
+												<label class="control-label"
+													for="ms-form-email" style="font-size: 16px;">
+													गुणवत्ता स्तर
+												</label>
+												
+												<div style="margin-top: 10px">
+												<input id="input-1" class="rating rating-loading" value="0"
+													data-show-clear="false" data-show-caption="true"
+													data-min="0" data-max="5" data-step="1" data-size="sm"
+													onchange="setdata(this.value);" />
+													
+												<input id="rating" name="rating" value="0" type="hidden" value="0"/>
+													
+												<input id="satisfactionRating" name="satisfactionRating" value="0" type="hidden" value="0"/>
+													
+												
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="row" style="margin-top: 15px">
+									<div class="col-sm-12">
+										<div class="form-group label-floating">
+											<div class="input-group">
+												<span class="input-group-addon"
+													style="padding-bottom: 2rem;"><!--  <i
+													class="fa fa-pencil"></i> -->
+												</span>
+												<label for="feedback" style="font-size: 16px;" class="control-label">
+													फीडबैक&nbsp;<b
+														style="color: red;">*</b>
+												</label>
+												
+												<div style="margin-top: 10px">
+												<textarea id="feedBackDetail" name="feedback" class="form-control" onkeyup="LimtCharactersAppDetls(this,5000);" maxlenght="5000" required="required" rows="3">
+</textarea>
+												
+												<label id="lblappdetails"
+													class="col-sm-2 pull-right btn-warning roundbox"
+													style="color: white;">0</label>&nbsp;&nbsp;
+												
+												
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								
+									<div class="row">
+
+										<div class="col-sm-4">
+											<div class="form-group label-floating">
+												<div class="input-group">
+													<span class="input-group-addon"> <i
+														class="zmdi zmdi-lock"></i>
+													</span>
+													<label for="ms-form-pass" class="control-label" style="font-size: 16px;">
+														कैप्चा अंकित करें
+													</label>
+
+													<div style="margin-top: 10px">
+														<input id="captcha" name="captcha" class="form-control" onkeypress="javascript:return isNumberValidate (event)" type="text" value="" maxlength="4"/>
+														
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-sm-4">
+											<div class="captchabg;"
+												style="padding-top: 3px; padding-bottom: 3px;">
+												<label> <iframe src="/Captcha.jpg" id="captchaImg"
+														width="120px" height="45px" frameborder="0" scrolling="no">
+													</iframe> <a onclick="refeshCaptcha()" style="color: white;">अन्य
+														अंक प्राप्त करें</a>
+												</label>
+
+											</div>
+										</div>
+
+									</div>
+
+								
+								
+								
+
+								<br>
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+							
+								<div class="label-floating">
+									नोट-उपरोक्त सूचनाओ को सुरक्षित करने के लिए शिकायतकर्ता के मोबाइल पर OTP-वन टाइम पासवर्ड प्राप्त होगा | OTP की प्रविष्टि करने के उपरांत ही डाटा सुरक्षित हो सकेगा | OTP प्राप्त करने हेतु 'OTP प्राप्त करें' बटन पर क्लिक करें |
+								</div>
+								
+
+								<div class="row" style="margin-top: 15px">
+									
+									<div class="col-sm-3">
+										<div class="form-group label-floating">
+											<div class="input-group">
+												<span class="input-group-addon"> <i
+													class="zmdi zmdi-lock"></i>
+												</span>
+												<label for="ms-form-pass" class="control-label" style="font-size: 16px;"> 
+													ओ०टी०पी० अंकित करें
+												</label>
+												
+												<div style="margin-top: 10px">
+												<input id="mobileOTP" name="mobileOTP" class="form-control" type="text" value="" maxlength="6"/>
+												
+												
+												</div>
+											</div>
+										</div>
+									</div>
+									
+									<div class="col-sm-9" style="margin-top: 10px">
+									
+										<button id="btnGenOTP" name="submitBtn" value="OTP"
+											onclick="javascript:return validate();"
+											class="btn btn-raised btn-info">
+											OTP प्राप्त करें																		
+										</button>
+										
+										<button id="btnResendOTP" name="submitBtn" value="OTP" style="display: none;"
+											onclick="javascript:return validate();"
+											class="btn btn-raised btn-info">
+											OTP पुनः प्राप्त करें 																	
+										</button>
+										
+										<button id="btnsave" name="submitBtn" value="Submit"
+											onclick="javascript:return validateFeedBack();"
+											class="btn btn-raised btn-success ">
+											फीडबैक सुरक्षित करें 
+										</button>
+										              
+										
+										<a href='/feedbackEntryCorruption'
+											class="btn btn-raised btn-warning">रीसेट करे</a>
+												
+										<input id="hdnMob" name="hdnMob" ID="hdnMob" type="hidden" value=""/>
+									
+										
+										<!-- -->
+									</div>
+									
+								</div>
+								
+								
+								<div class="row">
+									<div class="col-sm-10">
+									
+										
+									
+									</div>
+									
+								</div>
+								
+							</div>
+
+						</div>
+
+					</div>
+
+
+				</div>
+				<div class="text-center animated fadeInUp animation-delay-7" style="margin-bottom: 20px">
+					<a href="/AntiCorruption" class="btn btn-raised btn-royal" style="width: 30%"> <i
+						class="zmdi zmdi-home"></i> मुख्य पृष्ठ 
+					</a>
+				</div>
+			</div>
+
+		</div>
+	<div>
+<input type="hidden" name="_csrf" value="5d4c381a-d01e-46fb-a6b0-ad82f35c3199" />
+</div></form>
+</body>
+<script type="text/javascript">
+
+
+
+$( document ).ready(function() {
+	var otp = '0';
+	
+	if(otp == '0'){
+		$('#btnsave').hide();
+		$('#btnResendOTP').hide();
+		$('#btnGenOTP').show();
+		setdata("0");
+	}else{
+		$('#btnsave').show();
+		$('#btnResendOTP').show();
+		$('#btnGenOTP').hide();
+		setdata("0");
+	}
+	
+});
+
+
+$(function(){ 
+	$('#feedBackDetail').keyup(function()
+	{
+		var yourInput = $(this).val();
+		re = /[`~^%$&#*()+\-=?;:'"<>\{\}\[\]\\\/]/gi;
+		var isSplChar = re.test(yourInput);
+		if(isSplChar)
+		{	alert("कृपया विवरण अंकित करते समय स्पेशल कैरेक्टर (<>`='~%\"*^$&#()~) का प्रयोग न करें ");
+			var no_spl_char = yourInput.replace(/[`~^%$&#*()+\-=?;:'"<>\{\}\[\]\\\/]/gi,'');
+			$(this).val($.trim(no_spl_char));
+		}
+	});
+});
+function isNumberValidate(evt) {
+	var iKeyCode = (evt.which) ? evt.which : evt.keyCode;
+	if (iKeyCode != 46 && iKeyCode > 31 && (iKeyCode < 48 || iKeyCode > 57)) {
+
+		return false;
+	} else {
+
+		return true;
+	}
+}
+function LimtCharactersAppDetls(txtMsg, CharLength) {
+	chars = txtMsg.value.length;
+
+	$("#lblappdetails").html(CharLength - chars);
+	if (chars >= CharLength) {
+		txtMsg.value = txtMsg.value.substring(0, CharLength);
+
+		txtMsg.value = txtMsg.value.replace("\n", "");
+		$("#lblappdetails").html("5000");
+		return false;
+	}
+}
+
+function validate()
+{
+	var flag=true;
+	var complaintCode=$("#complaintCode").val();
+	var mobile=$("#txtmob").val();
+	var satisfactionRating=$("#satisfactionRating").val();
+	var feedBackDetail=$("#feedBackDetail").val();
+	var captcha=$("#captcha").val();
+	
+	if(complaintCode=='')
+	{
+		alert("आपकी शिकायत संख्या गलत है |");
+		flag=false;
+		return flag;	
+	}
+	if(mobile=='')
+	{
+		alert("कृपया पंजीकृत मोबाइल न०  भरें!");
+		flag=false;
+		return flag;	
+	}
+	if(satisfactionRating=='0')
+	{
+		alert("कृपया गुणवत्ता स्तर का चयन करे |");
+		flag=false;	
+		return flag;	
+	}
+	if(feedBackDetail=='')
+	{
+		alert("कृपया फीडबैक भरें !");
+		flag=false;	
+		return flag;	
+	}
+	if(captcha=="")
+	{
+		alert("कृपया कैप्चा भरें !");
+		flag=false;	
+		return flag;	
+	}
+	
+	return flag;	
+}
+
+function validateFeedBack()
+{
+	var flag=true;
+	
+	var complaintCode=$("#complaintCode").val();
+	var mobile=$("#txtmob").val();
+	var satisfactionRating=$("#satisfactionRating").val();
+	var feedBackDetail=$("#feedBackDetail").val();
+	var captcha=$("#captcha").val();
+	var mobileOTP=$("#mobileOTP").val();
+	
+	if(complaintCode=='')
+	{
+		alert("आपकी शिकायत संख्या गलत है |");
+		flag=false;	
+		return flag;	
+	}
+	if(mobile=='')
+	{
+		alert("कृपया पंजीकृत मोबाइल न०  भरें!");
+		flag=false;	
+		return flag;	
+	}
+	if(satisfactionRating=='0')
+	{
+		alert("कृपया गुणवत्ता स्तर का चयन करे |");
+		flag=false;	
+		return flag;	
+	}
+	if(feedBackDetail=='')
+	{
+		alert("कृपया फीडबैक भरें !");
+		flag=false;	
+		return flag;	
+	}
+	if(captcha=="")
+	{
+		alert("कृपया कैप्चा भरें !");
+		flag=false;	
+		return flag;	
+	}
+	
+	if(mobileOTP=="")
+	{
+		alert("कृपया ओ.टी.पी. जेनेरेट करके  ओ.टी.पी. भरें!");
+		flag=false;	
+		return flag;	
+	}
+	return flag;
+}
+
+function setdata(rating)
+{
+	
+	$("#rating").val(rating);
+	
+	if(rating<3)
+	{
+		$("#satisfactionRating").val("C");
+	}
+	else if(rating==5 || rating==4)
+	{
+		$("#satisfactionRating").val("A");
+	}
+	else if(rating==3)
+	{
+		$("#satisfactionRating").val("B");
+	}
+	else
+	{
+		$("#satisfactionRating").val("C");
+	}
+	
+}
+</script>
+</html>

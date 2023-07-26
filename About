@@ -1,0 +1,411 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from agmstudio.io/themes/material-style/1.4/home-generic-7.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 03 May 2017 05:10:13 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#333">
+    <title>About | Samadhan </title>
+    <meta name="description" content="Material Style Theme">
+    <link rel="shortcut icon" href="/resources/index/img/favicon30f4.png?v=3">
+    <link rel="stylesheet" href="resources/index/css/preload.min.css">
+    <link rel="stylesheet" href="resources/index/css/plugins.min.css">
+    <link rel="stylesheet" href="resources/index/css/style.css">
+     <link rel="stylesheet" href="resources/index/css/main.css">
+    <link rel="stylesheet" href="resources/index/css/width-boxed.min.css" id="ms-boxed" >
+   
+
+   <style>
+   .text-center
+   {
+       margin-top: 5rem;
+   }
+   </style>
+   
+  </head>
+  <body>
+  <div id="font-setting">
+    <a href="javascript:void(0)" class="ms-conf-btn ms-configurator-btn btn-circle btn-circle-raised btn-circle-primary animated rubberBand">
+      <em class="fa fa-gears"></em>
+    </a>
+    <div id="ms-configurator" class="ms-configurator">
+      <div class="ms-configurator-title">
+        <h3>
+          <em class="fa fa-gear"></em> Theme Configurator</h3>
+        <a href="javascript:void(0);" class="ms-conf-btn withripple">
+          <em class="zmdi zmdi-close"></em>
+        </a>
+      </div>
+      <div class="panel-group" id="accordion_conf" role="tablist" aria-multiselectable="true">
+       <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="ms-conf-header-headers">
+            <h4 class="panel-title">
+              <a class="collapsed withripple" role="button" data-toggle="collapse" data-parent="#accordion_conf" href="#ms-collapse-conf-2" aria-expanded="false" aria-controls="ms-collapse-conf-2">
+                <em class="zmdi zmdi-view-compact"></em> Header Styles </a>
+            </h4>
+          </div>
+          <div id="ms-collapse-conf-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="ms-conf-header-headers">
+            <div class="panel-body">
+              <h6>Header Options</h6>
+              <form class="form-inverse ms-conf-radio" id="header-config">
+                <div class="form-group">
+                <fieldset>
+                  <div class="radio radio-primary">
+                    <label for="whiteHeader">
+                      <input type="radio" name="customHeader" id="whiteHeader" value="white"  checked="checked"> Light Color </label>
+                  </div>
+                  <div class="radio radio-primary">
+                    <label for="primaryHeader">
+                      <input type="radio" name="customHeader" id="primaryHeader" value="primary"> Primary Color </label>
+                  </div>
+                  <div class="radio radio-primary">
+                    <label for="darkHeader">
+                      <input type="radio" name="customHeader" id="darkHeader" value="dark"> Dark Color </label>
+                  </div>
+                  <div class="radio radio-primary">
+                    <label for="noHeader">
+                      <input type="radio" name="customHeader" id="noHeader" value="hidden"> No Header (Navbar Mode) </label>
+                  </div>
+                  </fieldset>
+                </div>
+              </form>
+              <h6>Navbar Options</h6>
+              <form class="form-inverse ms-conf-radio" id="navbar-config">
+                <div class="form-group">
+                 <fieldset>
+                  <div class="radio radio-primary">
+                    <label for="whiteNavbar">
+                      <input type="radio" name="customNavbar" id="whiteNavbar" value="white" checked="checked"> Light Color </label>
+                  </div>
+                  <div class="radio radio-primary">
+                    <label for="primaryNavbar">
+                      <input type="radio" name="customNavbar" id="primaryNavbar" value="primary"> Primary Color </label>
+                  </div>
+                  <div class="radio radio-primary">
+                    <label for="darkNavbar">
+                      <input type="radio" name="customNavbar" id="darkNavbar" value="dark"> Dark Color </label>
+                  </div>
+                  </fieldset>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="ms-conf-header-container">
+            <h4 class="panel-title">
+              <a class="collapsed withripple" role="button" data-toggle="collapse" data-parent="#accordion_conf" href="#ms-conf-collapse-3" aria-expanded="false" aria-controls="ms-conf-collapse-3">
+                <em class="zmdi zmdi-grid"></em> Container Options </a>
+            </h4>
+          </div>
+          <div id="ms-conf-collapse-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="ms-conf-header-container">
+            <div class="panel-body">
+              <form class="form-inverse ms-conf-radio" id="boxed-config">
+                <div class="form-group">
+                 <fieldset>
+                  <div class="radio radio-primary">
+                    <label for="fullWidth">
+                      <input type="radio" name="customWidth" id="fullWidth" value="full" checked=""> Full Width </label>
+                  </div>
+                  <div class="radio radio-primary">
+                    <label for="boxedWidth">
+                      <input type="radio" name="customWidth" id="boxedWidth" value="boxed"> Boxed Mode </label>
+                  </div>
+                 </fieldset>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="ms-preload" class="ms-preload">
+      <div id="status">
+        <div class="spinner">
+          <div class="dot1"></div>
+          <div class="dot2"></div>
+        </div>
+      </div>
+    </div>
+    
+   
+
+   <!-- Top Header -->  
+	   <div class="wrapper common-wrapper">
+	   <div class="container common-container four_content ">
+	      <div class="common-left clearfix">
+	      
+	         <ul>
+             <li><img src="resources/index/img/logo_up.png" alt="..."></li>
+             <li class="gov-india" style=" text-align: justify;"><span class="responsive_go_hindi" lang="hi"><a target="_blank" href="http://upcmo.up.nic.in/" title="उत्तर प्रदेश  सरकार ( बाहरी वेबसाइट जो एक नई विंडो में खुलती है)">
+                                                      उत्तर प्रदेश सरकार </a></span><span class="li_eng responsive_go_eng"><a target="_blank" href="http://upcmo.up.nic.in/" title="Government Of Uttar Pradesh,External Link that opens in a new window">
+               Uttar Pradesh Government</a></span></li>
+              </ul>
+
+        </div>
+        <div class="common-right clearfix">
+          <ul id="header-nav">
+           <li><a href="ScreenReader"title="Screen Reader" >
+             <img src="resources/index/img/icons/screenreader.png" alt="screen-reader-icon">
+            </a></li>
+        	<li class="ico-accessibility cf"><a href="javascript:void(0);" id="toggleAccessibility" title="Accessibility Dropdown">
+				
+				<img class="top" src="resources/index/img/icons/ico-accessibility.png" alt="Accessibility Dropdown">
+				
+				</a>
+                  <ul style="visibility: hidden;">
+                     <li> <a   id="Image_fontp"  class="increaseFont" title="Increase font size"href="javascript:void(0);">A<sup>+</sup>
+					  </a> </li>
+                        <li> <a id="Image_fontr"  class="top_navig resetFont" title="Reset font size" href="javascript:void(0);">A<sup>&nbsp;</sup></a> </li>
+                        <li> <a id="Image_fontm" class="top_navig decreaseFont"  title="Decrease font size" href="javascript:void(0);">A<sup>-</sup></a> </li>
+       
+ 
+                     
+                    </ul>
+                </li>
+                  <li class="ico-sitemap cf"><a href="Sitemap" title="Sitemap">
+					 
+					  <img class="top" src="resources/index/img/icons/ico-sitemap.png" alt="Sitemap"></a></li>
+					   <li class="hindi cmf_lan"><a href="javascript:;" title="Select Language">Language</a>
+					   <ul style="visibility: hidden;">
+					   <li>
+					 <a onclick="location.href='?language=hi_IN';" style="cursor: pointer;">हिंदी</a>
+					<a onclick="location.href='?language=en_US';" style="cursor: pointer;">English</a></li>
+					   </ul></li> </ul>
+        </div>
+    </div>
+</div>
+ <!-- End Top Header -->  
+      <header class="ms-header ms-header-primary" style="background-color: #03a9f4;">
+        <div class="container container-full">
+          <div class="ms-title">
+            <a href="/">
+              <!-- <img src="/resources/index/img/demo/logo-header.png" alt=""> -->
+              <span class="ms-logo animated zoomInDown animation-delay-5">S</span>
+              <h1 class="animated fadeInRight animation-delay-6">जनसुनवाई -समाधान 
+              <!--   <span>Style</span> -->
+              </h1>
+            </a>
+          </div>
+          <div class="header-right">
+ 
+ 		 <span>                      अधिकारी लॉगिन</span>
+				 <a href="/login" class="btn-circle btn-circle-primary no-focus animated zoomInDown animation-delay-8">
+              <em class="zmdi zmdi-account"></em>
+            </a>
+             
+            <a href="/" class="btn-circle btn-circle-primary no-focus animated zoomInDown animation-delay-8">
+              <em class="zmdi zmdi-home"></em>
+            </a>
+          </div>
+        </div>
+      </header>
+   <div class="ms-hero-page-override ms-hero-img-city ms-hero-bg-primary">
+        <div class="container">
+          <div class="text-center">
+<!--             <span class="ms-logo ms-logo-lg ms-logo-white center-block mb-2 mt-2 animated  animation-delay-5">A</span>
+ -->            <h3 class="no-m ms-site-title color-white center-block ms-site-title-lg mt-2 animated zoomInDown animation-delay-5">About Us
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card card-hero animated slideInUp animation-delay-8 mb-6">
+         <div class="card-block">
+            <!-- <h2 class="color-primary">About Us</h2> -->
+            <div class="row">
+              <!-- <div class="col-md-6 text-justify"> -->
+               <div class="col-md-12 text-justify">
+               
+                <p>सूचना तकनीक का प्रयोग कर सुशासन के उद्देश्यों की प्राप्ति हेतु उ०प्र० सरकार द्वारा विकसित 'जनसुनवाइ' एक समन्वित शिकायत निवारण प्रणाली है| यह प्रणाली नागरिकों एवं शासन/विभागों/शासकीय कार्यालयों के बीच आसान एवं पारदर्शी तरीके से संवाद स्थापित करने में सहायक होगी| नागरिक किसी भी समय शिकायतों को ऑनलाइन दर्ज/ट्रैक कर सकेंगे| विभिन्न माध्यमों से प्राप्त शिकायतें एक ही पोर्टल/प्लेटफ़ॉर्म पर उपलब्ध हो सकेंगी जिससे विभागीय अधिकारियों को शिकायतों के निस्तारण एवं अनुश्रवण की सुगम सुविधा उपलब्ध होगी |</p>
+              </div>
+            </div>
+            <hr class="dotted">
+            <div class="row">
+         
+          <div class="row color-dark">
+            <div class="col-lg-3 col-md-6 col-sm-6" style=" padding-right: 0px;">
+              <div class="card card-warning wow fadeInLeft animation-delay-4" style="visibility: visible; animation-name: fadeInLeft;">
+                <div class="text-center card-block">
+                  <span class="ms-icon ms-icon-circle ms-icon-xxlg color-warning">
+                    <em class="glyphicon glyphicon-pencil"></em>
+                  </span>
+                  <h4 class="color-warning">शिकायत पंजीकरण</h4>
+                  <p class="">शिकायत ऑनलाइन दर्ज करें</p>
+                  <a href="../onlineComplaint" class="btn btn-warning btn-raised">यहां क्लिक करे</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6" style=" padding-right: 0px;">
+              <div class="card card-royal wow fadeInLeft animation-delay-3" style="visibility: visible; animation-name: fadeInLeft;">
+                <div class="text-center card-block">
+                  <span class="ms-icon ms-icon-circle ms-icon-xxlg color-royal">
+                    <em class="glyphicon glyphicon-search"></em>
+                  </span>
+                  <h4 class="color-royal">शिकायत की स्थिति</h4>
+                  <p class="">कार्यवाही का विवरण मोबाइल/ ई-मेल के माध्यम से जानें </p>
+                  <a href="../ComplaintTracker" class="btn btn-royal btn-raised">यहां क्लिक करे</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6" style=" padding-right: 0px;">
+              <div class="card card-success wow fadeInRight animation-delay-3" style="visibility: visible; animation-name: fadeInRight;">
+                <div class="text-center card-block">
+                  <span class="ms-icon ms-icon-circle ms-icon-xxlg color-success">
+                    <em class="glyphicon glyphicon-bell"></em>
+                  </span>
+                  <h4 class="color-success">अनुस्मारक भेजें</h4>
+                  <p class="">नियत समय तक कार्यवाही न होने पर अनुस्मारक भेजें</p>
+                  <a href="../SendReminder" class="btn btn-success btn-raised">यहां क्लिक करे</a>
+                </div>
+              </div>
+            </div>
+           <div class="col-lg-3 col-md-6 col-sm-6" style=" padding-right: 0px;">
+              <div class="card card-danger wow fadeInRight animation-delay-4" style="visibility: visible; animation-name: fadeInRight;">
+                <div class="text-center card-block">
+                  <span class="ms-icon ms-icon-circle ms-icon-xxlg color-danger">
+                    <em class="glyphicon glyphicon-star"></em>
+                  </span>
+                  <h4 class="color-danger">आपकी प्रतिक्रिया</h4>
+                  <p class="">शिकायत के निस्तारण के सम्बन्ध में फीडबैक/सुझाव  दें </p>
+                  <a href="../onlineFeedbackEntry" class="btn btn-danger btn-raised">यहां क्लिक करे</a>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+        <!-- container -->
+      </div>
+     
+           </div>
+        </div>
+      </div>
+
+  <!-- Start footer -->
+  
+  <footer id="footer" style="  background: black;">
+  <aside class="ms-footbar" id="Aside1">
+		<div class="container">
+			<div class="row">
+			<div style="  text-align: -webkit-center;">
+					<div class="ms-footbar-block">
+
+						<div class="ms-footbar-social mt-1">
+						
+							<a href='/Disclaimer' style="    padding-right: 1rem; background:none;"> <em class="zmdi zmdi-edit"
+								style="color: #03a9f4"></em> 
+वेबसाइट नीतियां</a> <a
+								href='/About' style="    padding-right: 1rem; background:none;"> <em class="zmdi zmdi-favorite-outline"
+								style="color:#03a9f4"></em> हमारे बारे में </a> <a
+								href='/Support' style="    padding-right: 1rem; background:none;"> <em class="zmdi zmdi-accounts"
+								style="color:#03a9f4"></em> पोर्टल हेतु सुझाव</a> <a
+								href='/Contactus' style="    padding-right: 1rem; background:none;"> <em class="zmdi zmdi-phone"
+								style="color: #03a9f4"></em> संपर्क करें </a>
+
+						</div>
+					</div></div>
+				</div>
+				<div class="col-md-3 col-sm-5 ms-footer-col ms-footer-text-right">
+					<div class="ms-footbar-block">
+						<div class="ms-footbar-title"></div>
+
+					</div>
+				</div>
+
+			</div>
+	</aside>
+  
+        <div style="   text-align: -webkit-center;">
+			<div class="ms-footbar-social" style="   padding-top: 10px;">
+                  <a href="javascript:void(0)" class="btn-circle btn-facebook">
+                    <em class="zmdi zmdi-facebook"></em>
+                  </a>
+                  <a href="javascript:void(0)" class="btn-circle btn-twitter">
+                    <em class="zmdi zmdi-twitter"></em>
+                  </a>
+                  <a href="javascript:void(0)" class="btn-circle btn-youtube">
+                    <em class="zmdi zmdi-youtube"></em>
+                  </a>
+           
+                </div>
+         
+        <p style="  margin-top: 15px;  margin-left: 15px;">
+        Last Updated: <span id="datetime"></span></p>
+        
+        </div>
+
+    
+    <div class="container">
+			<p style="text-align: center; color:white">&copy; Content owned, updated by the Lok Shikayat Vibhag,
+				Chief Minister Office Uttar Pradesh Government. Website is designed,
+				developed, maintained and hosted by National Informatics Centre,
+				Uttar Pradesh</p>
+		</div>
+  </footer>
+  <!-- End footer -->
+
+    <script src="/resources/index/js/plugins.min.js"></script>
+    <script src="/resources/index/js/app.min.js"></script>
+    <script src="/resources/index/js/configurator.min.js"></script>
+   
+    <script>
+      (function(i, s, o, g, r, a, m)
+      {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function()
+        {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', '../../../../www.google-analytics.com/analytics.js', 'ga');
+      ga('create', 'UA-90917746-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script src="/resources/index/js/home-generic-7.js"></script>
+   
+
+	<script>
+	$(document).ready(function () {
+	    // Reset Font Size
+	    var originalFontSize = $('html').css('font-size');
+	    $(".resetFont").click(function () {
+	        $('html').css('font-size', originalFontSize);
+	    });
+	    // Increase Font Size
+	    $(".increaseFont").click(function () {
+	        var currentFontSize = $('html').css('font-size');
+	        var currentFontSizeNum = parseFloat(currentFontSize, 10);
+	        currentFontSizeNum = currentFontSizeNum * 1;
+	        if (currentFontSizeNum < 19) {
+	            var newFontSize = currentFontSizeNum * 1.1;
+	            $('html').css('font-size', newFontSize);
+	        }
+	        return false;
+	    });
+	    // Decrease Font Size
+	    $(".decreaseFont").click(function () {
+	        var currentFontSize = $('html').css('font-size');
+	        var currentFontSizeNum = parseFloat(currentFontSize, 10);
+	        if (currentFontSizeNum > 7) {
+	            var newFontSize = currentFontSizeNum * 0.8;
+	            $('html').css('font-size', newFontSize);
+	        }
+	        return false;
+	    });
+	});
+</script>
+	
+
+  </body>
+
+</html>

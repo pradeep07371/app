@@ -1,0 +1,463 @@
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="resources/assets/css/style.orange-500.min.css"
+	rel="stylesheet" />
+
+<link href="resources/assets/css/width-boxed.min.css" rel="stylesheet" />
+<link href="resources/assets/css/plugins.min.css" rel="stylesheet" />
+<link href="resources/assets/css/preload.min.css" rel="stylesheet" />
+<title></title>
+
+<style type="text/css">
+.form-group {
+	/* margin-bottom: -1px; */
+	
+}
+
+.form-group {
+	padding-bottom: 2px;
+	margin: 14px 0 0;
+}
+
+.form-group.label-floating label.control-label, .form-group.label-placeholder label.control-label
+	{
+	top: -7px;
+	font-size: 13px;
+	line-height: 1.42857;
+}
+
+.card {
+	box-shadow: none;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px
+		rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+	border-radius: 2px;
+	background-color: #fff;
+	margin-bottom: 5px;
+}
+
+.nav-tabs>li>a {
+	margin-right: 2px;
+	line-height: 0.428571;
+	border: 1px solid transparent;
+	border-radius: 4px 4px 0 0;
+}
+
+.btn {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+.nav.nav-tabs li a {
+	font-weight: 400;
+	padding: 17px 20px;
+	padding: 0.7rem 2rem;
+	color: rgba(255, 255, 255, .8) !important;
+	text-align: center;
+}
+
+#dvLoading {
+	background: rgba(0%, 0%, 0%, 0.609)
+		url(/resources/assets/img/ajax-loader.gif)
+		no-repeat center center;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	display: block;
+	z-index: 2000;
+}
+</style>
+
+<script type="text/javascript"
+	src="resources/bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript">
+	function refeshCaptcha() {
+		$("#captchaImg").attr("src", "/getCaptcha");
+	}
+</script>
+</head>
+<body class="hold-transition login-page">
+
+	<div id="dvLoading" style="display: none;"></div>
+
+	<form id="onlineComplaint" action="onlineComplaint" method="POST" autocomplete="off">
+
+
+
+		<div
+			style="background: #d2d6de; background-image: url(/resources/assets/img/download.jpg); background-repeat: no-repeat; background-position: center; background-size: cover; width: 100%; height: 100%;"
+			class="bg-full-page   ">
+
+			<div class="mw-500 absolute-center"
+				style="max-width: 430px !important; top: 25%;">
+				<div class="card card-success animated zoomInUp animation-delay-5"
+					style="border-bottom: solid 3px #0a0a0a; background-color: rgba(0, 0, 0, 0.25);">
+					<div class="ms-hero-bg-primary ms-hero-img-mountain">
+						<h3 class="text-center no-m pt-4 pb-4 color-white index-1">
+							ऑनलाइन पंजीकरण पोर्टल
+						</h3>
+					</div>
+					<ul
+						class="nav nav-tabs nav-tabs-full nav-tabs-12 nav-tabs-transparent indicator-success"
+						role="tablist" style="border-bottom-color: #00000052;">
+						<li role="presentation" class="active pmargin"><a
+							href="#ms-register-tab" aria-controls="ms-register-tab"
+							role="tab" data-toggle="tab" class="withoutripple "
+							style="font-size: 1.0em; color: #fbfffb !important; padding-bottom: 2rem; padding-top: 2rem;"
+							style="font-size: 1.0em;"> <i class="zmdi zmdi-account-add"></i>
+								ओ०टी०पी०(वन टाइम पासवर्ड) के माध्यम से पंजीकरण करें
+						</a></li>
+
+					</ul>
+					<div class="card-block">
+
+						<div class="tab-content" style="-webkit-text-fill-color: white;">
+							<div role="tabpanel" class="tab-pane fade active in"
+								id="ms-register-tab">
+								
+								<div class="form-group label-floating" style="padding-bottom:15px !important;">
+									<div class="input-group">
+										<span class="input-group-addon"> <i
+											class="zmdi zmdi-phone"></i>
+										</span>
+										<label for="ms-form-user" class="control-label">
+											मोबाइल नंबर अंकित करें 
+											<span style="color: red;">*</span>
+										</label>
+										<input id="txtmob" name="mobileNo" class="form-control" onkeypress="javascript:return isNumberValidate (event);" MaxLength="10" type="text" value=""/>
+
+										<span id="message"></span>
+
+										
+									</div>
+								</div>
+								
+								
+								<div class="captchabg; pull-right"
+									style="padding-top: 3px; padding-bottom: 3px;">
+									<iframe src="/getCaptcha" id="captchaImg" width="120px"
+										height="45px" frameborder="0" scrolling="no"></iframe>
+									<i class="btn-flat fa fa-refresh" onclick="refeshCaptcha()"
+										style="color: white;"></i>
+								</div>
+
+								<div class="form-group label-floating" >
+									<div class="input-group">
+										<span class="input-group-addon"> <i
+											class="zmdi zmdi-lock"></i>
+										</span>
+										<label for="ms-form-pass" class="control-label">
+											कैप्चा अंकित करें
+											<span style="color: red;"> *</span>
+										</label>
+										<input id="captcha" name="captcha" class="form-control" onkeypress="javascript:return isNumberValidate (event)" type="text" value="" maxlength="4"/>
+										
+									</div>
+								</div>
+
+
+
+								
+
+								
+
+								<div class="row" style="margin-top: 10px; display: none;"
+									id="otp_layout">
+									<div class="col-sm-7">
+										<div class="form-group label-floating">
+											<div class="input-group">
+												<span class="input-group-addon"> <i
+													class="zmdi zmdi-lock"></i>
+												</span>
+												<label for="ms-form-pass" class="control-label">
+													ओ०टी०पी० अंकित करें
+													<span style="color: red;"> *</span>
+												</label>
+
+												<input id="mobileOTP" name="mobileOTP" class="form-control" onkeypress="javascript:return isNumberValidate (event)" type="text" value="" maxlength="6"/>
+
+												
+											</div>
+
+										</div>
+
+									</div>
+
+									<div class="col-sm-5">
+										<span class="minutes" style="font-size: 30px">02:00</span> <a
+											class="btn btn-raised btn-success hidden" id="btnReOTP"
+											onclick="sendOtp();"> पुनः ओ०टी०पी० भेजें 
+										</a>
+
+										<!-- <div id="timesh">Resend otp after <span id="time">02:00</span> minutes!</div> -->
+
+									</div>
+
+
+									<!-- <div class="col-sm-5" id="timer_sh">
+										 <div><span id="timer"></span></div>
+									</div> -->
+								</div>
+
+
+
+								
+
+
+								<div class="row">
+									<div class="col-sm-12">
+
+										<a class="btn btn-raised btn-danger" id="btnGenOTP"
+											onclick="sendOtp();"> ओ०टी०पी० भेजें 
+										</a>
+
+										<!-- 	<a id="btnGenOTP" onclick="sendOtp();"
+											class="btn btn-raised btn-danger">
+											
+										</a> -->
+
+										<button id="submitBtn" name="submitBtn" value="Submit"
+											style="display: none;"
+											onclick="javascript:return validate();"
+											class="btn btn-raised btn-danger">
+											सबमिट करें
+										</button>
+
+										<a href='/onlineComplaint'
+											class="btn btn-raised btn-warning">रीसेट करे</a> <a
+											href="resources/pdf/Post_Category_Mapping.pdf"
+											class="btn btn-raised btn-info" target="_blank"
+											style="margin-left: 7px;">शिकायत श्रेणियों की मैपिंग </a>
+
+										<input id="hdnMob" name="hdnMob" ID="hdnMob" type="hidden" value=""/>
+
+									</div>
+								</div>
+
+								
+
+								
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+				</div>
+				<div class="text-center animated fadeInUp animation-delay-7">
+					<a href="/" class="btn btn-raised btn-royal"> <i
+						class="zmdi zmdi-home"></i> मुख्य पृष्ठ 
+					</a>
+				</div>
+			</div>
+
+		</div>
+	<div>
+<input type="hidden" name="_csrf" value="5d4c381a-d01e-46fb-a6b0-ad82f35c3199" />
+</div></form>
+</body>
+<script type="text/javascript">
+
+
+function isNumberValidate(evt) {
+	var iKeyCode = (evt.which) ? evt.which : evt.keyCode;
+	if (iKeyCode != 46 && iKeyCode > 31 && (iKeyCode < 48 || iKeyCode > 57)) {
+
+		return false;
+	} else {
+
+		return true;
+	}
+}
+
+
+function validate(){
+	$('#dvLoading').show();
+	var flag=true;
+	var mobile=$("#txtmob").val();
+	//var email=$("#txtEmail").val();
+	var captcha=$("#captcha").val();
+	var mobileOTP = $("#mobileOTP").val();
+	var email='';
+	
+	
+	if(mobile=='')
+	{
+		alert("Please Enter Mobile No. OR Email Id");
+		flag=false;	
+	}
+
+	if(mobile != "" && !is_mobile_valid(mobile)){
+		alert("Please put 10 digit mobile number");
+		flag=false;
+	}
+
+	/* if(email != "" && !isEmail(email)){
+		alert("Please Enter valid email id");
+		flag=false;	
+			
+	} */
+	
+	if(captcha=="")
+	{
+		alert("Please Enter Captcha");
+		flag=false;	
+	}
+	
+	if(mobileOTP=="")
+	{
+		flag=false;	
+	}
+	return flag;
+	
+}
+
+
+
+function sendOtp() {
+	
+	$('#dvLoading').show();
+	
+	var mobile=$("#txtmob").val();
+	//var email=$("#txtEmail").val();
+	var captcha=$("#captcha").val();
+	var email='';
+	
+	if(mobile=='' && email==''){
+		$('#dvLoading').hide();
+		alert("Please Enter Mobile No.");
+		
+		
+	}else if(mobile != "" && !is_mobile_valid(mobile)){
+		$('#dvLoading').hide();
+		alert("Please Enter 10 digit mobile number");
+			
+	}else if(email != "" && !isEmail(email)){
+		$('#dvLoading').hide();
+		alert("Please Enter valid email id");
+			
+	}else if(captcha==""){
+		$('#dvLoading').hide();
+		alert("Please Enter Captcha");
+		
+	}else{
+		$.ajax({'url' : "SendOtp?mobileno="+mobile+"&email="+email+"&captcha="+captcha,
+			'contentType' : "application/json; charset=utf-8",
+			'success' : function(data) {				
+				if(data == "captchaError"){
+					$('#otp_layout').hide();
+					$('#btnGenOTP').show();
+					$('#submitBtn').hide();
+					$('.minutes').addClass('hidden');
+					$('#btnReOTP').removeClass('hidden');
+					alert("Please enter valid captcha.");
+					
+				}else if(data == "yes"){
+					$('#otp_layout').show();
+					$('#btnGenOTP').hide();
+					$('#submitBtn').show();
+					$('.minutes').removeClass('hidden');
+					$('#btnReOTP').addClass('hidden');
+					timer();					
+				}else if(data == "exceedtime"){
+					alert("Resend OTP After 120 Second.");			
+				}else{
+					$('#otp_layout').hide();
+					$('#btnGenOTP').show();
+					$('#submitBtn').hide();
+					$('.minutes').addClass('hidden');
+					$('#btnReOTP').removeClass('hidden');
+					alert("Error in otp sending.");			
+				}
+
+				$('#dvLoading').hide();
+			}
+		});
+	}
+}
+
+
+function timer() {
+    'use strict';
+    var taregtminutes = 120;
+    function countdown() {
+        var minutes = $('.minutes').text().replace('02:00','');
+        if (taregtminutes == 0) {
+        	$('.minutes').addClass('hidden');
+            $('#btnReOTP').removeClass('hidden');
+            clearInterval(interval);
+            return;
+        }
+        taregtminutes = taregtminutes - 1;
+
+        var minute = Math.floor(taregtminutes / 60);
+        var seconds = taregtminutes % 60;
+        
+        if(seconds < 10) {
+        	seconds = "0"+seconds;
+		}	
+        
+        $('.minutes').text('0'+minute+':'+seconds);
+    };
+    var interval = setInterval(countdown, 1000); 
+}
+
+
+function is_mobile_valid(string_or_number){
+    var mobile=string_or_number;
+    if(mobile.length!=10){
+        return false;
+
+    }
+    intRegex = /[0-9 -()+]+$/;
+    is_mobile=true;
+    
+    for ( var i=0; i < 10; i++) {
+        if(intRegex.test(mobile[i]))
+             { 
+             continue;
+             }
+            else{
+                is_mobile=false;
+                break;
+            }
+         }
+    
+    return is_mobile;
+}
+
+function isEmail(email) {
+	var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    return regex.test(email);
+}
+
+</script>
+</html>
